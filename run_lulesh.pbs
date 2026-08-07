@@ -1,0 +1,21 @@
+#!/bin/bash
+#PBS -N lulesh_test
+#PBS -P <project-id>
+#PBS -q normal
+#PBS -l select=1:ncpus=8:mpiprocs=8:ompthreads=1:mem=16gb
+#PBS -l walltime=00:10:00
+#PBS -j oe
+#PBS -o lulesh_test.log
+
+# LULESH 2.0 test run: 8 MPI ranks (must be a cube: 1, 8, 27, ...) x 1 OpenMP
+# thread. Kept small so it fits qdev's 256-cpu overall queue limit.
+# Built with PrgEnv-gnu + cray-mpich.
+module swap PrgEnv-cray PrgEnv-gnu 2>/dev/null
+
+cd /scratch/users/ntu/<user>/workshop/LULESH/build
+
+export OMP_NUM_THREADS=1
+
+echo "=== start $(date) ==="
+mpirun -np 8 ./lulesh2.0 -s 30 -i 100 -p
+echo "=== done $(date) ==="
