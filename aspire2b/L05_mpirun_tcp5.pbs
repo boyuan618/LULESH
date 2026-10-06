@@ -1,0 +1,47 @@
+#!/bin/bash
+# L05: L04 again for the three Open MPI 5.0.10 builds (site CPU module, site CUDA module, ours), TCP pinned to hsn through
+# btl_tcp_if_include only: in L04 their mpirun (PRRTE) segfaulted on --mca oob_tcp_if_include before launching anything.
+# site CPU module): PALS works (FOM 20878, Cray 20862/21802), mpirun default fails fi_domain -38.
+# usage: /scratch/users/ntu/gubo0002/sc26/hpl_hplmxp/openmxp-scc26/aspire2b+stock/submit.sh aspire2b/L05_mpirun_tcp.pbs
+#PBS -N b2-L05
+#PBS -q normal
+#PBS -l select=2:ncpus=24:ngpus=1:mem=200gb
+#PBS -l place=scatter
+#PBS -l walltime=00:30:00
+#PBS -j oe
+#PBS -o /scratch/users/ntu/gubo0002/sc26/hpl_hplmxp/LULESH/aspire2b/L05_mpirun_tcp5.out
+set -uo pipefail
+L=/scratch/users/ntu/gubo0002/sc26/hpl_hplmxp/LULESH; OUT=$L/aspire2b/L05; mkdir -p $OUT
+A=/scratch/users/ntu/gubo0002/sc26/hpl_hplmxp/openmxp-scc26/aspire2b+stock
+echo "=== $(hostname) $(date) job $PBS_JOBID ==="
+qstat -f $PBS_JOBID | grep -E 'exec_host|Resource_List.select|queue ='
+H1=$(awk '{sub(/\..*/,"",$0)} !s[$0]++' $PBS_NODEFILE | head -1)
+envmod() {  # envmod <site|own5|own4|cray>
+  set +eu; source /etc/profile >/dev/null 2>&1; type module >/dev/null 2>&1 || source /opt/cray/pe/lmod/lmod/init/bash
+  module use /data/apps/modulefiles
+  case $1 in site) module unload cray-mpich; module load openmpi/5.0.10-gcc15.3-cuda13.0;;
+    own5) source $A/env_ompi5.sh;; own4) source $A/env_ompi4.sh;; cray) module load PrgEnv-gnu cray-mpich;;
+    cpu) module unload cray-mpich; module load openmpi/5.0.10-gcc15.3-cpu;; esac
+  set -u
+}
+build() {  # build <site|own5|own4|cray>
+  local B=$OUT/build_$1; rm -rf $B; mkdir -p $B
+  ( envmod $1; cd $B; local cxx=mpicxx; [ $1 = cray ] && cxx=CC
+    echo "$1: $(command -v $cxx) | $(command -v mpirun 2>/dev/null) $(mpirun --version 2>/dev/null | head -1)"
+    /usr/bin/cmake -DCMAKE_BUILD_TYPE=Release -DCMAKE_CXX_COMPILER=$cxx $L > cmake.log 2>&1 && make -j8 > make.log 2>&1 ) \
+    && [ -x $B/lulesh2.0 ] && echo "  built" || { echo "  BUILD $1 FAILED"; tail -12 $B/cmake.log $B/make.log; }
+}
+for m in site own5 cpu; do build $m; done
+run() {  # run <tag> <site|own5|own4|cray> <launcher...>
+  local tag=$1 mpi=$2; shift 2; local log=$OUT/$tag.log
+  echo "--- $tag: $* $(date +%T)"
+  ( envmod $mpi; export OMP_NUM_THREADS=1; timeout 300 "$@" $OUT/build_$mpi/lulesh2.0 -s 30 -i 100 ) > $log 2>&1
+  local rc=$?; echo "  rc=$rc $(grep -m1 'FOM' $log || echo 'no FOM')"
+  grep -aE 'fi_domain|Function not implemented|select: component .* selected|not enough slots|GLIBCXX|Abort|Segmentation' $log | sed 's/^\[[^]]*\] //' | sort | uniq -c | sort -rn | head -4 | cut -c1-150
+}
+# L05: mpirun only, TCP pinned to the Slingshot IP interfaces (L02/L03: unpinned btl tcp picked the docker bridge
+# 172.17.0.1, which exists on every node, and connected to itself). One run per OpenMPI.
+HSN=$(ip -o -4 addr show | awk '$2 ~ /^hsn/ {print $2}' | sort -u | paste -sd,); echo "hsn: $HSN"
+T5="-x LD_LIBRARY_PATH --mca pml ob1 --mca btl self,sm,tcp --mca mtl ^ofi --mca btl_tcp_if_include $HSN"   # no oob_tcp_if_include: Open MPI 5's launcher (PRRTE) segfaulted with it (L04)
+for m in cpu site own5; do run ${m}_mpirun_tcp $m mpirun -n 8 --map-by ppr:4:node --bind-to core --oversubscribe $T5; done
+echo "=== L05 DONE $(date) ==="

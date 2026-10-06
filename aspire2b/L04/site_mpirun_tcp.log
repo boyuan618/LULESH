@@ -1,0 +1,8 @@
+
+Lmod is automatically replacing "gcc-native/14" with "gcc/15.3.0-znver5".
+
+
+Lmod is automatically replacing "gcc-native/14" with "gcc/15.3.0-znver5".
+
+timeout: the monitored command dumped core
+/var/spool/pbs/mom_priv/jobs/128535.pbs201.SC: line 38: 3978062 Segmentation fault      timeout 300 "$@" $OUT/build_$mpi/lulesh2.0 -s 30 -i 100
