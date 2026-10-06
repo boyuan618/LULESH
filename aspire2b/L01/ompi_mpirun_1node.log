@@ -1,0 +1,556 @@
+
+Lmod is automatically replacing "gcc-native/14" with "gcc/15.3.0-znver5".
+
+
+Lmod is automatically replacing "gcc-native/14" with "gcc/15.3.0-znver5".
+
+--------------------------------------------------------------------------
+PRTE has detected that the head of the session directory tree (where
+scratch files and shared memory backing storage will be placed)
+resides on a shared file system:
+
+   Directory: /raid/pbs.128523.pbs201
+   File system type: lustre
+
+For performance reasons, it is strongly recommended that the session
+directory be located on a local file system. This can be controlled by
+setting the system temporary directory to be used by PRTE using either
+the TMPDIR envar or the "prte_tmpdir_base" MCA param.
+
+If you need the temporary directory to be different on remote nodes
+from the local one where prterun is running (e.g., when a login node is
+being employed), then you can set the local temporary directory using
+the "prte_local_tmpdir_base" MCA param and the one to be used on all
+other nodes using the "prte_remote_tmpdir_base" param.
+
+This is only a warning advisory and your job will continue. You can
+disable this warning in the future by setting the
+"prte_silence_shared_fs" MCA param to "1".
+--------------------------------------------------------------------------
+[x8000c0s0b0n0:1975166] pmix_mca_base_component_repository_open: unable to open /data/apps/openmpi/5.0.10-gcc15.3-cpu/lib/prte/prte_mca_plm_tm: 
+    dlopen error: libpbs.so.0: cannot open shared object file: No such file or directory
+    Perhaps a missing symbol, or compiled for a different version of prte? (ignored)
+[x8000c0s0b0n0:1975189] mca: base: components_register: registering framework pml components
+[x8000c0s0b0n0:1975189] mca: base: components_register: found loaded component cm
+[x8000c0s0b0n0:1975189] mca: base: components_register: component cm register function successful
+[x8000c0s0b0n0:1975187] mca: base: components_register: registering framework pml components
+[x8000c0s0b0n0:1975187] mca: base: components_register: found loaded component cm
+[x8000c0s0b0n0:1975187] mca: base: components_register: component cm register function successful
+[x8000c0s0b0n0:1975187] mca: base: components_register: found loaded component monitoring
+[x8000c0s0b0n0:1975188] mca: base: components_register: registering framework pml components
+[x8000c0s0b0n0:1975188] mca: base: components_register: found loaded component cm
+[x8000c0s0b0n0:1975188] mca: base: components_register: component cm register function successful
+[x8000c0s0b0n0:1975188] mca: base: components_register: found loaded component monitoring
+[x8000c0s0b0n0:1975189] mca: base: components_register: found loaded component monitoring
+[x8000c0s0b0n0:1975187] mca: base: components_register: component monitoring register function successful
+[x8000c0s0b0n0:1975189] mca: base: components_register: component monitoring register function successful
+[x8000c0s0b0n0:1975187] mca: base: components_register: found loaded component ob1
+[x8000c0s0b0n0:1975189] mca: base: components_register: found loaded component ob1
+[x8000c0s0b0n0:1975188] mca: base: components_register: component monitoring register function successful
+[x8000c0s0b0n0:1975188] mca: base: components_register: found loaded component ob1
+[x8000c0s0b0n0:1975187] mca: base: components_register: component ob1 register function successful
+[x8000c0s0b0n0:1975187] mca: base: components_register: found loaded component v
+[x8000c0s0b0n0:1975189] mca: base: components_register: component ob1 register function successful
+[x8000c0s0b0n0:1975187] mca: base: components_register: component v register function successful
+[x8000c0s0b0n0:1975189] mca: base: components_register: found loaded component v
+[x8000c0s0b0n0:1975187] mca: base: components_open: opening pml components
+[x8000c0s0b0n0:1975187] mca: base: components_open: found loaded component cm
+[x8000c0s0b0n0:1975188] mca: base: components_register: component ob1 register function successful
+[x8000c0s0b0n0:1975187] mca: base: components_register: registering framework mtl components
+[x8000c0s0b0n0:1975187] mca: base: components_register: found loaded component ofi
+[x8000c0s0b0n0:1975189] mca: base: components_register: component v register function successful
+[x8000c0s0b0n0:1975188] mca: base: components_register: found loaded component v
+[x8000c0s0b0n0:1975189] mca: base: components_open: opening pml components
+[x8000c0s0b0n0:1975189] mca: base: components_open: found loaded component cm
+[x8000c0s0b0n0:1975188] mca: base: components_register: component v register function successful
+[x8000c0s0b0n0:1975189] mca: base: components_register: registering framework mtl components
+[x8000c0s0b0n0:1975189] mca: base: components_register: found loaded component ofi
+[x8000c0s0b0n0:1975188] mca: base: components_open: opening pml components
+[x8000c0s0b0n0:1975188] mca: base: components_open: found loaded component cm
+[x8000c0s0b0n0:1975188] mca: base: components_register: registering framework mtl components
+[x8000c0s0b0n0:1975188] mca: base: components_register: found loaded component ofi
+[x8000c0s0b0n0:1975187] mca: base: components_register: component ofi register function successful
+[x8000c0s0b0n0:1975187] mca: base: components_open: opening mtl components
+[x8000c0s0b0n0:1975187] mca: base: components_open: found loaded component ofi
+[x8000c0s0b0n0:1975187] mca: base: components_open: component ofi open function successful
+[x8000c0s0b0n0:1975187] mca: base: components_open: component cm open function successful
+[x8000c0s0b0n0:1975187] mca: base: components_open: found loaded component monitoring
+[x8000c0s0b0n0:1975187] mca: base: components_open: component monitoring open function successful
+[x8000c0s0b0n0:1975187] mca: base: components_open: found loaded component ob1
+[x8000c0s0b0n0:1975187] mca: base: components_open: component ob1 open function successful
+[x8000c0s0b0n0:1975187] mca: base: components_open: found loaded component v
+[x8000c0s0b0n0:1975189] mca: base: components_register: component ofi register function successful
+[x8000c0s0b0n0:1975189] mca: base: components_open: opening mtl components
+[x8000c0s0b0n0:1975189] mca: base: components_open: found loaded component ofi
+[x8000c0s0b0n0:1975189] mca: base: components_open: component ofi open function successful
+[x8000c0s0b0n0:1975189] mca: base: components_open: component cm open function successful
+[x8000c0s0b0n0:1975189] mca: base: components_open: found loaded component monitoring
+[x8000c0s0b0n0:1975189] mca: base: components_open: component monitoring open function successful
+[x8000c0s0b0n0:1975189] mca: base: components_open: found loaded component ob1
+[x8000c0s0b0n0:1975188] mca: base: components_register: component ofi register function successful
+[x8000c0s0b0n0:1975189] mca: base: components_open: component ob1 open function successful
+[x8000c0s0b0n0:1975189] mca: base: components_open: found loaded component v
+[x8000c0s0b0n0:1975188] mca: base: components_open: opening mtl components
+[x8000c0s0b0n0:1975188] mca: base: components_open: found loaded component ofi
+[x8000c0s0b0n0:1975188] mca: base: components_open: component ofi open function successful
+[x8000c0s0b0n0:1975188] mca: base: components_open: component cm open function successful
+[x8000c0s0b0n0:1975188] mca: base: components_open: found loaded component monitoring
+[x8000c0s0b0n0:1975188] mca: base: components_open: component monitoring open function successful
+[x8000c0s0b0n0:1975188] mca: base: components_open: found loaded component ob1
+[x8000c0s0b0n0:1975187] mca: base: components_open: component v open function successful
+[x8000c0s0b0n0:1975188] mca: base: components_open: component ob1 open function successful
+[x8000c0s0b0n0:1975188] mca: base: components_open: found loaded component v
+[x8000c0s0b0n0:1975189] mca: base: components_open: component v open function successful
+[x8000c0s0b0n0:1975188] mca: base: components_open: component v open function successful
+[x8000c0s0b0n0:1975189] select: initializing pml component cm
+[x8000c0s0b0n0:1975189] mca:base:select: Auto-selecting mtl components
+[x8000c0s0b0n0:1975189] mca:base:select:(  mtl) Querying component [ofi]
+[x8000c0s0b0n0:1975189] mca:base:select:(  mtl) Query of component [ofi] set priority to 25
+[x8000c0s0b0n0:1975189] mca:base:select:(  mtl) Selected component [ofi]
+[x8000c0s0b0n0:1975189] select: initializing mtl component ofi
+[x8000c0s0b0n0:1975188] select: initializing pml component cm
+[x8000c0s0b0n0:1975188] mca:base:select: Auto-selecting mtl components
+[x8000c0s0b0n0:1975188] mca:base:select:(  mtl) Querying component [ofi]
+[x8000c0s0b0n0:1975188] mca:base:select:(  mtl) Query of component [ofi] set priority to 25
+[x8000c0s0b0n0:1975188] mca:base:select:(  mtl) Selected component [ofi]
+[x8000c0s0b0n0:1975188] select: initializing mtl component ofi
+[x8000c0s0b0n0:1975187] select: initializing pml component cm
+[x8000c0s0b0n0:1975187] mca:base:select: Auto-selecting mtl components
+[x8000c0s0b0n0:1975187] mca:base:select:(  mtl) Querying component [ofi]
+[x8000c0s0b0n0:1975187] mca:base:select:(  mtl) Query of component [ofi] set priority to 25
+[x8000c0s0b0n0:1975187] mca:base:select:(  mtl) Selected component [ofi]
+[x8000c0s0b0n0:1975187] select: initializing mtl component ofi
+[x8000c0s0b0n0:1975184] mca: base: components_register: registering framework pml components
+[x8000c0s0b0n0:1975184] mca: base: components_register: found loaded component cm
+[x8000c0s0b0n0:1975186] mca: base: components_register: registering framework pml components
+[x8000c0s0b0n0:1975186] mca: base: components_register: found loaded component cm
+[x8000c0s0b0n0:1975182] mca: base: components_register: registering framework pml components
+[x8000c0s0b0n0:1975182] mca: base: components_register: found loaded component cm
+[x8000c0s0b0n0:1975183] mca: base: components_register: registering framework pml components
+[x8000c0s0b0n0:1975183] mca: base: components_register: found loaded component cm
+[x8000c0s0b0n0:1975185] mca: base: components_register: registering framework pml components
+[x8000c0s0b0n0:1975185] mca: base: components_register: found loaded component cm
+[x8000c0s0b0n0:1975185] mca: base: components_register: component cm register function successful
+[x8000c0s0b0n0:1975185] mca: base: components_register: found loaded component monitoring
+[x8000c0s0b0n0:1975186] mca: base: components_register: component cm register function successful
+[x8000c0s0b0n0:1975186] mca: base: components_register: found loaded component monitoring
+[x8000c0s0b0n0:1975184] mca: base: components_register: component cm register function successful
+[x8000c0s0b0n0:1975184] mca: base: components_register: found loaded component monitoring
+[x8000c0s0b0n0:1975183] mca: base: components_register: component cm register function successful
+[x8000c0s0b0n0:1975183] mca: base: components_register: found loaded component monitoring
+[x8000c0s0b0n0:1975182] mca: base: components_register: component cm register function successful
+[x8000c0s0b0n0:1975182] mca: base: components_register: found loaded component monitoring
+[x8000c0s0b0n0:1975186] mca: base: components_register: component monitoring register function successful
+[x8000c0s0b0n0:1975185] mca: base: components_register: component monitoring register function successful
+[x8000c0s0b0n0:1975185] mca: base: components_register: found loaded component ob1
+[x8000c0s0b0n0:1975183] mca: base: components_register: component monitoring register function successful
+[x8000c0s0b0n0:1975183] mca: base: components_register: found loaded component ob1
+[x8000c0s0b0n0:1975184] mca: base: components_register: component monitoring register function successful
+[x8000c0s0b0n0:1975184] mca: base: components_register: found loaded component ob1
+[x8000c0s0b0n0:1975186] mca: base: components_register: found loaded component ob1
+[x8000c0s0b0n0:1975182] mca: base: components_register: component monitoring register function successful
+[x8000c0s0b0n0:1975182] mca: base: components_register: found loaded component ob1
+[x8000c0s0b0n0:1975185] mca: base: components_register: component ob1 register function successful
+[x8000c0s0b0n0:1975185] mca: base: components_register: found loaded component v
+[x8000c0s0b0n0:1975186] mca: base: components_register: component ob1 register function successful
+[x8000c0s0b0n0:1975186] mca: base: components_register: found loaded component v
+[x8000c0s0b0n0:1975183] mca: base: components_register: component ob1 register function successful
+[x8000c0s0b0n0:1975183] mca: base: components_register: found loaded component v
+[x8000c0s0b0n0:1975184] mca: base: components_register: component ob1 register function successful
+[x8000c0s0b0n0:1975184] mca: base: components_register: found loaded component v
+[x8000c0s0b0n0:1975184] mca: base: components_register: component v register function successful
+[x8000c0s0b0n0:1975182] mca: base: components_register: component ob1 register function successful
+[x8000c0s0b0n0:1975182] mca: base: components_register: found loaded component v
+[x8000c0s0b0n0:1975182] mca: base: components_register: component v register function successful
+[x8000c0s0b0n0:1975186] mca: base: components_register: component v register function successful
+[x8000c0s0b0n0:1975186] mca: base: components_open: opening pml components
+[x8000c0s0b0n0:1975186] mca: base: components_open: found loaded component cm
+[x8000c0s0b0n0:1975186] mca: base: components_register: registering framework mtl components
+[x8000c0s0b0n0:1975183] mca: base: components_register: component v register function successful
+[x8000c0s0b0n0:1975183] mca: base: components_open: opening pml components
+[x8000c0s0b0n0:1975183] mca: base: components_open: found loaded component cm
+[x8000c0s0b0n0:1975183] mca: base: components_register: registering framework mtl components
+[x8000c0s0b0n0:1975183] mca: base: components_register: found loaded component ofi
+[x8000c0s0b0n0:1975185] mca: base: components_register: component v register function successful
+[x8000c0s0b0n0:1975185] mca: base: components_open: opening pml components
+[x8000c0s0b0n0:1975185] mca: base: components_open: found loaded component cm
+[x8000c0s0b0n0:1975185] mca: base: components_register: registering framework mtl components
+[x8000c0s0b0n0:1975185] mca: base: components_register: found loaded component ofi
+[x8000c0s0b0n0:1975184] mca: base: components_open: opening pml components
+[x8000c0s0b0n0:1975184] mca: base: components_open: found loaded component cm
+[x8000c0s0b0n0:1975184] mca: base: components_register: registering framework mtl components
+[x8000c0s0b0n0:1975184] mca: base: components_register: found loaded component ofi
+[x8000c0s0b0n0:1975182] mca: base: components_open: opening pml components
+[x8000c0s0b0n0:1975182] mca: base: components_open: found loaded component cm
+[x8000c0s0b0n0:1975182] mca: base: components_register: registering framework mtl components
+[x8000c0s0b0n0:1975182] mca: base: components_register: found loaded component ofi
+[x8000c0s0b0n0:1975186] mca: base: components_register: found loaded component ofi
+[x8000c0s0b0n0:1975186] mca: base: components_register: component ofi register function successful
+[x8000c0s0b0n0:1975186] mca: base: components_open: opening mtl components
+[x8000c0s0b0n0:1975186] mca: base: components_open: found loaded component ofi
+[x8000c0s0b0n0:1975184] mca: base: components_register: component ofi register function successful
+[x8000c0s0b0n0:1975184] mca: base: components_open: opening mtl components
+[x8000c0s0b0n0:1975184] mca: base: components_open: found loaded component ofi
+[x8000c0s0b0n0:1975184] mca: base: components_open: component ofi open function successful
+[x8000c0s0b0n0:1975184] mca: base: components_open: component cm open function successful
+[x8000c0s0b0n0:1975184] mca: base: components_open: found loaded component monitoring
+[x8000c0s0b0n0:1975183] mca: base: components_register: component ofi register function successful
+[x8000c0s0b0n0:1975183] mca: base: components_open: opening mtl components
+[x8000c0s0b0n0:1975183] mca: base: components_open: found loaded component ofi
+[x8000c0s0b0n0:1975183] mca: base: components_open: component ofi open function successful
+[x8000c0s0b0n0:1975183] mca: base: components_open: component cm open function successful
+[x8000c0s0b0n0:1975183] mca: base: components_open: found loaded component monitoring
+[x8000c0s0b0n0:1975183] mca: base: components_open: component monitoring open function successful
+[x8000c0s0b0n0:1975183] mca: base: components_open: found loaded component ob1
+[x8000c0s0b0n0:1975185] mca: base: components_register: component ofi register function successful
+[x8000c0s0b0n0:1975185] mca: base: components_open: opening mtl components
+[x8000c0s0b0n0:1975185] mca: base: components_open: found loaded component ofi
+[x8000c0s0b0n0:1975185] mca: base: components_open: component ofi open function successful
+[x8000c0s0b0n0:1975185] mca: base: components_open: component cm open function successful
+[x8000c0s0b0n0:1975185] mca: base: components_open: found loaded component monitoring
+[x8000c0s0b0n0:1975185] mca: base: components_open: component monitoring open function successful
+[x8000c0s0b0n0:1975185] mca: base: components_open: found loaded component ob1
+[x8000c0s0b0n0:1975185] mca: base: components_open: component ob1 open function successful
+[x8000c0s0b0n0:1975185] mca: base: components_open: found loaded component v
+[x8000c0s0b0n0:1975182] mca: base: components_register: component ofi register function successful
+[x8000c0s0b0n0:1975182] mca: base: components_open: opening mtl components
+[x8000c0s0b0n0:1975182] mca: base: components_open: found loaded component ofi
+[x8000c0s0b0n0:1975182] mca: base: components_open: component ofi open function successful
+[x8000c0s0b0n0:1975182] mca: base: components_open: component cm open function successful
+[x8000c0s0b0n0:1975182] mca: base: components_open: found loaded component monitoring
+[x8000c0s0b0n0:1975182] mca: base: components_open: component monitoring open function successful
+[x8000c0s0b0n0:1975182] mca: base: components_open: found loaded component ob1
+[x8000c0s0b0n0:1975182] mca: base: components_open: component ob1 open function successful
+[x8000c0s0b0n0:1975182] mca: base: components_open: found loaded component v
+[x8000c0s0b0n0:1975186] mca: base: components_open: component ofi open function successful
+[x8000c0s0b0n0:1975186] mca: base: components_open: component cm open function successful
+[x8000c0s0b0n0:1975186] mca: base: components_open: found loaded component monitoring
+[x8000c0s0b0n0:1975186] mca: base: components_open: component monitoring open function successful
+[x8000c0s0b0n0:1975186] mca: base: components_open: found loaded component ob1
+[x8000c0s0b0n0:1975186] mca: base: components_open: component ob1 open function successful
+[x8000c0s0b0n0:1975186] mca: base: components_open: found loaded component v
+[x8000c0s0b0n0:1975184] mca: base: components_open: component monitoring open function successful
+[x8000c0s0b0n0:1975184] mca: base: components_open: found loaded component ob1
+[x8000c0s0b0n0:1975184] mca: base: components_open: component ob1 open function successful
+[x8000c0s0b0n0:1975184] mca: base: components_open: found loaded component v
+[x8000c0s0b0n0:1975183] mca: base: components_open: component ob1 open function successful
+[x8000c0s0b0n0:1975183] mca: base: components_open: found loaded component v
+[x8000c0s0b0n0:1975186] mca: base: components_open: component v open function successful
+[x8000c0s0b0n0:1975183] mca: base: components_open: component v open function successful
+[x8000c0s0b0n0:1975184] mca: base: components_open: component v open function successful
+[x8000c0s0b0n0:1975185] mca: base: components_open: component v open function successful
+[x8000c0s0b0n0:1975182] mca: base: components_open: component v open function successful
+[x8000c0s0b0n0:1975182] select: initializing pml component cm
+[x8000c0s0b0n0:1975182] mca:base:select: Auto-selecting mtl components
+[x8000c0s0b0n0:1975182] mca:base:select:(  mtl) Querying component [ofi]
+[x8000c0s0b0n0:1975182] mca:base:select:(  mtl) Query of component [ofi] set priority to 25
+[x8000c0s0b0n0:1975182] mca:base:select:(  mtl) Selected component [ofi]
+[x8000c0s0b0n0:1975182] select: initializing mtl component ofi
+[x8000c0s0b0n0:1975183] select: initializing pml component cm
+[x8000c0s0b0n0:1975183] mca:base:select: Auto-selecting mtl components
+[x8000c0s0b0n0:1975183] mca:base:select:(  mtl) Querying component [ofi]
+[x8000c0s0b0n0:1975183] mca:base:select:(  mtl) Query of component [ofi] set priority to 25
+[x8000c0s0b0n0:1975183] mca:base:select:(  mtl) Selected component [ofi]
+[x8000c0s0b0n0:1975183] select: initializing mtl component ofi
+[x8000c0s0b0n0:1975185] select: initializing pml component cm
+[x8000c0s0b0n0:1975185] mca:base:select: Auto-selecting mtl components
+[x8000c0s0b0n0:1975185] mca:base:select:(  mtl) Querying component [ofi]
+[x8000c0s0b0n0:1975185] mca:base:select:(  mtl) Query of component [ofi] set priority to 25
+[x8000c0s0b0n0:1975185] mca:base:select:(  mtl) Selected component [ofi]
+[x8000c0s0b0n0:1975185] select: initializing mtl component ofi
+[x8000c0s0b0n0:1975186] select: initializing pml component cm
+[x8000c0s0b0n0:1975186] mca:base:select: Auto-selecting mtl components
+[x8000c0s0b0n0:1975186] mca:base:select:(  mtl) Querying component [ofi]
+[x8000c0s0b0n0:1975186] mca:base:select:(  mtl) Query of component [ofi] set priority to 25
+[x8000c0s0b0n0:1975186] mca:base:select:(  mtl) Selected component [ofi]
+[x8000c0s0b0n0:1975186] select: initializing mtl component ofi
+[x8000c0s0b0n0:1975184] select: initializing pml component cm
+[x8000c0s0b0n0:1975184] mca:base:select: Auto-selecting mtl components
+[x8000c0s0b0n0:1975184] mca:base:select:(  mtl) Querying component [ofi]
+[x8000c0s0b0n0:1975184] mca:base:select:(  mtl) Query of component [ofi] set priority to 25
+[x8000c0s0b0n0:1975184] mca:base:select:(  mtl) Selected component [ofi]
+[x8000c0s0b0n0:1975184] select: initializing mtl component ofi
+[x8000c0s0b0n0:1975189] select: init returned failure for component ofi
+[x8000c0s0b0n0:1975189] select: no component selected
+[x8000c0s0b0n0:1975189] select: init returned failure for component cm
+[x8000c0s0b0n0:1975187] select: init returned failure for component ofi
+[x8000c0s0b0n0:1975187] select: no component selected
+[x8000c0s0b0n0:1975187] select: init returned failure for component cm
+[x8000c0s0b0n0:1975187] select: component monitoring not in the include list
+[x8000c0s0b0n0:1975187] select: initializing pml component ob1
+[x8000c0s0b0n0:1975189] select: component monitoring not in the include list
+[x8000c0s0b0n0:1975189] select: initializing pml component ob1
+[x8000c0s0b0n0:1975188] select: init returned failure for component ofi
+[x8000c0s0b0n0:1975188] select: no component selected
+[x8000c0s0b0n0:1975188] select: init returned failure for component cm
+[x8000c0s0b0n0:1975188] select: component monitoring not in the include list
+[x8000c0s0b0n0:1975188] select: initializing pml component ob1
+--------------------------------------------------------------------------
+Open MPI failed an OFI Libfabric library call (fi_domain).  This is highly
+unusual; your job may behave unpredictably (and/or abort) after this.
+
+  Local host: x8000c0s0b0n0
+  Location: ../../../../../ompi/mca/mtl/ofi/mtl_ofi_component.c:1009
+  Error: Function not implemented (38)
+--------------------------------------------------------------------------
+ free(): double free detected in tcache 2
+[x8000c0s0b0n0:1975187] *** Process received signal ***
+[x8000c0s0b0n0:1975187] Signal: Aborted (6)
+[x8000c0s0b0n0:1975187] Signal code:  (-6)
+free(): double free detected in tcache 2
+free(): double free detected in tcache 2
+[x8000c0s0b0n0:1975189] *** Process received signal ***
+[x8000c0s0b0n0:1975188] *** Process received signal ***
+[x8000c0s0b0n0:1975189] Signal: Aborted (6)
+[x8000c0s0b0n0:1975189] Signal code:  (-6)
+[x8000c0s0b0n0:1975188] Signal: Aborted (6)
+[x8000c0s0b0n0:1975188] Signal code:  (-6)
+[x8000c0s0b0n0:1975189] [ 0] [x8000c0s0b0n0:1975188] [ 0] [x8000c0s0b0n0:1975187] [ 0] /lib64/libc.so.6(+0x3ebf0)[0x153c85a65bf0]
+[x8000c0s0b0n0:1975189] [ 1] /lib64/libc.so.6(+0x3ebf0)[0x15255c3d3bf0]
+[x8000c0s0b0n0:1975188] [ 1] /lib64/libc.so.6(+0x3ebf0)[0x147d45524bf0]
+[x8000c0s0b0n0:1975187] [ 1] /lib64/libc.so.6(+0x8c07c)[0x153c85ab307c]
+[x8000c0s0b0n0:1975189] [ 2] /lib64/libc.so.6(+0x8c07c)[0x15255c42107c]
+[x8000c0s0b0n0:1975188] [ 2] /lib64/libc.so.6(+0x8c07c)[0x147d4557207c]
+[x8000c0s0b0n0:1975187] [ 2] /lib64/libc.so.6(raise+0x16)[0x153c85a65b46]
+[x8000c0s0b0n0:1975189] [ 3] /lib64/libc.so.6(raise+0x16)[0x15255c3d3b46]
+[x8000c0s0b0n0:1975188] [ 3] /lib64/libc.so.6(raise+0x16)[0x147d45524b46]
+[x8000c0s0b0n0:1975187] [ 3] /lib64/libc.so.6(abort+0xd3)[0x153c85a4f833]
+[x8000c0s0b0n0:1975189] [ 4] /lib64/libc.so.6(abort+0xd3)[0x15255c3bd833]
+[x8000c0s0b0n0:1975188] [ 4] /lib64/libc.so.6(abort+0xd3)[0x147d4550e833]
+[x8000c0s0b0n0:1975187] [ 4] /lib64/libc.so.6(+0x29172)[0x147d4550f172]
+[x8000c0s0b0n0:1975187] [ 5] /lib64/libc.so.6(+0x29172)[0x153c85a50172]
+[x8000c0s0b0n0:1975189] [ 5] /lib64/libc.so.6(+0x29172)[0x15255c3be172]
+[x8000c0s0b0n0:1975188] [ 5] /lib64/libc.so.6(+0x96127)[0x147d4557c127]
+[x8000c0s0b0n0:1975187] [ 6] /lib64/libc.so.6(+0x96127)[0x15255c42b127]
+[x8000c0s0b0n0:1975188] [ 6] /lib64/libc.so.6(+0x96127)[0x153c85abd127]
+[x8000c0s0b0n0:1975189] [ 6] /lib64/libc.so.6(+0x97fff)[0x147d4557dfff]
+[x8000c0s0b0n0:1975187] [ 7] /lib64/libc.so.6(+0x97fff)[0x153c85abefff]
+[x8000c0s0b0n0:1975189] [ 7] /lib64/libc.so.6(+0x97fff)[0x15255c42cfff]
+[x8000c0s0b0n0:1975188] [ 7] /lib64/libc.so.6(free+0x55)[0x147d45580465]
+[x8000c0s0b0n0:1975187] [ 8] /opt/cray/libfabric/2.3.1/lib64/libfabric.so.1(+0x5ed8f)[0x147d452c6d8f]
+[x8000c0s0b0n0:1975187] [ 9] /lib64/libc.so.6(free+0x55)[0x153c85ac1465]
+[x8000c0s0b0n0:1975189] [ 8] /opt/cray/libfabric/2.3.1/lib64/libfabric.so.1(+0x5ed8f)[0x153c85807d8f]
+[x8000c0s0b0n0:1975189] [ 9] /lib64/libc.so.6(free+0x55)[0x15255c42f465]
+[x8000c0s0b0n0:1975188] [ 8] /opt/cray/libfabric/2.3.1/lib64/libfabric.so.1(+0x5ed8f)[0x15255c175d8f]
+/data/apps/openmpi/5.0.10-gcc15.3-cpu/lib/libopen-pal.so.80(opal_common_ofi_fabric_release+0x2e)[0x147d4544321e]
+[x8000c0s0b0n0:1975187] [10] [x8000c0s0b0n0:1975188] [ 9] /data/apps/openmpi/5.0.10-gcc15.3-cpu/lib/libopen-pal.so.80(opal_common_ofi_fabric_release+0x2e)[0x153c8598421e]
+[x8000c0s0b0n0:1975189] [10] /data/apps/openmpi/5.0.10-gcc15.3-cpu/lib/libopen-pal.so.80(+0x8c07a)[0x147d4545707a]
+[x8000c0s0b0n0:1975187] [11] /data/apps/openmpi/5.0.10-gcc15.3-cpu/lib/libopen-pal.so.80(opal_common_ofi_fabric_release+0x2e)[0x15255c2f221e]
+[x8000c0s0b0n0:1975188] [10] /data/apps/openmpi/5.0.10-gcc15.3-cpu/lib/libopen-pal.so.80(mca_btl_base_select+0xf8)[0x147d45445e88]
+[x8000c0s0b0n0:1975187] [12] /data/apps/openmpi/5.0.10-gcc15.3-cpu/lib/libopen-pal.so.80(+0x8c07a)[0x153c8599807a]
+[x8000c0s0b0n0:1975189] [11] /data/apps/openmpi/5.0.10-gcc15.3-cpu/lib/libopen-pal.so.80(+0x8c07a)[0x15255c30607a]
+[x8000c0s0b0n0:1975188] [11] /data/apps/openmpi/5.0.10-gcc15.3-cpu/lib/libopen-pal.so.80(mca_btl_base_select+0xf8)[0x153c85986e88]
+[x8000c0s0b0n0:1975189] [12] /data/apps/openmpi/5.0.10-gcc15.3-cpu/lib/libopen-pal.so.80(mca_btl_base_select+0xf8)[0x15255c2f4e88]
+[x8000c0s0b0n0:1975188] [12] /data/apps/openmpi/5.0.10-gcc15.3-cpu/lib/libmpi.so.40(mca_bml_r2_component_init+0x10)[0x147d45bd3c30]
+[x8000c0s0b0n0:1975187] [13] /data/apps/openmpi/5.0.10-gcc15.3-cpu/lib/libmpi.so.40(mca_bml_r2_component_init+0x10)[0x153c86114c30]
+[x8000c0s0b0n0:1975189] [13] /data/apps/openmpi/5.0.10-gcc15.3-cpu/lib/libmpi.so.40(mca_bml_base_init+0x84)[0x147d45bd1db4]
+[x8000c0s0b0n0:1975187] [14] /data/apps/openmpi/5.0.10-gcc15.3-cpu/lib/libmpi.so.40(mca_bml_r2_component_init+0x10)[0x15255ca82c30]
+[x8000c0s0b0n0:1975188] [13] /data/apps/openmpi/5.0.10-gcc15.3-cpu/lib/libmpi.so.40(mca_bml_base_init+0x84)[0x153c86112db4]
+[x8000c0s0b0n0:1975189] [14] /data/apps/openmpi/5.0.10-gcc15.3-cpu/lib/libmpi.so.40(mca_bml_base_init+0x84)[0x15255ca80db4]
+[x8000c0s0b0n0:1975188] [14] /data/apps/openmpi/5.0.10-gcc15.3-cpu/lib/libmpi.so.40(+0x229ceb)[0x147d45d0dceb]
+[x8000c0s0b0n0:1975187] [15] /data/apps/openmpi/5.0.10-gcc15.3-cpu/lib/libmpi.so.40(+0x229ceb)[0x153c8624eceb]
+[x8000c0s0b0n0:1975189] [15] /data/apps/openmpi/5.0.10-gcc15.3-cpu/lib/libmpi.so.40(mca_pml_base_select+0x1b7)[0x147d45d0a517]
+[x8000c0s0b0n0:1975187] [16] /data/apps/openmpi/5.0.10-gcc15.3-cpu/lib/libmpi.so.40(+0x229ceb)[0x15255cbbcceb]
+[x8000c0s0b0n0:1975188] [15] /data/apps/openmpi/5.0.10-gcc15.3-cpu/lib/libmpi.so.40(mca_pml_base_select+0x1b7)[0x153c8624b517]
+[x8000c0s0b0n0:1975189] [16] /data/apps/openmpi/5.0.10-gcc15.3-cpu/lib/libmpi.so.40(+0x93979)[0x147d45b77979]
+[x8000c0s0b0n0:1975187] [17] /data/apps/openmpi/5.0.10-gcc15.3-cpu/lib/libmpi.so.40(mca_pml_base_select+0x1b7)[0x15255cbb9517]
+[x8000c0s0b0n0:1975188] [16] /data/apps/openmpi/5.0.10-gcc15.3-cpu/lib/libmpi.so.40(ompi_mpi_instance_init+0x75)[0x147d45b78105]
+[x8000c0s0b0n0:1975187] [18] /data/apps/openmpi/5.0.10-gcc15.3-cpu/lib/libmpi.so.40(+0x93979)[0x153c860b8979]
+[x8000c0s0b0n0:1975189] [17] /data/apps/openmpi/5.0.10-gcc15.3-cpu/lib/libmpi.so.40(ompi_mpi_init+0x6b)[0x147d45b6f94b]
+[x8000c0s0b0n0:1975187] [19] /data/apps/openmpi/5.0.10-gcc15.3-cpu/lib/libmpi.so.40(+0x93979)[0x15255ca26979]
+[x8000c0s0b0n0:1975188] [17] /data/apps/openmpi/5.0.10-gcc15.3-cpu/lib/libmpi.so.40(ompi_mpi_instance_init+0x75)[0x153c860b9105]
+[x8000c0s0b0n0:1975189] [18] /data/apps/openmpi/5.0.10-gcc15.3-cpu/lib/libmpi.so.40(ompi_mpi_init+0x6b)[0x153c860b094b]
+[x8000c0s0b0n0:1975189] [19] /data/apps/openmpi/5.0.10-gcc15.3-cpu/lib/libmpi.so.40(ompi_mpi_instance_init+0x75)[0x15255ca27105]
+[x8000c0s0b0n0:1975188] [18] /data/apps/openmpi/5.0.10-gcc15.3-cpu/lib/libmpi.so.40(PMPI_Init_thread+0x6b)[0x147d45ba314b]
+[x8000c0s0b0n0:1975187] [20] /scratch/users/ntu/gubo0002/sc26/hpl_hplmxp/LULESH/aspire2b/L01/build_ompi/lulesh2.0(main+0x4f)[0x4027cf]
+[x8000c0s0b0n0:1975187] [21] /data/apps/openmpi/5.0.10-gcc15.3-cpu/lib/libmpi.so.40(ompi_mpi_init+0x6b)[0x15255ca1e94b]
+[x8000c0s0b0n0:1975188] [19] /lib64/libc.so.6(+0x295d0)[0x147d4550f5d0]
+[x8000c0s0b0n0:1975187] [22] /lib64/libc.so.6(__libc_start_main+0x80)[0x147d4550f680]
+[x8000c0s0b0n0:1975187] [23] /scratch/users/ntu/gubo0002/sc26/hpl_hplmxp/LULESH/aspire2b/L01/build_ompi/lulesh2.0(_start+0x25)[0x405305]
+[x8000c0s0b0n0:1975187] *** End of error message ***
+/data/apps/openmpi/5.0.10-gcc15.3-cpu/lib/libmpi.so.40(PMPI_Init_thread+0x6b)[0x153c860e414b]
+[x8000c0s0b0n0:1975189] [20] /scratch/users/ntu/gubo0002/sc26/hpl_hplmxp/LULESH/aspire2b/L01/build_ompi/lulesh2.0(main+0x4f)[0x4027cf]
+[x8000c0s0b0n0:1975189] [21] /lib64/libc.so.6(+0x295d0)[0x153c85a505d0]
+[x8000c0s0b0n0:1975189] [22] /data/apps/openmpi/5.0.10-gcc15.3-cpu/lib/libmpi.so.40(PMPI_Init_thread+0x6b)[0x15255ca5214b]
+[x8000c0s0b0n0:1975188] [20] /scratch/users/ntu/gubo0002/sc26/hpl_hplmxp/LULESH/aspire2b/L01/build_ompi/lulesh2.0(main+0x4f)[0x4027cf]
+[x8000c0s0b0n0:1975188] [21] /lib64/libc.so.6(__libc_start_main+0x80)[0x153c85a50680]
+[x8000c0s0b0n0:1975189] [23] /scratch/users/ntu/gubo0002/sc26/hpl_hplmxp/LULESH/aspire2b/L01/build_ompi/lulesh2.0(_start+0x25)[0x405305]
+[x8000c0s0b0n0:1975189] *** End of error message ***
+/lib64/libc.so.6(+0x295d0)[0x15255c3be5d0]
+[x8000c0s0b0n0:1975188] [22] /lib64/libc.so.6(__libc_start_main+0x80)[0x15255c3be680]
+[x8000c0s0b0n0:1975188] [23] /scratch/users/ntu/gubo0002/sc26/hpl_hplmxp/LULESH/aspire2b/L01/build_ompi/lulesh2.0(_start+0x25)[0x405305]
+[x8000c0s0b0n0:1975188] *** End of error message ***
+[x8000c0s0b0n0:1975184] select: init returned failure for component ofi
+[x8000c0s0b0n0:1975184] select: no component selected
+[x8000c0s0b0n0:1975184] select: init returned failure for component cm
+[x8000c0s0b0n0:1975184] select: component monitoring not in the include list
+[x8000c0s0b0n0:1975184] select: initializing pml component ob1
+[x8000c0s0b0n0:1975186] select: init returned failure for component ofi
+[x8000c0s0b0n0:1975186] select: no component selected
+[x8000c0s0b0n0:1975186] select: init returned failure for component cm
+[x8000c0s0b0n0:1975186] select: component monitoring not in the include list
+[x8000c0s0b0n0:1975186] select: initializing pml component ob1
+[x8000c0s0b0n0:1975185] select: init returned failure for component ofi
+[x8000c0s0b0n0:1975185] select: no component selected
+[x8000c0s0b0n0:1975185] select: init returned failure for component cm
+[x8000c0s0b0n0:1975185] select: component monitoring not in the include list
+[x8000c0s0b0n0:1975185] select: initializing pml component ob1
+[x8000c0s0b0n0:1975183] select: init returned failure for component ofi
+[x8000c0s0b0n0:1975183] select: no component selected
+[x8000c0s0b0n0:1975183] select: init returned failure for component cm
+[x8000c0s0b0n0:1975183] select: component monitoring not in the include list
+[x8000c0s0b0n0:1975183] select: initializing pml component ob1
+[x8000c0s0b0n0:1975182] select: init returned failure for component ofi
+[x8000c0s0b0n0:1975182] select: no component selected
+[x8000c0s0b0n0:1975182] select: init returned failure for component cm
+[x8000c0s0b0n0:1975182] select: component monitoring not in the include list
+[x8000c0s0b0n0:1975182] select: initializing pml component ob1
+free(): double free detected in tcache 2
+free(): double free detected in tcache 2
+free(): double free detected in tcache 2
+free(): double free detected in tcache 2
+[x8000c0s0b0n0:1975182] *** Process received signal ***
+[x8000c0s0b0n0:1975183] *** Process received signal ***
+[x8000c0s0b0n0:1975183] Signal: Aborted (6)
+[x8000c0s0b0n0:1975183] Signal code:  (-6)
+free(): double free detected in tcache 2
+[x8000c0s0b0n0:1975182] Signal: Aborted (6)
+[x8000c0s0b0n0:1975182] Signal code:  (-6)
+[x8000c0s0b0n0:1975184] *** Process received signal ***
+[x8000c0s0b0n0:1975184] Signal: Aborted (6)
+[x8000c0s0b0n0:1975184] Signal code:  (-6)
+[x8000c0s0b0n0:1975185] *** Process received signal ***
+[x8000c0s0b0n0:1975185] Signal: Aborted (6)
+[x8000c0s0b0n0:1975185] Signal code:  (-6)
+[x8000c0s0b0n0:1975186] *** Process received signal ***
+[x8000c0s0b0n0:1975186] Signal: Aborted (6)
+[x8000c0s0b0n0:1975186] Signal code:  (-6)
+[x8000c0s0b0n0:1975182] [ 0] [x8000c0s0b0n0:1975184] [ 0] [x8000c0s0b0n0:1975183] [ 0] [x8000c0s0b0n0:1975185] [ 0] [x8000c0s0b0n0:1975186] [ 0] /lib64/libc.so.6(+0x3ebf0)[0x1486c56c1bf0]
+[x8000c0s0b0n0:1975184] [ 1] /lib64/libc.so.6(+0x3ebf0)[0x14da1a2d8bf0]
+[x8000c0s0b0n0:1975182] [ 1] /lib64/libc.so.6(+0x3ebf0)[0x150487598bf0]
+[x8000c0s0b0n0:1975183] [ 1] /lib64/libc.so.6(+0x3ebf0)[0x14c13a77cbf0]
+[x8000c0s0b0n0:1975185] [ 1] /lib64/libc.so.6(+0x3ebf0)[0x147c6704fbf0]
+[x8000c0s0b0n0:1975186] [ 1] /lib64/libc.so.6(+0x8c07c)[0x1486c570f07c]
+[x8000c0s0b0n0:1975184] [ 2] /lib64/libc.so.6(+0x8c07c)[0x14da1a32607c]
+[x8000c0s0b0n0:1975182] [ 2] /lib64/libc.so.6(+0x8c07c)[0x1504875e607c]
+[x8000c0s0b0n0:1975183] [ 2] /lib64/libc.so.6(+0x8c07c)[0x14c13a7ca07c]
+[x8000c0s0b0n0:1975185] [ 2] /lib64/libc.so.6(+0x8c07c)[0x147c6709d07c]
+[x8000c0s0b0n0:1975186] [ 2] /lib64/libc.so.6(raise+0x16)[0x1486c56c1b46]
+[x8000c0s0b0n0:1975184] [ 3] /lib64/libc.so.6(raise+0x16)[0x14da1a2d8b46]
+[x8000c0s0b0n0:1975182] [ 3] /lib64/libc.so.6(raise+0x16)[0x14c13a77cb46]
+[x8000c0s0b0n0:1975185] [ 3] /lib64/libc.so.6(raise+0x16)[0x150487598b46]
+[x8000c0s0b0n0:1975183] [ 3] /lib64/libc.so.6(raise+0x16)[0x147c6704fb46]
+[x8000c0s0b0n0:1975186] [ 3] /lib64/libc.so.6(abort+0xd3)[0x1486c56ab833]
+[x8000c0s0b0n0:1975184] [ 4] /lib64/libc.so.6(+0x29172)[0x1486c56ac172]
+[x8000c0s0b0n0:1975184] [ 5] /lib64/libc.so.6(abort+0xd3)[0x14da1a2c2833]
+[x8000c0s0b0n0:1975182] [ 4] /lib64/libc.so.6(+0x29172)[0x14da1a2c3172]
+[x8000c0s0b0n0:1975182] [ 5] /lib64/libc.so.6(abort+0xd3)[0x14c13a766833]
+[x8000c0s0b0n0:1975185] [ 4] /lib64/libc.so.6(+0x29172)[0x14c13a767172]
+[x8000c0s0b0n0:1975185] [ 5] /lib64/libc.so.6(abort+0xd3)[0x150487582833]
+[x8000c0s0b0n0:1975183] [ 4] /lib64/libc.so.6(+0x29172)[0x150487583172]
+[x8000c0s0b0n0:1975183] [ 5] /lib64/libc.so.6(abort+0xd3)[0x147c67039833]
+[x8000c0s0b0n0:1975186] [ 4] /lib64/libc.so.6(+0x29172)[0x147c6703a172]
+[x8000c0s0b0n0:1975186] [ 5] /lib64/libc.so.6(+0x96127)[0x1486c5719127]
+[x8000c0s0b0n0:1975184] [ 6] /lib64/libc.so.6(+0x96127)[0x14da1a330127]
+[x8000c0s0b0n0:1975182] [ 6] /lib64/libc.so.6(+0x96127)[0x14c13a7d4127]
+[x8000c0s0b0n0:1975185] [ 6] /lib64/libc.so.6(+0x96127)[0x1504875f0127]
+[x8000c0s0b0n0:1975183] [ 6] /lib64/libc.so.6(+0x96127)[0x147c670a7127]
+[x8000c0s0b0n0:1975186] [ 6] /lib64/libc.so.6(+0x97fff)[0x147c670a8fff]
+[x8000c0s0b0n0:1975186] [ 7] /lib64/libc.so.6(+0x97fff)[0x1486c571afff]
+[x8000c0s0b0n0:1975184] [ 7] /lib64/libc.so.6(free+0x55)[0x1486c571d465]
+[x8000c0s0b0n0:1975184] [ 8] /opt/cray/libfabric/2.3.1/lib64/libfabric.so.1(+0x5ed8f)[0x1486c5463d8f]
+[x8000c0s0b0n0:1975184] [ 9] /lib64/libc.so.6(+0x97fff)[0x14da1a331fff]
+[x8000c0s0b0n0:1975182] [ 7] /lib64/libc.so.6(free+0x55)[0x14da1a334465]
+[x8000c0s0b0n0:1975182] [ 8] /opt/cray/libfabric/2.3.1/lib64/libfabric.so.1(+0x5ed8f)[0x14da1a07ad8f]
+[x8000c0s0b0n0:1975182] [ 9] /lib64/libc.so.6(+0x97fff)[0x14c13a7d5fff]
+[x8000c0s0b0n0:1975185] [ 7] /lib64/libc.so.6(free+0x55)[0x14c13a7d8465]
+[x8000c0s0b0n0:1975185] [ 8] /opt/cray/libfabric/2.3.1/lib64/libfabric.so.1(+0x5ed8f)[0x14c13a51ed8f]
+[x8000c0s0b0n0:1975185] [ 9] /lib64/libc.so.6(+0x97fff)[0x1504875f1fff]
+[x8000c0s0b0n0:1975183] [ 7] /lib64/libc.so.6(free+0x55)[0x1504875f4465]
+[x8000c0s0b0n0:1975183] [ 8] /opt/cray/libfabric/2.3.1/lib64/libfabric.so.1(+0x5ed8f)[0x15048733ad8f]
+[x8000c0s0b0n0:1975183] [ 9] /lib64/libc.so.6(free+0x55)[0x147c670ab465]
+[x8000c0s0b0n0:1975186] [ 8] /opt/cray/libfabric/2.3.1/lib64/libfabric.so.1(+0x5ed8f)[0x147c66df1d8f]
+[x8000c0s0b0n0:1975186] [ 9] /data/apps/openmpi/5.0.10-gcc15.3-cpu/lib/libopen-pal.so.80(opal_common_ofi_fabric_release+0x2e)[0x1486c55e021e]
+[x8000c0s0b0n0:1975184] [10] /data/apps/openmpi/5.0.10-gcc15.3-cpu/lib/libopen-pal.so.80(opal_common_ofi_fabric_release+0x2e)[0x14da1a1f721e]
+[x8000c0s0b0n0:1975182] [10] /data/apps/openmpi/5.0.10-gcc15.3-cpu/lib/libopen-pal.so.80(opal_common_ofi_fabric_release+0x2e)[0x14c13a69b21e]
+[x8000c0s0b0n0:1975185] [10] /data/apps/openmpi/5.0.10-gcc15.3-cpu/lib/libopen-pal.so.80(opal_common_ofi_fabric_release+0x2e)[0x147c66f6e21e]
+[x8000c0s0b0n0:1975186] [10] /data/apps/openmpi/5.0.10-gcc15.3-cpu/lib/libopen-pal.so.80(opal_common_ofi_fabric_release+0x2e)[0x1504874b721e]
+[x8000c0s0b0n0:1975183] [10] /data/apps/openmpi/5.0.10-gcc15.3-cpu/lib/libopen-pal.so.80(+0x8c07a)[0x1486c55f407a]
+[x8000c0s0b0n0:1975184] [11] /data/apps/openmpi/5.0.10-gcc15.3-cpu/lib/libopen-pal.so.80(mca_btl_base_select+0xf8)[0x1486c55e2e88]
+[x8000c0s0b0n0:1975184] [12] /data/apps/openmpi/5.0.10-gcc15.3-cpu/lib/libopen-pal.so.80(+0x8c07a)[0x14da1a20b07a]
+[x8000c0s0b0n0:1975182] [11] /data/apps/openmpi/5.0.10-gcc15.3-cpu/lib/libopen-pal.so.80(mca_btl_base_select+0xf8)[0x14da1a1f9e88]
+[x8000c0s0b0n0:1975182] [12] /data/apps/openmpi/5.0.10-gcc15.3-cpu/lib/libopen-pal.so.80(+0x8c07a)[0x14c13a6af07a]
+[x8000c0s0b0n0:1975185] [11] /data/apps/openmpi/5.0.10-gcc15.3-cpu/lib/libopen-pal.so.80(mca_btl_base_select+0xf8)[0x14c13a69de88]
+[x8000c0s0b0n0:1975185] [12] /data/apps/openmpi/5.0.10-gcc15.3-cpu/lib/libopen-pal.so.80(+0x8c07a)[0x147c66f8207a]
+[x8000c0s0b0n0:1975186] [11] /data/apps/openmpi/5.0.10-gcc15.3-cpu/lib/libopen-pal.so.80(mca_btl_base_select+0xf8)[0x147c66f70e88]
+[x8000c0s0b0n0:1975186] [12] /data/apps/openmpi/5.0.10-gcc15.3-cpu/lib/libopen-pal.so.80(+0x8c07a)[0x1504874cb07a]
+[x8000c0s0b0n0:1975183] [11] /data/apps/openmpi/5.0.10-gcc15.3-cpu/lib/libopen-pal.so.80(mca_btl_base_select+0xf8)[0x1504874b9e88]
+[x8000c0s0b0n0:1975183] [12] /data/apps/openmpi/5.0.10-gcc15.3-cpu/lib/libmpi.so.40(mca_bml_r2_component_init+0x10)[0x1486c5d70c30]
+[x8000c0s0b0n0:1975184] [13] /data/apps/openmpi/5.0.10-gcc15.3-cpu/lib/libmpi.so.40(mca_bml_r2_component_init+0x10)[0x147c676fec30]
+[x8000c0s0b0n0:1975186] [13] /data/apps/openmpi/5.0.10-gcc15.3-cpu/lib/libmpi.so.40(mca_bml_r2_component_init+0x10)[0x14da1a987c30]
+[x8000c0s0b0n0:1975182] [13] /data/apps/openmpi/5.0.10-gcc15.3-cpu/lib/libmpi.so.40(mca_bml_r2_component_init+0x10)[0x14c13ae2bc30]
+[x8000c0s0b0n0:1975185] [13] /data/apps/openmpi/5.0.10-gcc15.3-cpu/lib/libmpi.so.40(mca_bml_r2_component_init+0x10)[0x150487c47c30]
+[x8000c0s0b0n0:1975183] [13] /data/apps/openmpi/5.0.10-gcc15.3-cpu/lib/libmpi.so.40(mca_bml_base_init+0x84)[0x1486c5d6edb4]
+[x8000c0s0b0n0:1975184] [14] /data/apps/openmpi/5.0.10-gcc15.3-cpu/lib/libmpi.so.40(mca_bml_base_init+0x84)[0x147c676fcdb4]
+[x8000c0s0b0n0:1975186] [14] /data/apps/openmpi/5.0.10-gcc15.3-cpu/lib/libmpi.so.40(mca_bml_base_init+0x84)[0x14da1a985db4]
+[x8000c0s0b0n0:1975182] [14] /data/apps/openmpi/5.0.10-gcc15.3-cpu/lib/libmpi.so.40(mca_bml_base_init+0x84)[0x14c13ae29db4]
+[x8000c0s0b0n0:1975185] [14] /data/apps/openmpi/5.0.10-gcc15.3-cpu/lib/libmpi.so.40(mca_bml_base_init+0x84)[0x150487c45db4]
+[x8000c0s0b0n0:1975183] [14] /data/apps/openmpi/5.0.10-gcc15.3-cpu/lib/libmpi.so.40(+0x229ceb)[0x1486c5eaaceb]
+[x8000c0s0b0n0:1975184] [15] /data/apps/openmpi/5.0.10-gcc15.3-cpu/lib/libmpi.so.40(+0x229ceb)[0x147c67838ceb]
+[x8000c0s0b0n0:1975186] [15] /data/apps/openmpi/5.0.10-gcc15.3-cpu/lib/libmpi.so.40(+0x229ceb)[0x14c13af65ceb]
+[x8000c0s0b0n0:1975185] [15] /data/apps/openmpi/5.0.10-gcc15.3-cpu/lib/libmpi.so.40(+0x229ceb)[0x14da1aac1ceb]
+[x8000c0s0b0n0:1975182] [15] /data/apps/openmpi/5.0.10-gcc15.3-cpu/lib/libmpi.so.40(+0x229ceb)[0x150487d81ceb]
+[x8000c0s0b0n0:1975183] [15] /data/apps/openmpi/5.0.10-gcc15.3-cpu/lib/libmpi.so.40(mca_pml_base_select+0x1b7)[0x1486c5ea7517]
+[x8000c0s0b0n0:1975184] [16] /data/apps/openmpi/5.0.10-gcc15.3-cpu/lib/libmpi.so.40(mca_pml_base_select+0x1b7)[0x147c67835517]
+[x8000c0s0b0n0:1975186] [16] /data/apps/openmpi/5.0.10-gcc15.3-cpu/lib/libmpi.so.40(mca_pml_base_select+0x1b7)[0x14c13af62517]
+[x8000c0s0b0n0:1975185] [16] /data/apps/openmpi/5.0.10-gcc15.3-cpu/lib/libmpi.so.40(mca_pml_base_select+0x1b7)[0x14da1aabe517]
+[x8000c0s0b0n0:1975182] [16] /data/apps/openmpi/5.0.10-gcc15.3-cpu/lib/libmpi.so.40(mca_pml_base_select+0x1b7)[0x150487d7e517]
+[x8000c0s0b0n0:1975183] [16] /data/apps/openmpi/5.0.10-gcc15.3-cpu/lib/libmpi.so.40(+0x93979)[0x1486c5d14979]
+[x8000c0s0b0n0:1975184] [17] /data/apps/openmpi/5.0.10-gcc15.3-cpu/lib/libmpi.so.40(+0x93979)[0x147c676a2979]
+[x8000c0s0b0n0:1975186] [17] /data/apps/openmpi/5.0.10-gcc15.3-cpu/lib/libmpi.so.40(+0x93979)[0x14c13adcf979]
+[x8000c0s0b0n0:1975185] [17] /data/apps/openmpi/5.0.10-gcc15.3-cpu/lib/libmpi.so.40(+0x93979)[0x14da1a92b979]
+[x8000c0s0b0n0:1975182] [17] /data/apps/openmpi/5.0.10-gcc15.3-cpu/lib/libmpi.so.40(ompi_mpi_instance_init+0x75)[0x1486c5d15105]
+[x8000c0s0b0n0:1975184] [18] /data/apps/openmpi/5.0.10-gcc15.3-cpu/lib/libmpi.so.40(ompi_mpi_instance_init+0x75)[0x147c676a3105]
+[x8000c0s0b0n0:1975186] [18] /data/apps/openmpi/5.0.10-gcc15.3-cpu/lib/libmpi.so.40(+0x93979)[0x150487beb979]
+[x8000c0s0b0n0:1975183] [17] /data/apps/openmpi/5.0.10-gcc15.3-cpu/lib/libmpi.so.40(ompi_mpi_instance_init+0x75)[0x14c13add0105]
+[x8000c0s0b0n0:1975185] [18] /data/apps/openmpi/5.0.10-gcc15.3-cpu/lib/libmpi.so.40(ompi_mpi_init+0x6b)[0x14c13adc794b]
+[x8000c0s0b0n0:1975185] [19] /data/apps/openmpi/5.0.10-gcc15.3-cpu/lib/libmpi.so.40(ompi_mpi_instance_init+0x75)[0x14da1a92c105]
+[x8000c0s0b0n0:1975182] [18] /data/apps/openmpi/5.0.10-gcc15.3-cpu/lib/libmpi.so.40(ompi_mpi_init+0x6b)[0x14da1a92394b]
+/data/apps/openmpi/5.0.10-gcc15.3-cpu/lib/libmpi.so.40(ompi_mpi_init+0x6b)[0x1486c5d0c94b]
+[x8000c0s0b0n0:1975184] [19] /data/apps/openmpi/5.0.10-gcc15.3-cpu/lib/libmpi.so.40(ompi_mpi_init+0x6b)[0x147c6769a94b]
+[x8000c0s0b0n0:1975186] [19] /data/apps/openmpi/5.0.10-gcc15.3-cpu/lib/libmpi.so.40(ompi_mpi_instance_init+0x75)[0x150487bec105]
+[x8000c0s0b0n0:1975183] [18] /data/apps/openmpi/5.0.10-gcc15.3-cpu/lib/libmpi.so.40(ompi_mpi_init+0x6b)[0x150487be394b]
+[x8000c0s0b0n0:1975183] [19] [x8000c0s0b0n0:1975182] [19] /data/apps/openmpi/5.0.10-gcc15.3-cpu/lib/libmpi.so.40(PMPI_Init_thread+0x6b)[0x1486c5d4014b]
+[x8000c0s0b0n0:1975184] [20] /scratch/users/ntu/gubo0002/sc26/hpl_hplmxp/LULESH/aspire2b/L01/build_ompi/lulesh2.0(main+0x4f)[0x4027cf]
+[x8000c0s0b0n0:1975184] [21] /data/apps/openmpi/5.0.10-gcc15.3-cpu/lib/libmpi.so.40(PMPI_Init_thread+0x6b)[0x147c676ce14b]
+[x8000c0s0b0n0:1975186] [20] /scratch/users/ntu/gubo0002/sc26/hpl_hplmxp/LULESH/aspire2b/L01/build_ompi/lulesh2.0(main+0x4f)[0x4027cf]
+[x8000c0s0b0n0:1975186] [21] /data/apps/openmpi/5.0.10-gcc15.3-cpu/lib/libmpi.so.40(PMPI_Init_thread+0x6b)[0x14c13adfb14b]
+[x8000c0s0b0n0:1975185] [20] /scratch/users/ntu/gubo0002/sc26/hpl_hplmxp/LULESH/aspire2b/L01/build_ompi/lulesh2.0(main+0x4f)[0x4027cf]
+[x8000c0s0b0n0:1975185] [21] /data/apps/openmpi/5.0.10-gcc15.3-cpu/lib/libmpi.so.40(PMPI_Init_thread+0x6b)[0x14da1a95714b]
+[x8000c0s0b0n0:1975182] [20] /scratch/users/ntu/gubo0002/sc26/hpl_hplmxp/LULESH/aspire2b/L01/build_ompi/lulesh2.0(main+0x4f)[0x4027cf]
+[x8000c0s0b0n0:1975182] [21] /data/apps/openmpi/5.0.10-gcc15.3-cpu/lib/libmpi.so.40(PMPI_Init_thread+0x6b)[0x150487c1714b]
+[x8000c0s0b0n0:1975183] [20] /scratch/users/ntu/gubo0002/sc26/hpl_hplmxp/LULESH/aspire2b/L01/build_ompi/lulesh2.0(main+0x4f)[0x4027cf]
+[x8000c0s0b0n0:1975183] [21] /lib64/libc.so.6(+0x295d0)[0x147c6703a5d0]
+[x8000c0s0b0n0:1975186] [22] /lib64/libc.so.6(__libc_start_main+0x80)[0x147c6703a680]
+/lib64/libc.so.6(+0x295d0)[0x14c13a7675d0]
+[x8000c0s0b0n0:1975185] [22] /lib64/libc.so.6(__libc_start_main+0x80)[0x14c13a767680]
+[x8000c0s0b0n0:1975185] [23] /scratch/users/ntu/gubo0002/sc26/hpl_hplmxp/LULESH/aspire2b/L01/build_ompi/lulesh2.0(_start+0x25)[0x405305]
+[x8000c0s0b0n0:1975185] *** End of error message ***
+/lib64/libc.so.6(+0x295d0)[0x1486c56ac5d0]
+[x8000c0s0b0n0:1975184] [22] /lib64/libc.so.6(__libc_start_main+0x80)[0x1486c56ac680]
+[x8000c0s0b0n0:1975184] [23] /scratch/users/ntu/gubo0002/sc26/hpl_hplmxp/LULESH/aspire2b/L01/build_ompi/lulesh2.0(_start+0x25)[0x405305]
+[x8000c0s0b0n0:1975184] *** End of error message ***
+/lib64/libc.so.6(+0x295d0)[0x14da1a2c35d0]
+[x8000c0s0b0n0:1975182] [22] /lib64/libc.so.6(__libc_start_main+0x80)[0x14da1a2c3680]
+[x8000c0s0b0n0:1975182] [23] /scratch/users/ntu/gubo0002/sc26/hpl_hplmxp/LULESH/aspire2b/L01/build_ompi/lulesh2.0(_start+0x25)[0x405305]
+[x8000c0s0b0n0:1975182] *** End of error message ***
+[x8000c0s0b0n0:1975186] [23] /scratch/users/ntu/gubo0002/sc26/hpl_hplmxp/LULESH/aspire2b/L01/build_ompi/lulesh2.0(_start+0x25)[0x405305]
+[x8000c0s0b0n0:1975186] *** End of error message ***
+/lib64/libc.so.6(+0x295d0)[0x1504875835d0]
+[x8000c0s0b0n0:1975183] [22] /lib64/libc.so.6(__libc_start_main+0x80)[0x150487583680]
+[x8000c0s0b0n0:1975183] [23] /scratch/users/ntu/gubo0002/sc26/hpl_hplmxp/LULESH/aspire2b/L01/build_ompi/lulesh2.0(_start+0x25)[0x405305]
+[x8000c0s0b0n0:1975183] *** End of error message ***
+--------------------------------------------------------------------------
+prterun noticed that process rank 6 with PID 1975188 on node x8000c0s0b0n0 exited on
+signal 6 (Aborted).
+--------------------------------------------------------------------------
