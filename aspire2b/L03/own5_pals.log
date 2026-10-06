@@ -1,0 +1,468 @@
+
+Lmod is automatically replacing "gcc-native/14" with "gcc/15.3.0-znver5".
+
+
+Lmod is automatically replacing "gcc-native/14" with "gcc/15.3.0-znver5".
+
+
+Note: the module "gcc-native" cannot be unloaded because it was not loaded.
+
+[asp2b-gpu026:585460] mca: base: components_register: registering framework pml components
+[asp2b-gpu026:585460] mca: base: components_register: found loaded component cm
+[asp2b-gpu026:585460] mca: base: components_register: component cm register function successful
+[asp2b-gpu026:585460] mca: base: components_register: found loaded component monitoring
+[asp2b-gpu026:585460] mca: base: components_register: component monitoring register function successful
+[asp2b-gpu026:585460] mca: base: components_register: found loaded component ob1
+[asp2b-gpu026:585460] mca: base: components_register: component ob1 register function successful
+[asp2b-gpu026:585460] mca: base: components_register: found loaded component v
+[asp2b-gpu026:585460] mca: base: components_register: component v register function successful
+[asp2b-gpu026:585460] mca: base: components_open: opening pml components
+[asp2b-gpu026:585460] mca: base: components_open: found loaded component cm
+[asp2b-gpu026:585460] mca: base: components_register: registering framework mtl components
+[asp2b-gpu026:585460] mca: base: components_register: found loaded component ofi
+[asp2b-gpu026:585460] mca: base: components_register: component ofi register function successful
+[asp2b-gpu026:585460] mca: base: components_open: opening mtl components
+[asp2b-gpu026:585460] mca: base: components_open: found loaded component ofi
+[asp2b-gpu026:585460] mca: base: components_open: component ofi open function successful
+[asp2b-gpu026:585460] mca: base: components_open: component cm open function successful
+[asp2b-gpu026:585460] mca: base: components_open: found loaded component monitoring
+[asp2b-gpu026:585460] mca: base: components_open: component monitoring open function successful
+[asp2b-gpu026:585460] mca: base: components_open: found loaded component ob1
+[asp2b-gpu026:585460] mca: base: components_open: component ob1 open function successful
+[asp2b-gpu026:585460] mca: base: components_open: found loaded component v
+[asp2b-gpu026:585460] mca: base: components_open: component v open function successful
+[asp2b-gpu026:585460] select: initializing pml component cm
+[asp2b-gpu026:585460] mca:base:select: Auto-selecting mtl components
+[asp2b-gpu026:585460] mca:base:select:(  mtl) Querying component [ofi]
+[asp2b-gpu026:585460] mca:base:select:(  mtl) Query of component [ofi] set priority to 25
+[asp2b-gpu026:585460] mca:base:select:(  mtl) Selected component [ofi]
+[asp2b-gpu026:585460] select: initializing mtl component ofi
+[asp2b-gpu008:3274071] mca: base: components_register: registering framework pml components
+[asp2b-gpu008:3274071] mca: base: components_register: found loaded component cm
+[asp2b-gpu008:3274071] mca: base: components_register: component cm register function successful
+[asp2b-gpu008:3274071] mca: base: components_register: found loaded component monitoring
+[asp2b-gpu008:3274071] mca: base: components_register: component monitoring register function successful
+[asp2b-gpu008:3274071] mca: base: components_register: found loaded component ob1
+[asp2b-gpu008:3274071] mca: base: components_register: component ob1 register function successful
+[asp2b-gpu008:3274071] mca: base: components_register: found loaded component v
+[asp2b-gpu008:3274071] mca: base: components_register: component v register function successful
+[asp2b-gpu008:3274071] mca: base: components_open: opening pml components
+[asp2b-gpu008:3274071] mca: base: components_open: found loaded component cm
+[asp2b-gpu008:3274071] mca: base: components_register: registering framework mtl components
+[asp2b-gpu008:3274071] mca: base: components_register: found loaded component ofi
+[asp2b-gpu008:3274071] mca: base: components_register: component ofi register function successful
+[asp2b-gpu008:3274071] mca: base: components_open: opening mtl components
+[asp2b-gpu008:3274071] mca: base: components_open: found loaded component ofi
+[asp2b-gpu008:3274071] mca: base: components_open: component ofi open function successful
+[asp2b-gpu008:3274071] mca: base: components_open: component cm open function successful
+[asp2b-gpu008:3274071] mca: base: components_open: found loaded component monitoring
+[asp2b-gpu008:3274071] mca: base: components_open: component monitoring open function successful
+[asp2b-gpu008:3274071] mca: base: components_open: found loaded component ob1
+[asp2b-gpu008:3274071] mca: base: components_open: component ob1 open function successful
+[asp2b-gpu008:3274071] mca: base: components_open: found loaded component v
+[asp2b-gpu008:3274071] mca: base: components_open: component v open function successful
+[asp2b-gpu008:3274071] select: initializing pml component cm
+[asp2b-gpu008:3274071] mca:base:select: Auto-selecting mtl components
+[asp2b-gpu008:3274071] mca:base:select:(  mtl) Querying component [ofi]
+[asp2b-gpu008:3274071] mca:base:select:(  mtl) Query of component [ofi] set priority to 25
+[asp2b-gpu008:3274071] mca:base:select:(  mtl) Selected component [ofi]
+[asp2b-gpu008:3274071] select: initializing mtl component ofi
+[asp2b-gpu026:585459] mca: base: components_register: registering framework pml components
+[asp2b-gpu026:585459] mca: base: components_register: found loaded component cm
+[asp2b-gpu026:585461] mca: base: components_register: registering framework pml components
+[asp2b-gpu026:585461] mca: base: components_register: found loaded component cm
+[asp2b-gpu026:585461] mca: base: components_register: component cm register function successful
+[asp2b-gpu026:585461] mca: base: components_register: found loaded component monitoring
+[asp2b-gpu026:585461] mca: base: components_register: component monitoring register function successful
+[asp2b-gpu026:585461] mca: base: components_register: found loaded component ob1
+[asp2b-gpu026:585461] mca: base: components_register: component ob1 register function successful
+[asp2b-gpu026:585461] mca: base: components_register: found loaded component v
+[asp2b-gpu026:585461] mca: base: components_register: component v register function successful
+[asp2b-gpu026:585461] mca: base: components_open: opening pml components
+[asp2b-gpu026:585461] mca: base: components_open: found loaded component cm
+[asp2b-gpu026:585461] mca: base: components_register: registering framework mtl components
+[asp2b-gpu026:585462] mca: base: components_register: registering framework pml components
+[asp2b-gpu026:585462] mca: base: components_register: found loaded component cm
+[asp2b-gpu026:585462] mca: base: components_register: component cm register function successful
+[asp2b-gpu026:585462] mca: base: components_register: found loaded component monitoring
+[asp2b-gpu026:585462] mca: base: components_register: component monitoring register function successful
+[asp2b-gpu026:585462] mca: base: components_register: found loaded component ob1
+[asp2b-gpu026:585462] mca: base: components_register: component ob1 register function successful
+[asp2b-gpu026:585462] mca: base: components_register: found loaded component v
+[asp2b-gpu026:585462] mca: base: components_register: component v register function successful
+[asp2b-gpu026:585462] mca: base: components_open: opening pml components
+[asp2b-gpu026:585462] mca: base: components_open: found loaded component cm
+[asp2b-gpu026:585462] mca: base: components_register: registering framework mtl components
+[asp2b-gpu026:585462] mca: base: components_register: found loaded component ofi
+[asp2b-gpu026:585462] mca: base: components_register: component ofi register function successful
+[asp2b-gpu026:585462] mca: base: components_open: opening mtl components
+[asp2b-gpu026:585462] mca: base: components_open: found loaded component ofi
+[asp2b-gpu026:585462] mca: base: components_open: component ofi open function successful
+[asp2b-gpu026:585462] mca: base: components_open: component cm open function successful
+[asp2b-gpu026:585462] mca: base: components_open: found loaded component monitoring
+[asp2b-gpu026:585462] mca: base: components_open: component monitoring open function successful
+[asp2b-gpu026:585462] mca: base: components_open: found loaded component ob1
+[asp2b-gpu026:585462] mca: base: components_open: component ob1 open function successful
+[asp2b-gpu026:585462] mca: base: components_open: found loaded component v
+[asp2b-gpu026:585459] mca: base: components_register: component cm register function successful
+[asp2b-gpu026:585459] mca: base: components_register: found loaded component monitoring
+[asp2b-gpu026:585459] mca: base: components_register: component monitoring register function successful
+[asp2b-gpu026:585459] mca: base: components_register: found loaded component ob1
+[asp2b-gpu026:585459] mca: base: components_register: component ob1 register function successful
+[asp2b-gpu026:585459] mca: base: components_register: found loaded component v
+[asp2b-gpu026:585459] mca: base: components_register: component v register function successful
+[asp2b-gpu026:585459] mca: base: components_open: opening pml components
+[asp2b-gpu026:585459] mca: base: components_open: found loaded component cm
+[asp2b-gpu026:585459] mca: base: components_register: registering framework mtl components
+[asp2b-gpu026:585459] mca: base: components_register: found loaded component ofi
+[asp2b-gpu026:585459] mca: base: components_register: component ofi register function successful
+[asp2b-gpu026:585459] mca: base: components_open: opening mtl components
+[asp2b-gpu026:585459] mca: base: components_open: found loaded component ofi
+[asp2b-gpu026:585459] mca: base: components_open: component ofi open function successful
+[asp2b-gpu026:585459] mca: base: components_open: component cm open function successful
+[asp2b-gpu026:585459] mca: base: components_open: found loaded component monitoring
+[asp2b-gpu026:585459] mca: base: components_open: component monitoring open function successful
+[asp2b-gpu026:585459] mca: base: components_open: found loaded component ob1
+[asp2b-gpu026:585459] mca: base: components_open: component ob1 open function successful
+[asp2b-gpu026:585459] mca: base: components_open: found loaded component v
+[asp2b-gpu026:585459] mca: base: components_open: component v open function successful
+[asp2b-gpu026:585461] mca: base: components_register: found loaded component ofi
+[asp2b-gpu026:585461] mca: base: components_register: component ofi register function successful
+[asp2b-gpu026:585461] mca: base: components_open: opening mtl components
+[asp2b-gpu026:585461] mca: base: components_open: found loaded component ofi
+[asp2b-gpu026:585461] mca: base: components_open: component ofi open function successful
+[asp2b-gpu026:585461] mca: base: components_open: component cm open function successful
+[asp2b-gpu026:585461] mca: base: components_open: found loaded component monitoring
+[asp2b-gpu026:585461] mca: base: components_open: component monitoring open function successful
+[asp2b-gpu026:585461] mca: base: components_open: found loaded component ob1
+[asp2b-gpu026:585461] mca: base: components_open: component ob1 open function successful
+[asp2b-gpu026:585461] mca: base: components_open: found loaded component v
+[asp2b-gpu026:585461] mca: base: components_open: component v open function successful
+[asp2b-gpu026:585462] mca: base: components_open: component v open function successful
+[asp2b-gpu026:585461] select: initializing pml component cm
+[asp2b-gpu026:585461] mca:base:select: Auto-selecting mtl components
+[asp2b-gpu026:585461] mca:base:select:(  mtl) Querying component [ofi]
+[asp2b-gpu026:585461] mca:base:select:(  mtl) Query of component [ofi] set priority to 25
+[asp2b-gpu026:585461] mca:base:select:(  mtl) Selected component [ofi]
+[asp2b-gpu026:585461] select: initializing mtl component ofi
+[asp2b-gpu026:585462] select: initializing pml component cm
+[asp2b-gpu026:585462] mca:base:select: Auto-selecting mtl components
+[asp2b-gpu026:585462] mca:base:select:(  mtl) Querying component [ofi]
+[asp2b-gpu026:585462] mca:base:select:(  mtl) Query of component [ofi] set priority to 25
+[asp2b-gpu026:585462] mca:base:select:(  mtl) Selected component [ofi]
+[asp2b-gpu026:585462] select: initializing mtl component ofi
+[asp2b-gpu026:585459] select: initializing pml component cm
+[asp2b-gpu026:585459] mca:base:select: Auto-selecting mtl components
+[asp2b-gpu026:585459] mca:base:select:(  mtl) Querying component [ofi]
+[asp2b-gpu026:585459] mca:base:select:(  mtl) Query of component [ofi] set priority to 25
+[asp2b-gpu026:585459] mca:base:select:(  mtl) Selected component [ofi]
+[asp2b-gpu026:585459] select: initializing mtl component ofi
+[asp2b-gpu008:3274070] mca: base: components_register: registering framework pml components
+[asp2b-gpu008:3274070] mca: base: components_register: found loaded component cm
+[asp2b-gpu008:3274073] mca: base: components_register: registering framework pml components
+[asp2b-gpu008:3274073] mca: base: components_register: found loaded component cm
+[asp2b-gpu008:3274073] mca: base: components_register: component cm register function successful
+[asp2b-gpu008:3274073] mca: base: components_register: found loaded component monitoring
+[asp2b-gpu008:3274073] mca: base: components_register: component monitoring register function successful
+[asp2b-gpu008:3274073] mca: base: components_register: found loaded component ob1
+[asp2b-gpu008:3274073] mca: base: components_register: component ob1 register function successful
+[asp2b-gpu008:3274073] mca: base: components_register: found loaded component v
+[asp2b-gpu008:3274073] mca: base: components_register: component v register function successful
+[asp2b-gpu008:3274073] mca: base: components_open: opening pml components
+[asp2b-gpu008:3274073] mca: base: components_open: found loaded component cm
+[asp2b-gpu008:3274073] mca: base: components_register: registering framework mtl components
+[asp2b-gpu008:3274073] mca: base: components_register: found loaded component ofi
+[asp2b-gpu008:3274070] mca: base: components_register: component cm register function successful
+[asp2b-gpu008:3274070] mca: base: components_register: found loaded component monitoring
+[asp2b-gpu008:3274070] mca: base: components_register: component monitoring register function successful
+[asp2b-gpu008:3274070] mca: base: components_register: found loaded component ob1
+[asp2b-gpu008:3274070] mca: base: components_register: component ob1 register function successful
+[asp2b-gpu008:3274070] mca: base: components_register: found loaded component v
+[asp2b-gpu008:3274070] mca: base: components_register: component v register function successful
+[asp2b-gpu008:3274070] mca: base: components_open: opening pml components
+[asp2b-gpu008:3274070] mca: base: components_open: found loaded component cm
+[asp2b-gpu008:3274070] mca: base: components_register: registering framework mtl components
+[asp2b-gpu008:3274070] mca: base: components_register: found loaded component ofi
+[asp2b-gpu008:3274070] mca: base: components_register: component ofi register function successful
+[asp2b-gpu008:3274070] mca: base: components_open: opening mtl components
+[asp2b-gpu008:3274070] mca: base: components_open: found loaded component ofi
+[asp2b-gpu008:3274070] mca: base: components_open: component ofi open function successful
+[asp2b-gpu008:3274070] mca: base: components_open: component cm open function successful
+[asp2b-gpu008:3274070] mca: base: components_open: found loaded component monitoring
+[asp2b-gpu008:3274070] mca: base: components_open: component monitoring open function successful
+[asp2b-gpu008:3274070] mca: base: components_open: found loaded component ob1
+[asp2b-gpu008:3274070] mca: base: components_open: component ob1 open function successful
+[asp2b-gpu008:3274070] mca: base: components_open: found loaded component v
+[asp2b-gpu008:3274070] mca: base: components_open: component v open function successful
+[asp2b-gpu008:3274073] mca: base: components_register: component ofi register function successful
+[asp2b-gpu008:3274073] mca: base: components_open: opening mtl components
+[asp2b-gpu008:3274073] mca: base: components_open: found loaded component ofi
+[asp2b-gpu008:3274073] mca: base: components_open: component ofi open function successful
+[asp2b-gpu008:3274073] mca: base: components_open: component cm open function successful
+[asp2b-gpu008:3274073] mca: base: components_open: found loaded component monitoring
+[asp2b-gpu008:3274073] mca: base: components_open: component monitoring open function successful
+[asp2b-gpu008:3274073] mca: base: components_open: found loaded component ob1
+[asp2b-gpu008:3274073] mca: base: components_open: component ob1 open function successful
+[asp2b-gpu008:3274073] mca: base: components_open: found loaded component v
+[asp2b-gpu008:3274073] mca: base: components_open: component v open function successful
+[asp2b-gpu008:3274073] select: initializing pml component cm
+[asp2b-gpu008:3274070] select: initializing pml component cm
+[asp2b-gpu008:3274070] mca:base:select: Auto-selecting mtl components
+[asp2b-gpu008:3274070] mca:base:select:(  mtl) Querying component [ofi]
+[asp2b-gpu008:3274070] mca:base:select:(  mtl) Query of component [ofi] set priority to 25
+[asp2b-gpu008:3274070] mca:base:select:(  mtl) Selected component [ofi]
+[asp2b-gpu008:3274073] mca:base:select: Auto-selecting mtl components
+[asp2b-gpu008:3274073] mca:base:select:(  mtl) Querying component [ofi]
+[asp2b-gpu008:3274073] mca:base:select:(  mtl) Query of component [ofi] set priority to 25
+[asp2b-gpu008:3274073] mca:base:select:(  mtl) Selected component [ofi]
+[asp2b-gpu008:3274073] select: initializing mtl component ofi
+[asp2b-gpu008:3274070] select: initializing mtl component ofi
+[asp2b-gpu008:3274072] mca: base: components_register: registering framework pml components
+[asp2b-gpu008:3274072] mca: base: components_register: found loaded component cm
+[asp2b-gpu008:3274072] mca: base: components_register: component cm register function successful
+[asp2b-gpu008:3274072] mca: base: components_register: found loaded component monitoring
+[asp2b-gpu008:3274072] mca: base: components_register: component monitoring register function successful
+[asp2b-gpu008:3274072] mca: base: components_register: found loaded component ob1
+[asp2b-gpu008:3274072] mca: base: components_register: component ob1 register function successful
+[asp2b-gpu008:3274072] mca: base: components_register: found loaded component v
+[asp2b-gpu008:3274072] mca: base: components_register: component v register function successful
+[asp2b-gpu008:3274072] mca: base: components_open: opening pml components
+[asp2b-gpu008:3274072] mca: base: components_open: found loaded component cm
+[asp2b-gpu008:3274072] mca: base: components_register: registering framework mtl components
+[asp2b-gpu008:3274072] mca: base: components_register: found loaded component ofi
+[asp2b-gpu008:3274072] mca: base: components_register: component ofi register function successful
+[asp2b-gpu008:3274072] mca: base: components_open: opening mtl components
+[asp2b-gpu008:3274072] mca: base: components_open: found loaded component ofi
+[asp2b-gpu008:3274072] mca: base: components_open: component ofi open function successful
+[asp2b-gpu008:3274072] mca: base: components_open: component cm open function successful
+[asp2b-gpu008:3274072] mca: base: components_open: found loaded component monitoring
+[asp2b-gpu008:3274072] mca: base: components_open: component monitoring open function successful
+[asp2b-gpu008:3274072] mca: base: components_open: found loaded component ob1
+[asp2b-gpu008:3274072] mca: base: components_open: component ob1 open function successful
+[asp2b-gpu008:3274072] mca: base: components_open: found loaded component v
+[asp2b-gpu008:3274072] mca: base: components_open: component v open function successful
+[asp2b-gpu008:3274072] select: initializing pml component cm
+[asp2b-gpu008:3274072] mca:base:select: Auto-selecting mtl components
+[asp2b-gpu008:3274072] mca:base:select:(  mtl) Querying component [ofi]
+[asp2b-gpu008:3274072] mca:base:select:(  mtl) Query of component [ofi] set priority to 25
+[asp2b-gpu008:3274072] mca:base:select:(  mtl) Selected component [ofi]
+[asp2b-gpu008:3274072] select: initializing mtl component ofi
+[asp2b-gpu008:3274071] select: init returned success
+[asp2b-gpu008:3274071] select: component ofi selected
+[asp2b-gpu008:3274071] select: init returned priority 25
+[asp2b-gpu008:3274071] select: component monitoring not in the include list
+[asp2b-gpu008:3274071] select: initializing pml component ob1
+[asp2b-gpu008:3274071] select: init returned priority 20
+[asp2b-gpu008:3274071] select: component v not in the include list
+[asp2b-gpu008:3274071] selected cm best priority 25
+[asp2b-gpu008:3274071] select: component cm selected
+[asp2b-gpu008:3274071] select: component ob1 not selected / finalized
+[asp2b-gpu008:3274071] mca: base: close: unloading component monitoring
+[asp2b-gpu008:3274071] mca: base: close: component ob1 closed
+[asp2b-gpu008:3274071] mca: base: close: unloading component ob1
+[asp2b-gpu008:3274071] mca: base: close: component v closed
+[asp2b-gpu008:3274071] mca: base: close: unloading component v
+[asp2b-gpu008:3274072] select: init returned success
+[asp2b-gpu008:3274072] select: component ofi selected
+[asp2b-gpu008:3274072] select: init returned priority 25
+[asp2b-gpu008:3274072] select: component monitoring not in the include list
+[asp2b-gpu008:3274072] select: initializing pml component ob1
+[asp2b-gpu008:3274072] select: init returned priority 20
+[asp2b-gpu008:3274072] select: component v not in the include list
+[asp2b-gpu008:3274072] selected cm best priority 25
+[asp2b-gpu008:3274072] select: component cm selected
+[asp2b-gpu008:3274072] select: component ob1 not selected / finalized
+[asp2b-gpu008:3274072] mca: base: close: unloading component monitoring
+[asp2b-gpu008:3274072] mca: base: close: component ob1 closed
+[asp2b-gpu008:3274072] mca: base: close: unloading component ob1
+[asp2b-gpu008:3274072] mca: base: close: component v closed
+[asp2b-gpu008:3274072] mca: base: close: unloading component v
+[asp2b-gpu008:3274070] select: init returned success
+[asp2b-gpu008:3274070] select: component ofi selected
+[asp2b-gpu008:3274070] select: init returned priority 25
+[asp2b-gpu008:3274070] select: component monitoring not in the include list
+[asp2b-gpu008:3274070] select: initializing pml component ob1
+[asp2b-gpu008:3274073] select: init returned success
+[asp2b-gpu008:3274073] select: component ofi selected
+[asp2b-gpu008:3274073] select: init returned priority 25
+[asp2b-gpu008:3274073] select: component monitoring not in the include list
+[asp2b-gpu008:3274073] select: initializing pml component ob1
+[asp2b-gpu008:3274070] select: init returned priority 20
+[asp2b-gpu008:3274070] select: component v not in the include list
+[asp2b-gpu008:3274070] selected cm best priority 25
+[asp2b-gpu008:3274070] select: component cm selected
+[asp2b-gpu008:3274070] select: component ob1 not selected / finalized
+[asp2b-gpu008:3274070] mca: base: close: unloading component monitoring
+[asp2b-gpu008:3274070] mca: base: close: component ob1 closed
+[asp2b-gpu008:3274070] mca: base: close: unloading component ob1
+[asp2b-gpu008:3274070] mca: base: close: component v closed
+[asp2b-gpu008:3274070] mca: base: close: unloading component v
+[asp2b-gpu008:3274073] select: init returned priority 20
+[asp2b-gpu008:3274073] select: component v not in the include list
+[asp2b-gpu008:3274073] selected cm best priority 25
+[asp2b-gpu008:3274073] select: component cm selected
+[asp2b-gpu008:3274073] select: component ob1 not selected / finalized
+[asp2b-gpu008:3274073] mca: base: close: unloading component monitoring
+[asp2b-gpu008:3274073] mca: base: close: component ob1 closed
+[asp2b-gpu008:3274073] mca: base: close: unloading component ob1
+[asp2b-gpu008:3274073] mca: base: close: component v closed
+[asp2b-gpu008:3274073] mca: base: close: unloading component v
+[asp2b-gpu026:585460] select: init returned success
+[asp2b-gpu026:585460] select: component ofi selected
+[asp2b-gpu026:585460] select: init returned priority 25
+[asp2b-gpu026:585460] select: component monitoring not in the include list
+[asp2b-gpu026:585460] select: initializing pml component ob1
+[asp2b-gpu026:585459] select: init returned success
+[asp2b-gpu026:585459] select: component ofi selected
+[asp2b-gpu026:585459] select: init returned priority 25
+[asp2b-gpu026:585459] select: component monitoring not in the include list
+[asp2b-gpu026:585459] select: initializing pml component ob1
+[asp2b-gpu026:585462] select: init returned success
+[asp2b-gpu026:585462] select: component ofi selected
+[asp2b-gpu026:585462] select: init returned priority 25
+[asp2b-gpu026:585462] select: component monitoring not in the include list
+[asp2b-gpu026:585462] select: initializing pml component ob1
+[asp2b-gpu026:585462] select: init returned priority 20
+[asp2b-gpu026:585462] select: component v not in the include list
+[asp2b-gpu026:585462] selected cm best priority 25
+[asp2b-gpu026:585462] select: component cm selected
+[asp2b-gpu026:585462] select: component ob1 not selected / finalized
+[asp2b-gpu026:585462] mca: base: close: unloading component monitoring
+[asp2b-gpu026:585462] mca: base: close: component ob1 closed
+[asp2b-gpu026:585462] mca: base: close: unloading component ob1
+[asp2b-gpu026:585462] mca: base: close: component v closed
+[asp2b-gpu026:585462] mca: base: close: unloading component v
+[asp2b-gpu026:585460] select: init returned priority 20
+[asp2b-gpu026:585460] select: component v not in the include list
+[asp2b-gpu026:585460] selected cm best priority 25
+[asp2b-gpu026:585460] select: component cm selected
+[asp2b-gpu026:585460] select: component ob1 not selected / finalized
+[asp2b-gpu026:585460] mca: base: close: unloading component monitoring
+[asp2b-gpu026:585460] mca: base: close: component ob1 closed
+[asp2b-gpu026:585460] mca: base: close: unloading component ob1
+[asp2b-gpu026:585460] mca: base: close: component v closed
+[asp2b-gpu026:585460] mca: base: close: unloading component v
+[asp2b-gpu026:585461] select: init returned success
+[asp2b-gpu026:585461] select: component ofi selected
+[asp2b-gpu026:585461] select: init returned priority 25
+[asp2b-gpu026:585461] select: component monitoring not in the include list
+[asp2b-gpu026:585461] select: initializing pml component ob1
+[asp2b-gpu026:585461] select: init returned priority 20
+[asp2b-gpu026:585461] select: component v not in the include list
+[asp2b-gpu026:585461] selected cm best priority 25
+[asp2b-gpu026:585461] select: component cm selected
+[asp2b-gpu026:585461] select: component ob1 not selected / finalized
+[asp2b-gpu026:585461] mca: base: close: unloading component monitoring
+[asp2b-gpu026:585461] mca: base: close: component ob1 closed
+[asp2b-gpu026:585461] mca: base: close: unloading component ob1
+[asp2b-gpu026:585461] mca: base: close: component v closed
+[asp2b-gpu026:585461] mca: base: close: unloading component v
+[asp2b-gpu026:585459] select: init returned priority 20
+[asp2b-gpu026:585459] select: component v not in the include list
+[asp2b-gpu026:585459] selected cm best priority 25
+[asp2b-gpu026:585459] select: component cm selected
+[asp2b-gpu026:585459] select: component ob1 not selected / finalized
+[asp2b-gpu026:585459] mca: base: close: unloading component monitoring
+[asp2b-gpu026:585459] mca: base: close: component ob1 closed
+[asp2b-gpu026:585459] mca: base: close: unloading component ob1
+[asp2b-gpu026:585459] mca: base: close: component v closed
+[asp2b-gpu026:585459] mca: base: close: unloading component v
+[asp2b-gpu026:585459] check:select: PML check not necessary on self
+[asp2b-gpu026:585460] check:select: checking my pml cm against process [[34818,0],0] pml cm
+[asp2b-gpu026:585462] check:select: checking my pml cm against process [[34818,0],0] pml cm
+[asp2b-gpu026:585461] check:select: checking my pml cm against process [[34818,0],0] pml cm
+[asp2b-gpu008:3274071] check:select: checking my pml cm against process [[34818,0],0] pml cm
+[asp2b-gpu008:3274073] check:select: checking my pml cm against process [[34818,0],0] pml cm
+[asp2b-gpu008:3274070] check:select: checking my pml cm against process [[34818,0],0] pml cm
+[asp2b-gpu008:3274072] check:select: checking my pml cm against process [[34818,0],0] pml cm
+[asp2b-gpu026:585462] check:select: checking my pml cm against process [[34818,0],0] pml cm
+[asp2b-gpu026:585459] check:select: PML check not necessary on self
+[asp2b-gpu026:585460] check:select: checking my pml cm against process [[34818,0],0] pml cm
+[asp2b-gpu026:585461] check:select: checking my pml cm against process [[34818,0],0] pml cm
+[asp2b-gpu026:585459] check:select: PML check not necessary on self
+[asp2b-gpu008:3274071] check:select: checking my pml cm against process [[34818,0],0] pml cm
+[asp2b-gpu026:585460] check:select: checking my pml cm against process [[34818,0],0] pml cm
+[asp2b-gpu008:3274070] check:select: checking my pml cm against process [[34818,0],0] pml cm
+[asp2b-gpu026:585461] check:select: checking my pml cm against process [[34818,0],0] pml cm
+[asp2b-gpu026:585462] check:select: checking my pml cm against process [[34818,0],0] pml cm
+[asp2b-gpu026:585462] check:select: checking my pml cm against process [[34818,0],0] pml cm
+[asp2b-gpu026:585462] check:select: checking my pml cm against process [[34818,0],0] pml cm
+[asp2b-gpu008:3274070] check:select: checking my pml cm against process [[34818,0],0] pml cm
+[asp2b-gpu026:585459] check:select: PML check not necessary on self
+[asp2b-gpu026:585459] check:select: PML check not necessary on self
+[asp2b-gpu008:3274071] check:select: checking my pml cm against process [[34818,0],0] pml cm
+[asp2b-gpu026:585460] check:select: checking my pml cm against process [[34818,0],0] pml cm
+[asp2b-gpu026:585460] check:select: checking my pml cm against process [[34818,0],0] pml cm
+[asp2b-gpu008:3274073] check:select: checking my pml cm against process [[34818,0],0] pml cm
+[asp2b-gpu026:585461] check:select: checking my pml cm against process [[34818,0],0] pml cm
+[asp2b-gpu026:585461] check:select: checking my pml cm against process [[34818,0],0] pml cm
+[asp2b-gpu008:3274070] check:select: checking my pml cm against process [[34818,0],0] pml cm
+[asp2b-gpu008:3274071] check:select: checking my pml cm against process [[34818,0],0] pml cm
+[asp2b-gpu008:3274071] check:select: checking my pml cm against process [[34818,0],0] pml cm
+[asp2b-gpu008:3274070] check:select: checking my pml cm against process [[34818,0],0] pml cm
+[asp2b-gpu008:3274072] check:select: checking my pml cm against process [[34818,0],0] pml cm
+[asp2b-gpu008:3274073] check:select: checking my pml cm against process [[34818,0],0] pml cm
+[asp2b-gpu008:3274073] check:select: checking my pml cm against process [[34818,0],0] pml cm
+[asp2b-gpu008:3274073] check:select: checking my pml cm against process [[34818,0],0] pml cm
+[asp2b-gpu008:3274072] check:select: checking my pml cm against process [[34818,0],0] pml cm
+[asp2b-gpu008:3274072] check:select: checking my pml cm against process [[34818,0],0] pml cm
+[asp2b-gpu008:3274072] check:select: checking my pml cm against process [[34818,0],0] pml cm
+[asp2b-gpu008:3274072] mca: base: close: component ofi closed
+[asp2b-gpu008:3274072] mca: base: close: unloading component ofi
+[asp2b-gpu008:3274071] mca: base: close: component ofi closed
+[asp2b-gpu008:3274071] mca: base: close: unloading component ofi
+[asp2b-gpu008:3274071] mca: base: close: component cm closed
+[asp2b-gpu008:3274071] mca: base: close: unloading component cm
+[asp2b-gpu008:3274072] mca: base: close: component cm closed
+[asp2b-gpu008:3274072] mca: base: close: unloading component cm
+[asp2b-gpu008:3274070] mca: base: close: component ofi closed
+[asp2b-gpu008:3274070] mca: base: close: unloading component ofi
+[asp2b-gpu008:3274070] mca: base: close: component cm closed
+[asp2b-gpu008:3274070] mca: base: close: unloading component cm
+[asp2b-gpu008:3274073] mca: base: close: component ofi closed
+[asp2b-gpu008:3274073] mca: base: close: unloading component ofi
+[asp2b-gpu008:3274073] mca: base: close: component cm closed
+[asp2b-gpu008:3274073] mca: base: close: unloading component cm
+[asp2b-gpu026:585460] mca: base: close: component ofi closed
+[asp2b-gpu026:585460] mca: base: close: unloading component ofi
+[asp2b-gpu026:585460] mca: base: close: component cm closed
+[asp2b-gpu026:585460] mca: base: close: unloading component cm
+[asp2b-gpu026:585459] mca: base: close: component ofi closed
+[asp2b-gpu026:585459] mca: base: close: unloading component ofi
+[asp2b-gpu026:585459] mca: base: close: component cm closed
+[asp2b-gpu026:585459] mca: base: close: unloading component cm
+[asp2b-gpu026:585461] mca: base: close: component ofi closed
+[asp2b-gpu026:585461] mca: base: close: unloading component ofi
+[asp2b-gpu026:585461] mca: base: close: component cm closed
+[asp2b-gpu026:585461] mca: base: close: unloading component cm
+[asp2b-gpu026:585462] mca: base: close: component ofi closed
+[asp2b-gpu026:585462] mca: base: close: unloading component ofi
+[asp2b-gpu026:585462] mca: base: close: component cm closed
+[asp2b-gpu026:585462] mca: base: close: unloading component cm
+Running problem size 30^3 per domain until completion
+Num processors: 8
+Num threads: 1
+Total number of elements: 216000 
+
+To run other sizes, use -s <integer>.
+To run a fixed number of iterations, use -i <integer>.
+To run a more or less balanced region set, use -b <integer>.
+To change the relative costs of regions, use -c <integer>.
+To print out progress, use -p
+To write an output file for VisIt, use -v
+See help (-h) for more options
+
+Run completed:
+   Problem size        =  30
+   MPI tasks           =  8
+   Iteration count     =  100
+   Final Origin Energy =  1.058138e+07
+   Testing Plane 0 of Energy Array on rank 0:
+        MaxAbsDiff   = 1.164153e-09
+        TotalAbsDiff = 3.756704e-09
+        MaxRelDiff   = 2.876908e-13
+
+Elapsed time         =       0.95 (s)
+Grind time (us/z/c)  = 0.35192139 (per dom)  (0.95018777 overall)
+FOM                  =  22732.349 (z/s)
+

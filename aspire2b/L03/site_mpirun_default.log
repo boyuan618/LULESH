@@ -1,0 +1,530 @@
+
+Lmod is automatically replacing "gcc-native/14" with "gcc/15.3.0-znver5".
+
+
+Lmod is automatically replacing "gcc-native/14" with "gcc/15.3.0-znver5".
+
+[asp2b-gpu026:577170] mca: base: components_register: registering framework pml components
+[asp2b-gpu026:577170] mca: base: components_register: found loaded component cm
+[asp2b-gpu026:577171] mca: base: components_register: registering framework pml components
+[asp2b-gpu026:577171] mca: base: components_register: found loaded component cm
+[asp2b-gpu026:577171] mca: base: components_register: component cm register function successful
+[asp2b-gpu026:577171] mca: base: components_register: found loaded component monitoring
+[asp2b-gpu026:577170] mca: base: components_register: component cm register function successful
+[asp2b-gpu026:577170] mca: base: components_register: found loaded component monitoring
+[asp2b-gpu026:577171] mca: base: components_register: component monitoring register function successful
+[asp2b-gpu026:577170] mca: base: components_register: component monitoring register function successful
+[asp2b-gpu026:577170] mca: base: components_register: found loaded component ob1
+[asp2b-gpu026:577171] mca: base: components_register: found loaded component ob1
+[asp2b-gpu026:577170] mca: base: components_register: component ob1 register function successful
+[asp2b-gpu026:577171] mca: base: components_register: component ob1 register function successful
+[asp2b-gpu026:577171] mca: base: components_register: found loaded component v
+[asp2b-gpu026:577170] mca: base: components_register: found loaded component v
+[asp2b-gpu026:577170] mca: base: components_register: component v register function successful
+[asp2b-gpu026:577170] mca: base: components_open: opening pml components
+[asp2b-gpu026:577170] mca: base: components_open: found loaded component cm
+[asp2b-gpu026:577171] mca: base: components_register: component v register function successful
+[asp2b-gpu026:577171] mca: base: components_open: opening pml components
+[asp2b-gpu026:577171] mca: base: components_open: found loaded component cm
+[asp2b-gpu026:577170] mca: base: components_register: registering framework mtl components
+[asp2b-gpu026:577170] mca: base: components_register: found loaded component ofi
+[asp2b-gpu026:577171] mca: base: components_register: registering framework mtl components
+[asp2b-gpu026:577171] mca: base: components_register: found loaded component ofi
+[asp2b-gpu026:577170] mca: base: components_register: component ofi register function successful
+[asp2b-gpu026:577171] mca: base: components_register: component ofi register function successful
+[asp2b-gpu026:577171] mca: base: components_open: opening mtl components
+[asp2b-gpu026:577171] mca: base: components_open: found loaded component ofi
+[asp2b-gpu026:577170] mca: base: components_open: opening mtl components
+[asp2b-gpu026:577170] mca: base: components_open: found loaded component ofi
+[asp2b-gpu026:577170] mca: base: components_open: component ofi open function successful
+[asp2b-gpu026:577170] mca: base: components_open: component cm open function successful
+[asp2b-gpu026:577170] mca: base: components_open: found loaded component monitoring
+[asp2b-gpu026:577170] mca: base: components_open: component monitoring open function successful
+[asp2b-gpu026:577170] mca: base: components_open: found loaded component ob1
+[asp2b-gpu026:577170] mca: base: components_open: component ob1 open function successful
+[asp2b-gpu026:577171] mca: base: components_open: component ofi open function successful
+[asp2b-gpu026:577171] mca: base: components_open: component cm open function successful
+[asp2b-gpu026:577171] mca: base: components_open: found loaded component monitoring
+[asp2b-gpu026:577171] mca: base: components_open: component monitoring open function successful
+[asp2b-gpu026:577171] mca: base: components_open: found loaded component ob1
+[asp2b-gpu026:577171] mca: base: components_open: component ob1 open function successful
+[asp2b-gpu026:577171] mca: base: components_open: found loaded component v
+[asp2b-gpu026:577170] mca: base: components_open: found loaded component v
+[asp2b-gpu026:577171] mca: base: components_open: component v open function successful
+[asp2b-gpu026:577170] mca: base: components_open: component v open function successful
+[asp2b-gpu026:577172] mca: base: components_register: registering framework pml components
+[asp2b-gpu026:577172] mca: base: components_register: found loaded component cm
+[asp2b-gpu026:577169] mca: base: components_register: registering framework pml components
+[asp2b-gpu026:577169] mca: base: components_register: found loaded component cm
+[asp2b-gpu026:577172] mca: base: components_register: component cm register function successful
+[asp2b-gpu026:577172] mca: base: components_register: found loaded component monitoring
+[asp2b-gpu026:577169] mca: base: components_register: component cm register function successful
+[asp2b-gpu026:577169] mca: base: components_register: found loaded component monitoring
+[asp2b-gpu026:577172] mca: base: components_register: component monitoring register function successful
+[asp2b-gpu026:577172] mca: base: components_register: found loaded component ob1
+[asp2b-gpu026:577169] mca: base: components_register: component monitoring register function successful
+[asp2b-gpu026:577169] mca: base: components_register: found loaded component ob1
+[asp2b-gpu026:577172] mca: base: components_register: component ob1 register function successful
+[asp2b-gpu026:577172] mca: base: components_register: found loaded component v
+[asp2b-gpu026:577169] mca: base: components_register: component ob1 register function successful
+[asp2b-gpu026:577172] mca: base: components_register: component v register function successful
+[asp2b-gpu026:577172] mca: base: components_open: opening pml components
+[asp2b-gpu026:577172] mca: base: components_open: found loaded component cm
+[asp2b-gpu026:577169] mca: base: components_register: found loaded component v
+[asp2b-gpu026:577172] mca: base: components_register: registering framework mtl components
+[asp2b-gpu026:577172] mca: base: components_register: found loaded component ofi
+[asp2b-gpu026:577169] mca: base: components_register: component v register function successful
+[asp2b-gpu026:577169] mca: base: components_open: opening pml components
+[asp2b-gpu026:577169] mca: base: components_open: found loaded component cm
+[asp2b-gpu026:577169] mca: base: components_register: registering framework mtl components
+[asp2b-gpu026:577169] mca: base: components_register: found loaded component ofi
+[asp2b-gpu026:577172] mca: base: components_register: component ofi register function successful
+[asp2b-gpu026:577172] mca: base: components_open: opening mtl components
+[asp2b-gpu026:577172] mca: base: components_open: found loaded component ofi
+[asp2b-gpu026:577172] mca: base: components_open: component ofi open function successful
+[asp2b-gpu026:577172] mca: base: components_open: component cm open function successful
+[asp2b-gpu026:577172] mca: base: components_open: found loaded component monitoring
+[asp2b-gpu026:577169] mca: base: components_register: component ofi register function successful
+[asp2b-gpu026:577172] mca: base: components_open: component monitoring open function successful
+[asp2b-gpu026:577172] mca: base: components_open: found loaded component ob1
+[asp2b-gpu026:577172] mca: base: components_open: component ob1 open function successful
+[asp2b-gpu026:577172] mca: base: components_open: found loaded component v
+[asp2b-gpu026:577169] mca: base: components_open: opening mtl components
+[asp2b-gpu026:577169] mca: base: components_open: found loaded component ofi
+[asp2b-gpu026:577169] mca: base: components_open: component ofi open function successful
+[asp2b-gpu026:577169] mca: base: components_open: component cm open function successful
+[asp2b-gpu026:577169] mca: base: components_open: found loaded component monitoring
+[asp2b-gpu026:577169] mca: base: components_open: component monitoring open function successful
+[asp2b-gpu026:577169] mca: base: components_open: found loaded component ob1
+[asp2b-gpu026:577169] mca: base: components_open: component ob1 open function successful
+[asp2b-gpu026:577169] mca: base: components_open: found loaded component v
+[asp2b-gpu026:577172] mca: base: components_open: component v open function successful
+[asp2b-gpu026:577169] mca: base: components_open: component v open function successful
+[asp2b-gpu026:577171] select: initializing pml component cm
+[asp2b-gpu026:577171] mca:base:select: Auto-selecting mtl components
+[asp2b-gpu026:577171] mca:base:select:(  mtl) Querying component [ofi]
+[asp2b-gpu026:577171] mca:base:select:(  mtl) Query of component [ofi] set priority to 25
+[asp2b-gpu026:577171] mca:base:select:(  mtl) Selected component [ofi]
+[asp2b-gpu026:577171] select: initializing mtl component ofi
+[asp2b-gpu026:577170] select: initializing pml component cm
+[asp2b-gpu026:577170] mca:base:select: Auto-selecting mtl components
+[asp2b-gpu026:577170] mca:base:select:(  mtl) Querying component [ofi]
+[asp2b-gpu026:577170] mca:base:select:(  mtl) Query of component [ofi] set priority to 25
+[asp2b-gpu026:577170] mca:base:select:(  mtl) Selected component [ofi]
+[asp2b-gpu026:577170] select: initializing mtl component ofi
+[asp2b-gpu026:577172] select: initializing pml component cm
+[asp2b-gpu026:577172] mca:base:select: Auto-selecting mtl components
+[asp2b-gpu026:577172] mca:base:select:(  mtl) Querying component [ofi]
+[asp2b-gpu026:577172] mca:base:select:(  mtl) Query of component [ofi] set priority to 25
+[asp2b-gpu026:577172] mca:base:select:(  mtl) Selected component [ofi]
+[asp2b-gpu026:577172] select: initializing mtl component ofi
+[asp2b-gpu026:577169] select: initializing pml component cm
+[asp2b-gpu026:577169] mca:base:select: Auto-selecting mtl components
+[asp2b-gpu026:577169] mca:base:select:(  mtl) Querying component [ofi]
+[asp2b-gpu026:577169] mca:base:select:(  mtl) Query of component [ofi] set priority to 25
+[asp2b-gpu026:577169] mca:base:select:(  mtl) Selected component [ofi]
+[asp2b-gpu026:577169] select: initializing mtl component ofi
+[asp2b-gpu026:577171] select: init returned failure for component ofi
+[asp2b-gpu026:577171] select: no component selected
+[asp2b-gpu026:577171] select: init returned failure for component cm
+[asp2b-gpu026:577171] select: component monitoring not in the include list
+[asp2b-gpu026:577171] select: initializing pml component ob1
+--------------------------------------------------------------------------
+Open MPI failed an OFI Libfabric library call (fi_domain).  This is highly
+unusual; your job may behave unpredictably (and/or abort) after this.
+
+  Local host: asp2b-gpu026
+  Location: ../../../../../ompi/mca/mtl/ofi/mtl_ofi_component.c:1009
+  Error: Function not implemented (38)
+--------------------------------------------------------------------------
+ free(): double free detected in tcache 2
+[asp2b-gpu026:577171] *** Process received signal ***
+[asp2b-gpu026:577171] Signal: Aborted (6)
+[asp2b-gpu026:577171] Signal code:  (-6)
+[asp2b-gpu026:577171] [ 0] /lib64/libc.so.6(+0x3ebf0)[0x154dc024fbf0]
+[asp2b-gpu026:577171] [ 1] /lib64/libc.so.6(+0x8c07c)[0x154dc029d07c]
+[asp2b-gpu026:577171] [ 2] /lib64/libc.so.6(raise+0x16)[0x154dc024fb46]
+[asp2b-gpu026:577171] [ 3] /lib64/libc.so.6(abort+0xd3)[0x154dc0239833]
+[asp2b-gpu026:577171] [ 4] /lib64/libc.so.6(+0x29172)[0x154dc023a172]
+[asp2b-gpu026:577171] [ 5] /lib64/libc.so.6(+0x96127)[0x154dc02a7127]
+[asp2b-gpu026:577171] [ 6] /lib64/libc.so.6(+0x97fff)[0x154dc02a8fff]
+[asp2b-gpu026:577171] [ 7] /lib64/libc.so.6(free+0x55)[0x154dc02ab465]
+[asp2b-gpu026:577171] [ 8] /opt/cray/libfabric/2.3.1/lib64/libfabric.so.1(+0x5ed8f)[0x154dbfff1d8f]
+[asp2b-gpu026:577171] [ 9] /data/apps/openmpi/5.0.10-gcc15.3-cuda13.0/lib/libopen-pal.so.80(opal_common_ofi_fabric_release+0x2e)[0x154dc016e21e]
+[asp2b-gpu026:577171] [10] /data/apps/openmpi/5.0.10-gcc15.3-cuda13.0/lib/libopen-pal.so.80(+0x8c0fa)[0x154dc01820fa]
+[asp2b-gpu026:577171] [11] /data/apps/openmpi/5.0.10-gcc15.3-cuda13.0/lib/libopen-pal.so.80(mca_btl_base_select+0xf8)[0x154dc0170e88]
+[asp2b-gpu026:577171] [12] /data/apps/openmpi/5.0.10-gcc15.3-cuda13.0/lib/libmpi.so.40(mca_bml_r2_component_init+0x10)[0x154dc08fec30]
+[asp2b-gpu026:577171] [13] /data/apps/openmpi/5.0.10-gcc15.3-cuda13.0/lib/libmpi.so.40(mca_bml_base_init+0x84)[0x154dc08fcdb4]
+[asp2b-gpu026:577171] [14] /data/apps/openmpi/5.0.10-gcc15.3-cuda13.0/lib/libmpi.so.40(+0x22bb2b)[0x154dc0a3ab2b]
+[asp2b-gpu026:577171] [15] /data/apps/openmpi/5.0.10-gcc15.3-cuda13.0/lib/libmpi.so.40(mca_pml_base_select+0x1b7)[0x154dc0a37297]
+[asp2b-gpu026:577171] [16] /data/apps/openmpi/5.0.10-gcc15.3-cuda13.0/lib/libmpi.so.40(+0x93979)[0x154dc08a2979]
+[asp2b-gpu026:577171] [17] /data/apps/openmpi/5.0.10-gcc15.3-cuda13.0/lib/libmpi.so.40(ompi_mpi_instance_init+0x75)[0x154dc08a3105]
+[asp2b-gpu026:577171] [18] /data/apps/openmpi/5.0.10-gcc15.3-cuda13.0/lib/libmpi.so.40(ompi_mpi_init+0x6b)[0x154dc089a94b]
+[asp2b-gpu026:577171] [19] /data/apps/openmpi/5.0.10-gcc15.3-cuda13.0/lib/libmpi.so.40(PMPI_Init_thread+0x6b)[0x154dc08ce14b]
+[asp2b-gpu026:577171] [20] /scratch/users/ntu/gubo0002/sc26/hpl_hplmxp/LULESH/aspire2b/L03/build_site/lulesh2.0(main+0x4f)[0x4027cf]
+[asp2b-gpu026:577171] [21] /lib64/libc.so.6(+0x295d0)[0x154dc023a5d0]
+[asp2b-gpu026:577171] [22] /lib64/libc.so.6(__libc_start_main+0x80)[0x154dc023a680]
+[asp2b-gpu026:577171] [23] /scratch/users/ntu/gubo0002/sc26/hpl_hplmxp/LULESH/aspire2b/L03/build_site/lulesh2.0(_start+0x25)[0x405305]
+[asp2b-gpu026:577171] *** End of error message ***
+[asp2b-gpu026:577172] select: init returned failure for component ofi
+[asp2b-gpu026:577172] select: no component selected
+[asp2b-gpu026:577172] select: init returned failure for component cm
+[asp2b-gpu026:577172] select: component monitoring not in the include list
+[asp2b-gpu026:577172] select: initializing pml component ob1
+free(): double free detected in tcache 2
+[asp2b-gpu026:577172] *** Process received signal ***
+[asp2b-gpu026:577172] Signal: Aborted (6)
+[asp2b-gpu026:577172] Signal code:  (-6)
+[asp2b-gpu026:577172] [ 0] /lib64/libc.so.6(+0x3ebf0)[0x1525d036cbf0]
+[asp2b-gpu026:577172] [ 1] /lib64/libc.so.6(+0x8c07c)[0x1525d03ba07c]
+[asp2b-gpu026:577172] [ 2] /lib64/libc.so.6(raise+0x16)[0x1525d036cb46]
+[asp2b-gpu026:577172] [ 3] /lib64/libc.so.6(abort+0xd3)[0x1525d0356833]
+[asp2b-gpu026:577172] [ 4] /lib64/libc.so.6(+0x29172)[0x1525d0357172]
+[asp2b-gpu026:577172] [ 5] /lib64/libc.so.6(+0x96127)[0x1525d03c4127]
+[asp2b-gpu026:577172] [ 6] /lib64/libc.so.6(+0x97fff)[0x1525d03c5fff]
+[asp2b-gpu026:577172] [ 7] /lib64/libc.so.6(free+0x55)[0x1525d03c8465]
+[asp2b-gpu026:577172] [ 8] /opt/cray/libfabric/2.3.1/lib64/libfabric.so.1(+0x5ed8f)[0x1525d010ed8f]
+[asp2b-gpu026:577172] [ 9] /data/apps/openmpi/5.0.10-gcc15.3-cuda13.0/lib/libopen-pal.so.80(opal_common_ofi_fabric_release+0x2e)[0x1525d028b21e]
+[asp2b-gpu026:577172] [10] /data/apps/openmpi/5.0.10-gcc15.3-cuda13.0/lib/libopen-pal.so.80(+0x8c0fa)[0x1525d029f0fa]
+[asp2b-gpu026:577172] [11] /data/apps/openmpi/5.0.10-gcc15.3-cuda13.0/lib/libopen-pal.so.80(mca_btl_base_select+0xf8)[0x1525d028de88]
+[asp2b-gpu026:577172] [12] /data/apps/openmpi/5.0.10-gcc15.3-cuda13.0/lib/libmpi.so.40(mca_bml_r2_component_init+0x10)[0x1525d0a1bc30]
+[asp2b-gpu026:577172] [13] /data/apps/openmpi/5.0.10-gcc15.3-cuda13.0/lib/libmpi.so.40(mca_bml_base_init+0x84)[0x1525d0a19db4]
+[asp2b-gpu026:577172] [14] /data/apps/openmpi/5.0.10-gcc15.3-cuda13.0/lib/libmpi.so.40(+0x22bb2b)[0x1525d0b57b2b]
+[asp2b-gpu026:577172] [15] /data/apps/openmpi/5.0.10-gcc15.3-cuda13.0/lib/libmpi.so.40(mca_pml_base_select+0x1b7)[0x1525d0b54297]
+[asp2b-gpu026:577172] [16] /data/apps/openmpi/5.0.10-gcc15.3-cuda13.0/lib/libmpi.so.40(+0x93979)[0x1525d09bf979]
+[asp2b-gpu026:577172] [17] /data/apps/openmpi/5.0.10-gcc15.3-cuda13.0/lib/libmpi.so.40(ompi_mpi_instance_init+0x75)[0x1525d09c0105]
+[asp2b-gpu026:577172] [18] /data/apps/openmpi/5.0.10-gcc15.3-cuda13.0/lib/libmpi.so.40(ompi_mpi_init+0x6b)[0x1525d09b794b]
+[asp2b-gpu026:577172] [19] /data/apps/openmpi/5.0.10-gcc15.3-cuda13.0/lib/libmpi.so.40(PMPI_Init_thread+0x6b)[0x1525d09eb14b]
+[asp2b-gpu026:577172] [20] /scratch/users/ntu/gubo0002/sc26/hpl_hplmxp/LULESH/aspire2b/L03/build_site/lulesh2.0(main+0x4f)[0x4027cf]
+[asp2b-gpu026:577172] [21] /lib64/libc.so.6(+0x295d0)[0x1525d03575d0]
+[asp2b-gpu026:577172] [22] /lib64/libc.so.6(__libc_start_main+0x80)[0x1525d0357680]
+[asp2b-gpu026:577172] [23] /scratch/users/ntu/gubo0002/sc26/hpl_hplmxp/LULESH/aspire2b/L03/build_site/lulesh2.0(_start+0x25)[0x405305]
+[asp2b-gpu026:577172] *** End of error message ***
+[asp2b-gpu026:577170] select: init returned failure for component ofi
+[asp2b-gpu026:577170] select: no component selected
+[asp2b-gpu026:577170] select: init returned failure for component cm
+[asp2b-gpu026:577170] select: component monitoring not in the include list
+[asp2b-gpu026:577170] select: initializing pml component ob1
+free(): double free detected in tcache 2
+[asp2b-gpu026:577170] *** Process received signal ***
+[asp2b-gpu026:577170] Signal: Aborted (6)
+[asp2b-gpu026:577170] Signal code:  (-6)
+[asp2b-gpu026:577170] [ 0] /lib64/libc.so.6(+0x3ebf0)[0x149621091bf0]
+[asp2b-gpu026:577170] [ 1] /lib64/libc.so.6(+0x8c07c)[0x1496210df07c]
+[asp2b-gpu026:577170] [ 2] /lib64/libc.so.6(raise+0x16)[0x149621091b46]
+[asp2b-gpu026:577170] [ 3] /lib64/libc.so.6(abort+0xd3)[0x14962107b833]
+[asp2b-gpu026:577170] [ 4] /lib64/libc.so.6(+0x29172)[0x14962107c172]
+[asp2b-gpu026:577170] [ 5] /lib64/libc.so.6(+0x96127)[0x1496210e9127]
+[asp2b-gpu026:577170] [ 6] /lib64/libc.so.6(+0x97fff)[0x1496210eafff]
+[asp2b-gpu026:577170] [ 7] /lib64/libc.so.6(free+0x55)[0x1496210ed465]
+[asp2b-gpu026:577170] [ 8] /opt/cray/libfabric/2.3.1/lib64/libfabric.so.1(+0x5ed8f)[0x149620e33d8f]
+[asp2b-gpu026:577170] [ 9] /data/apps/openmpi/5.0.10-gcc15.3-cuda13.0/lib/libopen-pal.so.80(opal_common_ofi_fabric_release+0x2e)[0x149620fb021e]
+[asp2b-gpu026:577170] [10] /data/apps/openmpi/5.0.10-gcc15.3-cuda13.0/lib/libopen-pal.so.80(+0x8c0fa)[0x149620fc40fa]
+[asp2b-gpu026:577170] [11] /data/apps/openmpi/5.0.10-gcc15.3-cuda13.0/lib/libopen-pal.so.80(mca_btl_base_select+0xf8)[0x149620fb2e88]
+[asp2b-gpu026:577170] [12] /data/apps/openmpi/5.0.10-gcc15.3-cuda13.0/lib/libmpi.so.40(mca_bml_r2_component_init+0x10)[0x149621740c30]
+[asp2b-gpu026:577170] [13] /data/apps/openmpi/5.0.10-gcc15.3-cuda13.0/lib/libmpi.so.40(mca_bml_base_init+0x84)[0x14962173edb4]
+[asp2b-gpu026:577170] [14] /data/apps/openmpi/5.0.10-gcc15.3-cuda13.0/lib/libmpi.so.40(+0x22bb2b)[0x14962187cb2b]
+[asp2b-gpu026:577170] [15] /data/apps/openmpi/5.0.10-gcc15.3-cuda13.0/lib/libmpi.so.40(mca_pml_base_select+0x1b7)[0x149621879297]
+[asp2b-gpu026:577170] [16] /data/apps/openmpi/5.0.10-gcc15.3-cuda13.0/lib/libmpi.so.40(+0x93979)[0x1496216e4979]
+[asp2b-gpu026:577170] [17] /data/apps/openmpi/5.0.10-gcc15.3-cuda13.0/lib/libmpi.so.40(ompi_mpi_instance_init+0x75)[0x1496216e5105]
+[asp2b-gpu026:577170] [18] /data/apps/openmpi/5.0.10-gcc15.3-cuda13.0/lib/libmpi.so.40(ompi_mpi_init+0x6b)[0x1496216dc94b]
+[asp2b-gpu026:577170] [19] /data/apps/openmpi/5.0.10-gcc15.3-cuda13.0/lib/libmpi.so.40(PMPI_Init_thread+0x6b)[0x14962171014b]
+[asp2b-gpu026:577170] [20] /scratch/users/ntu/gubo0002/sc26/hpl_hplmxp/LULESH/aspire2b/L03/build_site/lulesh2.0(main+0x4f)[0x4027cf]
+[asp2b-gpu026:577170] [21] /lib64/libc.so.6(+0x295d0)[0x14962107c5d0]
+[asp2b-gpu026:577170] [22] /lib64/libc.so.6(__libc_start_main+0x80)[0x14962107c680]
+[asp2b-gpu026:577170] [23] /scratch/users/ntu/gubo0002/sc26/hpl_hplmxp/LULESH/aspire2b/L03/build_site/lulesh2.0(_start+0x25)[0x405305]
+[asp2b-gpu026:577170] *** End of error message ***
+[asp2b-gpu008:3268678] mca: base: components_register: registering framework pml components
+[asp2b-gpu008:3268678] mca: base: components_register: found loaded component cm
+[asp2b-gpu008:3268677] mca: base: components_register: registering framework pml components
+[asp2b-gpu008:3268677] mca: base: components_register: found loaded component cm
+[asp2b-gpu008:3268677] mca: base: components_register: component cm register function successful
+[asp2b-gpu008:3268677] mca: base: components_register: found loaded component monitoring
+[asp2b-gpu008:3268679] mca: base: components_register: registering framework pml components
+[asp2b-gpu008:3268679] mca: base: components_register: found loaded component cm
+[asp2b-gpu008:3268679] mca: base: components_register: component cm register function successful
+[asp2b-gpu008:3268679] mca: base: components_register: found loaded component monitoring
+[asp2b-gpu008:3268679] mca: base: components_register: component monitoring register function successful
+[asp2b-gpu008:3268680] mca: base: components_register: registering framework pml components
+[asp2b-gpu008:3268680] mca: base: components_register: found loaded component cm
+[asp2b-gpu008:3268680] mca: base: components_register: component cm register function successful
+[asp2b-gpu008:3268680] mca: base: components_register: found loaded component monitoring
+[asp2b-gpu008:3268680] mca: base: components_register: component monitoring register function successful
+[asp2b-gpu008:3268680] mca: base: components_register: found loaded component ob1
+[asp2b-gpu008:3268678] mca: base: components_register: component cm register function successful
+[asp2b-gpu008:3268678] mca: base: components_register: found loaded component monitoring
+[asp2b-gpu008:3268678] mca: base: components_register: component monitoring register function successful
+[asp2b-gpu008:3268678] mca: base: components_register: found loaded component ob1
+[asp2b-gpu008:3268677] mca: base: components_register: component monitoring register function successful
+[asp2b-gpu008:3268677] mca: base: components_register: found loaded component ob1
+[asp2b-gpu008:3268679] mca: base: components_register: found loaded component ob1
+[asp2b-gpu008:3268679] mca: base: components_register: component ob1 register function successful
+[asp2b-gpu008:3268679] mca: base: components_register: found loaded component v
+[asp2b-gpu008:3268680] mca: base: components_register: component ob1 register function successful
+[asp2b-gpu008:3268680] mca: base: components_register: found loaded component v
+[asp2b-gpu008:3268680] mca: base: components_register: component v register function successful
+[asp2b-gpu008:3268680] mca: base: components_open: opening pml components
+[asp2b-gpu008:3268680] mca: base: components_open: found loaded component cm
+[asp2b-gpu008:3268680] mca: base: components_register: registering framework mtl components
+[asp2b-gpu008:3268680] mca: base: components_register: found loaded component ofi
+[asp2b-gpu008:3268677] mca: base: components_register: component ob1 register function successful
+[asp2b-gpu008:3268677] mca: base: components_register: found loaded component v
+[asp2b-gpu008:3268677] mca: base: components_register: component v register function successful
+[asp2b-gpu008:3268677] mca: base: components_open: opening pml components
+[asp2b-gpu008:3268677] mca: base: components_open: found loaded component cm
+[asp2b-gpu008:3268677] mca: base: components_register: registering framework mtl components
+[asp2b-gpu008:3268677] mca: base: components_register: found loaded component ofi
+[asp2b-gpu008:3268678] mca: base: components_register: component ob1 register function successful
+[asp2b-gpu008:3268678] mca: base: components_register: found loaded component v
+[asp2b-gpu008:3268678] mca: base: components_register: component v register function successful
+[asp2b-gpu008:3268678] mca: base: components_open: opening pml components
+[asp2b-gpu008:3268678] mca: base: components_open: found loaded component cm
+[asp2b-gpu008:3268679] mca: base: components_register: component v register function successful
+[asp2b-gpu008:3268679] mca: base: components_open: opening pml components
+[asp2b-gpu008:3268679] mca: base: components_open: found loaded component cm
+[asp2b-gpu008:3268679] mca: base: components_register: registering framework mtl components
+[asp2b-gpu008:3268679] mca: base: components_register: found loaded component ofi
+[asp2b-gpu008:3268678] mca: base: components_register: registering framework mtl components
+[asp2b-gpu008:3268678] mca: base: components_register: found loaded component ofi
+[asp2b-gpu008:3268680] mca: base: components_register: component ofi register function successful
+[asp2b-gpu008:3268679] mca: base: components_register: component ofi register function successful
+[asp2b-gpu008:3268679] mca: base: components_open: opening mtl components
+[asp2b-gpu008:3268679] mca: base: components_open: found loaded component ofi
+[asp2b-gpu008:3268677] mca: base: components_register: component ofi register function successful
+[asp2b-gpu008:3268677] mca: base: components_open: opening mtl components
+[asp2b-gpu008:3268677] mca: base: components_open: found loaded component ofi
+[asp2b-gpu008:3268677] mca: base: components_open: component ofi open function successful
+[asp2b-gpu008:3268677] mca: base: components_open: component cm open function successful
+[asp2b-gpu008:3268677] mca: base: components_open: found loaded component monitoring
+[asp2b-gpu008:3268677] mca: base: components_open: component monitoring open function successful
+[asp2b-gpu008:3268677] mca: base: components_open: found loaded component ob1
+[asp2b-gpu008:3268677] mca: base: components_open: component ob1 open function successful
+[asp2b-gpu008:3268677] mca: base: components_open: found loaded component v
+[asp2b-gpu008:3268678] mca: base: components_register: component ofi register function successful
+[asp2b-gpu008:3268678] mca: base: components_open: opening mtl components
+[asp2b-gpu008:3268678] mca: base: components_open: found loaded component ofi
+[asp2b-gpu008:3268678] mca: base: components_open: component ofi open function successful
+[asp2b-gpu008:3268678] mca: base: components_open: component cm open function successful
+[asp2b-gpu008:3268678] mca: base: components_open: found loaded component monitoring
+[asp2b-gpu008:3268678] mca: base: components_open: component monitoring open function successful
+[asp2b-gpu008:3268678] mca: base: components_open: found loaded component ob1
+[asp2b-gpu008:3268678] mca: base: components_open: component ob1 open function successful
+[asp2b-gpu008:3268678] mca: base: components_open: found loaded component v
+[asp2b-gpu008:3268680] mca: base: components_open: opening mtl components
+[asp2b-gpu008:3268680] mca: base: components_open: found loaded component ofi
+[asp2b-gpu008:3268680] mca: base: components_open: component ofi open function successful
+[asp2b-gpu008:3268680] mca: base: components_open: component cm open function successful
+[asp2b-gpu008:3268680] mca: base: components_open: found loaded component monitoring
+[asp2b-gpu008:3268680] mca: base: components_open: component monitoring open function successful
+[asp2b-gpu008:3268680] mca: base: components_open: found loaded component ob1
+[asp2b-gpu008:3268680] mca: base: components_open: component ob1 open function successful
+[asp2b-gpu008:3268680] mca: base: components_open: found loaded component v
+[asp2b-gpu008:3268679] mca: base: components_open: component ofi open function successful
+[asp2b-gpu008:3268679] mca: base: components_open: component cm open function successful
+[asp2b-gpu008:3268679] mca: base: components_open: found loaded component monitoring
+[asp2b-gpu008:3268679] mca: base: components_open: component monitoring open function successful
+[asp2b-gpu008:3268679] mca: base: components_open: found loaded component ob1
+[asp2b-gpu008:3268679] mca: base: components_open: component ob1 open function successful
+[asp2b-gpu008:3268679] mca: base: components_open: found loaded component v
+[asp2b-gpu008:3268679] mca: base: components_open: component v open function successful
+[asp2b-gpu008:3268677] mca: base: components_open: component v open function successful
+[asp2b-gpu008:3268678] mca: base: components_open: component v open function successful
+[asp2b-gpu008:3268680] mca: base: components_open: component v open function successful
+[asp2b-gpu026:577169] select: init returned failure for component ofi
+[asp2b-gpu026:577169] select: no component selected
+[asp2b-gpu026:577169] select: init returned failure for component cm
+[asp2b-gpu026:577169] select: component monitoring not in the include list
+[asp2b-gpu026:577169] select: initializing pml component ob1
+free(): double free detected in tcache 2
+[asp2b-gpu026:577169] *** Process received signal ***
+[asp2b-gpu026:577169] Signal: Aborted (6)
+[asp2b-gpu026:577169] Signal code:  (-6)
+[asp2b-gpu026:577169] [ 0] /lib64/libc.so.6(+0x3ebf0)[0x14de1d740bf0]
+[asp2b-gpu026:577169] [ 1] /lib64/libc.so.6(+0x8c07c)[0x14de1d78e07c]
+[asp2b-gpu026:577169] [ 2] /lib64/libc.so.6(raise+0x16)[0x14de1d740b46]
+[asp2b-gpu026:577169] [ 3] /lib64/libc.so.6(abort+0xd3)[0x14de1d72a833]
+[asp2b-gpu026:577169] [ 4] /lib64/libc.so.6(+0x29172)[0x14de1d72b172]
+[asp2b-gpu026:577169] [ 5] /lib64/libc.so.6(+0x96127)[0x14de1d798127]
+[asp2b-gpu026:577169] [ 6] /lib64/libc.so.6(+0x97fff)[0x14de1d799fff]
+[asp2b-gpu026:577169] [ 7] /lib64/libc.so.6(free+0x55)[0x14de1d79c465]
+[asp2b-gpu026:577169] [ 8] /opt/cray/libfabric/2.3.1/lib64/libfabric.so.1(+0x5ed8f)[0x14de1d4e2d8f]
+[asp2b-gpu026:577169] [ 9] /data/apps/openmpi/5.0.10-gcc15.3-cuda13.0/lib/libopen-pal.so.80(opal_common_ofi_fabric_release+0x2e)[0x14de1d65f21e]
+[asp2b-gpu026:577169] [10] /data/apps/openmpi/5.0.10-gcc15.3-cuda13.0/lib/libopen-pal.so.80(+0x8c0fa)[0x14de1d6730fa]
+[asp2b-gpu026:577169] [11] /data/apps/openmpi/5.0.10-gcc15.3-cuda13.0/lib/libopen-pal.so.80(mca_btl_base_select+0xf8)[0x14de1d661e88]
+[asp2b-gpu026:577169] [12] /data/apps/openmpi/5.0.10-gcc15.3-cuda13.0/lib/libmpi.so.40(mca_bml_r2_component_init+0x10)[0x14de1ddefc30]
+[asp2b-gpu026:577169] [13] /data/apps/openmpi/5.0.10-gcc15.3-cuda13.0/lib/libmpi.so.40(mca_bml_base_init+0x84)[0x14de1ddeddb4]
+[asp2b-gpu026:577169] [14] /data/apps/openmpi/5.0.10-gcc15.3-cuda13.0/lib/libmpi.so.40(+0x22bb2b)[0x14de1df2bb2b]
+[asp2b-gpu026:577169] [15] /data/apps/openmpi/5.0.10-gcc15.3-cuda13.0/lib/libmpi.so.40(mca_pml_base_select+0x1b7)[0x14de1df28297]
+[asp2b-gpu026:577169] [16] /data/apps/openmpi/5.0.10-gcc15.3-cuda13.0/lib/libmpi.so.40(+0x93979)[0x14de1dd93979]
+[asp2b-gpu026:577169] [17] /data/apps/openmpi/5.0.10-gcc15.3-cuda13.0/lib/libmpi.so.40(ompi_mpi_instance_init+0x75)[0x14de1dd94105]
+[asp2b-gpu026:577169] [18] /data/apps/openmpi/5.0.10-gcc15.3-cuda13.0/lib/libmpi.so.40(ompi_mpi_init+0x6b)[0x14de1dd8b94b]
+[asp2b-gpu026:577169] [19] /data/apps/openmpi/5.0.10-gcc15.3-cuda13.0/lib/libmpi.so.40(PMPI_Init_thread+0x6b)[0x14de1ddbf14b]
+[asp2b-gpu026:577169] [20] /scratch/users/ntu/gubo0002/sc26/hpl_hplmxp/LULESH/aspire2b/L03/build_site/lulesh2.0(main+0x4f)[0x4027cf]
+[asp2b-gpu026:577169] [21] /lib64/libc.so.6(+0x295d0)[0x14de1d72b5d0]
+[asp2b-gpu026:577169] [22] /lib64/libc.so.6(__libc_start_main+0x80)[0x14de1d72b680]
+[asp2b-gpu026:577169] [23] /scratch/users/ntu/gubo0002/sc26/hpl_hplmxp/LULESH/aspire2b/L03/build_site/lulesh2.0(_start+0x25)[0x405305]
+[asp2b-gpu026:577169] *** End of error message ***
+[asp2b-gpu008:3268680] select: initializing pml component cm
+[asp2b-gpu008:3268680] mca:base:select: Auto-selecting mtl components
+[asp2b-gpu008:3268680] mca:base:select:(  mtl) Querying component [ofi]
+[asp2b-gpu008:3268680] mca:base:select:(  mtl) Query of component [ofi] set priority to 25
+[asp2b-gpu008:3268680] mca:base:select:(  mtl) Selected component [ofi]
+[asp2b-gpu008:3268680] select: initializing mtl component ofi
+[asp2b-gpu008:3268677] select: initializing pml component cm
+[asp2b-gpu008:3268677] mca:base:select: Auto-selecting mtl components
+[asp2b-gpu008:3268677] mca:base:select:(  mtl) Querying component [ofi]
+[asp2b-gpu008:3268677] mca:base:select:(  mtl) Query of component [ofi] set priority to 25
+[asp2b-gpu008:3268677] mca:base:select:(  mtl) Selected component [ofi]
+[asp2b-gpu008:3268677] select: initializing mtl component ofi
+[asp2b-gpu008:3268678] select: initializing pml component cm
+[asp2b-gpu008:3268678] mca:base:select: Auto-selecting mtl components
+[asp2b-gpu008:3268678] mca:base:select:(  mtl) Querying component [ofi]
+[asp2b-gpu008:3268678] mca:base:select:(  mtl) Query of component [ofi] set priority to 25
+[asp2b-gpu008:3268678] mca:base:select:(  mtl) Selected component [ofi]
+[asp2b-gpu008:3268678] select: initializing mtl component ofi
+[asp2b-gpu008:3268679] select: initializing pml component cm
+[asp2b-gpu008:3268679] mca:base:select: Auto-selecting mtl components
+[asp2b-gpu008:3268679] mca:base:select:(  mtl) Querying component [ofi]
+[asp2b-gpu008:3268679] mca:base:select:(  mtl) Query of component [ofi] set priority to 25
+[asp2b-gpu008:3268679] mca:base:select:(  mtl) Selected component [ofi]
+[asp2b-gpu008:3268679] select: initializing mtl component ofi
+[asp2b-gpu008:3268678] select: init returned failure for component ofi
+[asp2b-gpu008:3268678] select: no component selected
+[asp2b-gpu008:3268678] select: init returned failure for component cm
+[asp2b-gpu008:3268678] select: component monitoring not in the include list
+[asp2b-gpu008:3268678] select: initializing pml component ob1
+free(): double free detected in tcache 2
+[asp2b-gpu008:3268678] *** Process received signal ***
+[asp2b-gpu008:3268678] Signal: Aborted (6)
+[asp2b-gpu008:3268678] Signal code:  (-6)
+[asp2b-gpu008:3268678] [ 0] /lib64/libc.so.6(+0x3ebf0)[0x14c65a6c0bf0]
+[asp2b-gpu008:3268678] [ 1] /lib64/libc.so.6(+0x8c07c)[0x14c65a70e07c]
+[asp2b-gpu008:3268678] [ 2] /lib64/libc.so.6(raise+0x16)[0x14c65a6c0b46]
+[asp2b-gpu008:3268678] [ 3] /lib64/libc.so.6(abort+0xd3)[0x14c65a6aa833]
+[asp2b-gpu008:3268678] [ 4] /lib64/libc.so.6(+0x29172)[0x14c65a6ab172]
+[asp2b-gpu008:3268678] [ 5] /lib64/libc.so.6(+0x96127)[0x14c65a718127]
+[asp2b-gpu008:3268678] [ 6] /lib64/libc.so.6(+0x97fff)[0x14c65a719fff]
+[asp2b-gpu008:3268678] [ 7] /lib64/libc.so.6(free+0x55)[0x14c65a71c465]
+[asp2b-gpu008:3268678] [ 8] /opt/cray/libfabric/2.3.1/lib64/libfabric.so.1(+0x5ed8f)[0x14c65a462d8f]
+[asp2b-gpu008:3268678] [ 9] /data/apps/openmpi/5.0.10-gcc15.3-cuda13.0/lib/libopen-pal.so.80(opal_common_ofi_fabric_release+0x2e)[0x14c65a5df21e]
+[asp2b-gpu008:3268678] [10] /data/apps/openmpi/5.0.10-gcc15.3-cuda13.0/lib/libopen-pal.so.80(+0x8c0fa)[0x14c65a5f30fa]
+[asp2b-gpu008:3268678] [11] /data/apps/openmpi/5.0.10-gcc15.3-cuda13.0/lib/libopen-pal.so.80(mca_btl_base_select+0xf8)[0x14c65a5e1e88]
+[asp2b-gpu008:3268678] [12] /data/apps/openmpi/5.0.10-gcc15.3-cuda13.0/lib/libmpi.so.40(mca_bml_r2_component_init+0x10)[0x14c65ad6fc30]
+[asp2b-gpu008:3268678] [13] /data/apps/openmpi/5.0.10-gcc15.3-cuda13.0/lib/libmpi.so.40(mca_bml_base_init+0x84)[0x14c65ad6ddb4]
+[asp2b-gpu008:3268678] [14] /data/apps/openmpi/5.0.10-gcc15.3-cuda13.0/lib/libmpi.so.40(+0x22bb2b)[0x14c65aeabb2b]
+[asp2b-gpu008:3268678] [15] /data/apps/openmpi/5.0.10-gcc15.3-cuda13.0/lib/libmpi.so.40(mca_pml_base_select+0x1b7)[0x14c65aea8297]
+[asp2b-gpu008:3268678] [16] /data/apps/openmpi/5.0.10-gcc15.3-cuda13.0/lib/libmpi.so.40(+0x93979)[0x14c65ad13979]
+[asp2b-gpu008:3268678] [17] /data/apps/openmpi/5.0.10-gcc15.3-cuda13.0/lib/libmpi.so.40(ompi_mpi_instance_init+0x75)[0x14c65ad14105]
+[asp2b-gpu008:3268678] [18] /data/apps/openmpi/5.0.10-gcc15.3-cuda13.0/lib/libmpi.so.40(ompi_mpi_init+0x6b)[0x14c65ad0b94b]
+[asp2b-gpu008:3268678] [19] /data/apps/openmpi/5.0.10-gcc15.3-cuda13.0/lib/libmpi.so.40(PMPI_Init_thread+0x6b)[0x14c65ad3f14b]
+[asp2b-gpu008:3268678] [20] /scratch/users/ntu/gubo0002/sc26/hpl_hplmxp/LULESH/aspire2b/L03/build_site/lulesh2.0(main+0x4f)[0x4027cf]
+[asp2b-gpu008:3268678] [21] /lib64/libc.so.6(+0x295d0)[0x14c65a6ab5d0]
+[asp2b-gpu008:3268678] [22] /lib64/libc.so.6(__libc_start_main+0x80)[0x14c65a6ab680]
+[asp2b-gpu008:3268678] [23] /scratch/users/ntu/gubo0002/sc26/hpl_hplmxp/LULESH/aspire2b/L03/build_site/lulesh2.0(_start+0x25)[0x405305]
+[asp2b-gpu008:3268678] *** End of error message ***
+[asp2b-gpu008:3268679] select: init returned failure for component ofi
+[asp2b-gpu008:3268679] select: no component selected
+[asp2b-gpu008:3268679] select: init returned failure for component cm
+[asp2b-gpu008:3268679] select: component monitoring not in the include list
+[asp2b-gpu008:3268679] select: initializing pml component ob1
+free(): double free detected in tcache 2
+[asp2b-gpu008:3268679] *** Process received signal ***
+[asp2b-gpu008:3268679] Signal: Aborted (6)
+[asp2b-gpu008:3268679] Signal code:  (-6)
+[asp2b-gpu008:3268679] [ 0] /lib64/libc.so.6(+0x3ebf0)[0x14620e43cbf0]
+[asp2b-gpu008:3268679] [ 1] /lib64/libc.so.6(+0x8c07c)[0x14620e48a07c]
+[asp2b-gpu008:3268679] [ 2] /lib64/libc.so.6(raise+0x16)[0x14620e43cb46]
+[asp2b-gpu008:3268679] [ 3] /lib64/libc.so.6(abort+0xd3)[0x14620e426833]
+[asp2b-gpu008:3268679] [ 4] /lib64/libc.so.6(+0x29172)[0x14620e427172]
+[asp2b-gpu008:3268679] [ 5] /lib64/libc.so.6(+0x96127)[0x14620e494127]
+[asp2b-gpu008:3268679] [ 6] /lib64/libc.so.6(+0x97fff)[0x14620e495fff]
+[asp2b-gpu008:3268679] [ 7] /lib64/libc.so.6(free+0x55)[0x14620e498465]
+[asp2b-gpu008:3268679] [ 8] /opt/cray/libfabric/2.3.1/lib64/libfabric.so.1(+0x5ed8f)[0x14620e1ded8f]
+[asp2b-gpu008:3268679] [ 9] /data/apps/openmpi/5.0.10-gcc15.3-cuda13.0/lib/libopen-pal.so.80(opal_common_ofi_fabric_release+0x2e)[0x14620e35b21e]
+[asp2b-gpu008:3268679] [10] /data/apps/openmpi/5.0.10-gcc15.3-cuda13.0/lib/libopen-pal.so.80(+0x8c0fa)[0x14620e36f0fa]
+[asp2b-gpu008:3268679] [11] /data/apps/openmpi/5.0.10-gcc15.3-cuda13.0/lib/libopen-pal.so.80(mca_btl_base_select+0xf8)[0x14620e35de88]
+[asp2b-gpu008:3268679] [12] /data/apps/openmpi/5.0.10-gcc15.3-cuda13.0/lib/libmpi.so.40(mca_bml_r2_component_init+0x10)[0x14620eaebc30]
+[asp2b-gpu008:3268679] [13] /data/apps/openmpi/5.0.10-gcc15.3-cuda13.0/lib/libmpi.so.40(mca_bml_base_init+0x84)[0x14620eae9db4]
+[asp2b-gpu008:3268679] [14] /data/apps/openmpi/5.0.10-gcc15.3-cuda13.0/lib/libmpi.so.40(+0x22bb2b)[0x14620ec27b2b]
+[asp2b-gpu008:3268679] [15] /data/apps/openmpi/5.0.10-gcc15.3-cuda13.0/lib/libmpi.so.40(mca_pml_base_select+0x1b7)[0x14620ec24297]
+[asp2b-gpu008:3268679] [16] /data/apps/openmpi/5.0.10-gcc15.3-cuda13.0/lib/libmpi.so.40(+0x93979)[0x14620ea8f979]
+[asp2b-gpu008:3268679] [17] /data/apps/openmpi/5.0.10-gcc15.3-cuda13.0/lib/libmpi.so.40(ompi_mpi_instance_init+0x75)[0x14620ea90105]
+[asp2b-gpu008:3268679] [18] /data/apps/openmpi/5.0.10-gcc15.3-cuda13.0/lib/libmpi.so.40(ompi_mpi_init+0x6b)[0x14620ea8794b]
+[asp2b-gpu008:3268679] [19] /data/apps/openmpi/5.0.10-gcc15.3-cuda13.0/lib/libmpi.so.40(PMPI_Init_thread+0x6b)[0x14620eabb14b]
+[asp2b-gpu008:3268679] [20] /scratch/users/ntu/gubo0002/sc26/hpl_hplmxp/LULESH/aspire2b/L03/build_site/lulesh2.0(main+0x4f)[0x4027cf]
+[asp2b-gpu008:3268679] [21] /lib64/libc.so.6(+0x295d0)[0x14620e4275d0]
+[asp2b-gpu008:3268679] [22] /lib64/libc.so.6(__libc_start_main+0x80)[0x14620e427680]
+[asp2b-gpu008:3268679] [23] /scratch/users/ntu/gubo0002/sc26/hpl_hplmxp/LULESH/aspire2b/L03/build_site/lulesh2.0(_start+0x25)[0x405305]
+[asp2b-gpu008:3268679] *** End of error message ***
+[asp2b-gpu008:3268677] select: init returned failure for component ofi
+[asp2b-gpu008:3268677] select: no component selected
+[asp2b-gpu008:3268677] select: init returned failure for component cm
+[asp2b-gpu008:3268677] select: component monitoring not in the include list
+[asp2b-gpu008:3268677] select: initializing pml component ob1
+free(): double free detected in tcache 2
+[asp2b-gpu008:3268677] *** Process received signal ***
+[asp2b-gpu008:3268677] Signal: Aborted (6)
+[asp2b-gpu008:3268677] Signal code:  (-6)
+[asp2b-gpu008:3268677] [ 0] /lib64/libc.so.6(+0x3ebf0)[0x14fa5d38abf0]
+[asp2b-gpu008:3268677] [ 1] /lib64/libc.so.6(+0x8c07c)[0x14fa5d3d807c]
+[asp2b-gpu008:3268677] [ 2] /lib64/libc.so.6(raise+0x16)[0x14fa5d38ab46]
+[asp2b-gpu008:3268677] [ 3] /lib64/libc.so.6(abort+0xd3)[0x14fa5d374833]
+[asp2b-gpu008:3268677] [ 4] /lib64/libc.so.6(+0x29172)[0x14fa5d375172]
+[asp2b-gpu008:3268677] [ 5] /lib64/libc.so.6(+0x96127)[0x14fa5d3e2127]
+[asp2b-gpu008:3268677] [ 6] /lib64/libc.so.6(+0x97fff)[0x14fa5d3e3fff]
+[asp2b-gpu008:3268677] [ 7] /lib64/libc.so.6(free+0x55)[0x14fa5d3e6465]
+[asp2b-gpu008:3268677] [ 8] /opt/cray/libfabric/2.3.1/lib64/libfabric.so.1(+0x5ed8f)[0x14fa5d12cd8f]
+[asp2b-gpu008:3268677] [ 9] /data/apps/openmpi/5.0.10-gcc15.3-cuda13.0/lib/libopen-pal.so.80(opal_common_ofi_fabric_release+0x2e)[0x14fa5d2a921e]
+[asp2b-gpu008:3268677] [10] /data/apps/openmpi/5.0.10-gcc15.3-cuda13.0/lib/libopen-pal.so.80(+0x8c0fa)[0x14fa5d2bd0fa]
+[asp2b-gpu008:3268677] [11] /data/apps/openmpi/5.0.10-gcc15.3-cuda13.0/lib/libopen-pal.so.80(mca_btl_base_select+0xf8)[0x14fa5d2abe88]
+[asp2b-gpu008:3268677] [12] /data/apps/openmpi/5.0.10-gcc15.3-cuda13.0/lib/libmpi.so.40(mca_bml_r2_component_init+0x10)[0x14fa5da39c30]
+[asp2b-gpu008:3268677] [13] /data/apps/openmpi/5.0.10-gcc15.3-cuda13.0/lib/libmpi.so.40(mca_bml_base_init+0x84)[0x14fa5da37db4]
+[asp2b-gpu008:3268677] [14] /data/apps/openmpi/5.0.10-gcc15.3-cuda13.0/lib/libmpi.so.40(+0x22bb2b)[0x14fa5db75b2b]
+[asp2b-gpu008:3268677] [15] /data/apps/openmpi/5.0.10-gcc15.3-cuda13.0/lib/libmpi.so.40(mca_pml_base_select+0x1b7)[0x14fa5db72297]
+[asp2b-gpu008:3268677] [16] /data/apps/openmpi/5.0.10-gcc15.3-cuda13.0/lib/libmpi.so.40(+0x93979)[0x14fa5d9dd979]
+[asp2b-gpu008:3268677] [17] /data/apps/openmpi/5.0.10-gcc15.3-cuda13.0/lib/libmpi.so.40(ompi_mpi_instance_init+0x75)[0x14fa5d9de105]
+[asp2b-gpu008:3268677] [18] /data/apps/openmpi/5.0.10-gcc15.3-cuda13.0/lib/libmpi.so.40(ompi_mpi_init+0x6b)[0x14fa5d9d594b]
+[asp2b-gpu008:3268677] [19] /data/apps/openmpi/5.0.10-gcc15.3-cuda13.0/lib/libmpi.so.40(PMPI_Init_thread+0x6b)[0x14fa5da0914b]
+[asp2b-gpu008:3268677] [20] /scratch/users/ntu/gubo0002/sc26/hpl_hplmxp/LULESH/aspire2b/L03/build_site/lulesh2.0(main+0x4f)[0x4027cf]
+[asp2b-gpu008:3268677] [21] /lib64/libc.so.6(+0x295d0)[0x14fa5d3755d0]
+[asp2b-gpu008:3268677] [22] /lib64/libc.so.6(__libc_start_main+0x80)[0x14fa5d375680]
+[asp2b-gpu008:3268677] [23] /scratch/users/ntu/gubo0002/sc26/hpl_hplmxp/LULESH/aspire2b/L03/build_site/lulesh2.0(_start+0x25)[0x405305]
+[asp2b-gpu008:3268677] *** End of error message ***
+[asp2b-gpu008:3268680] select: init returned failure for component ofi
+[asp2b-gpu008:3268680] select: no component selected
+[asp2b-gpu008:3268680] select: init returned failure for component cm
+[asp2b-gpu008:3268680] select: component monitoring not in the include list
+[asp2b-gpu008:3268680] select: initializing pml component ob1
+free(): double free detected in tcache 2
+[asp2b-gpu008:3268680] *** Process received signal ***
+[asp2b-gpu008:3268680] Signal: Aborted (6)
+[asp2b-gpu008:3268680] Signal code:  (-6)
+[asp2b-gpu008:3268680] [ 0] /lib64/libc.so.6(+0x3ebf0)[0x14bcde8cfbf0]
+[asp2b-gpu008:3268680] [ 1] /lib64/libc.so.6(+0x8c07c)[0x14bcde91d07c]
+[asp2b-gpu008:3268680] [ 2] /lib64/libc.so.6(raise+0x16)[0x14bcde8cfb46]
+[asp2b-gpu008:3268680] [ 3] /lib64/libc.so.6(abort+0xd3)[0x14bcde8b9833]
+[asp2b-gpu008:3268680] [ 4] /lib64/libc.so.6(+0x29172)[0x14bcde8ba172]
+[asp2b-gpu008:3268680] [ 5] /lib64/libc.so.6(+0x96127)[0x14bcde927127]
+[asp2b-gpu008:3268680] [ 6] /lib64/libc.so.6(+0x97fff)[0x14bcde928fff]
+[asp2b-gpu008:3268680] [ 7] /lib64/libc.so.6(free+0x55)[0x14bcde92b465]
+[asp2b-gpu008:3268680] [ 8] /opt/cray/libfabric/2.3.1/lib64/libfabric.so.1(+0x5ed8f)[0x14bcde671d8f]
+[asp2b-gpu008:3268680] [ 9] /data/apps/openmpi/5.0.10-gcc15.3-cuda13.0/lib/libopen-pal.so.80(opal_common_ofi_fabric_release+0x2e)[0x14bcde7ee21e]
+[asp2b-gpu008:3268680] [10] /data/apps/openmpi/5.0.10-gcc15.3-cuda13.0/lib/libopen-pal.so.80(+0x8c0fa)[0x14bcde8020fa]
+[asp2b-gpu008:3268680] [11] /data/apps/openmpi/5.0.10-gcc15.3-cuda13.0/lib/libopen-pal.so.80(mca_btl_base_select+0xf8)[0x14bcde7f0e88]
+[asp2b-gpu008:3268680] [12] /data/apps/openmpi/5.0.10-gcc15.3-cuda13.0/lib/libmpi.so.40(mca_bml_r2_component_init+0x10)[0x14bcdef7ec30]
+[asp2b-gpu008:3268680] [13] /data/apps/openmpi/5.0.10-gcc15.3-cuda13.0/lib/libmpi.so.40(mca_bml_base_init+0x84)[0x14bcdef7cdb4]
+[asp2b-gpu008:3268680] [14] /data/apps/openmpi/5.0.10-gcc15.3-cuda13.0/lib/libmpi.so.40(+0x22bb2b)[0x14bcdf0bab2b]
+[asp2b-gpu008:3268680] [15] /data/apps/openmpi/5.0.10-gcc15.3-cuda13.0/lib/libmpi.so.40(mca_pml_base_select+0x1b7)[0x14bcdf0b7297]
+[asp2b-gpu008:3268680] [16] /data/apps/openmpi/5.0.10-gcc15.3-cuda13.0/lib/libmpi.so.40(+0x93979)[0x14bcdef22979]
+[asp2b-gpu008:3268680] [17] /data/apps/openmpi/5.0.10-gcc15.3-cuda13.0/lib/libmpi.so.40(ompi_mpi_instance_init+0x75)[0x14bcdef23105]
+[asp2b-gpu008:3268680] [18] /data/apps/openmpi/5.0.10-gcc15.3-cuda13.0/lib/libmpi.so.40(ompi_mpi_init+0x6b)[0x14bcdef1a94b]
+[asp2b-gpu008:3268680] [19] /data/apps/openmpi/5.0.10-gcc15.3-cuda13.0/lib/libmpi.so.40(PMPI_Init_thread+0x6b)[0x14bcdef4e14b]
+[asp2b-gpu008:3268680] [20] /scratch/users/ntu/gubo0002/sc26/hpl_hplmxp/LULESH/aspire2b/L03/build_site/lulesh2.0(main+0x4f)[0x4027cf]
+[asp2b-gpu008:3268680] [21] /lib64/libc.so.6(+0x295d0)[0x14bcde8ba5d0]
+[asp2b-gpu008:3268680] [22] /lib64/libc.so.6(__libc_start_main+0x80)[0x14bcde8ba680]
+[asp2b-gpu008:3268680] [23] /scratch/users/ntu/gubo0002/sc26/hpl_hplmxp/LULESH/aspire2b/L03/build_site/lulesh2.0(_start+0x25)[0x405305]
+[asp2b-gpu008:3268680] *** End of error message ***
+--------------------------------------------------------------------------
+prterun noticed that process rank 0 with PID 577169 on node asp2b-gpu026 exited on
+signal 6 (Aborted).
+--------------------------------------------------------------------------

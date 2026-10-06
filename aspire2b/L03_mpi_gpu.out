@@ -1,0 +1,77 @@
+=== asp2b-gpu026 Tue Oct  6 03:53:02 PM +08 2026 job 128534.pbs201 ===
+    queue = gdev
+    exec_host = asp2b-gpu026/5*24+asp2b-gpu008/3*24
+    Resource_List.select = 2:ncpus=24:ngpus=1:mem=276g
+
+Lmod is automatically replacing "gcc-native/14" with "gcc/15.3.0-znver5".
+
+
+Lmod is automatically replacing "gcc-native/14" with "gcc/15.3.0-znver5".
+
+site: /data/apps/openmpi/5.0.10-gcc15.3-cuda13.0/bin/mpicxx | /data/apps/openmpi/5.0.10-gcc15.3-cuda13.0/bin/mpirun mpirun (Open MPI) 5.0.10
+  built
+
+Lmod is automatically replacing "gcc-native/14" with "gcc/15.3.0-znver5".
+
+
+Lmod is automatically replacing "gcc-native/14" with "gcc/15.3.0-znver5".
+
+
+Note: the module "gcc-native" cannot be unloaded because it was not loaded.
+
+own5: /scratch/users/ntu/gubo0002/sc26/hpl_hplmxp/deps/openmpi-5.0.10-cuda13.0-ofi/bin/mpicxx | /scratch/users/ntu/gubo0002/sc26/hpl_hplmxp/deps/openmpi-5.0.10-cuda13.0-ofi/bin/mpirun mpirun (Open MPI) 5.0.10
+  built
+
+Lmod is automatically replacing "gcc-native/14" with "gcc/15.3.0-znver5".
+
+
+Lmod is automatically replacing "gcc-native/14" with "gcc/15.3.0-znver5".
+
+
+Note: the module "gcc-native" cannot be unloaded because it was not loaded.
+
+own4: /scratch/users/ntu/gubo0002/sc26/hpl_hplmxp/deps/openmpi-4.1.6-cuda13.0/bin/mpicxx | /scratch/users/ntu/gubo0002/sc26/hpl_hplmxp/deps/openmpi-4.1.6-cuda13.0/bin/mpirun mpirun (Open MPI) 4.1.6
+  built
+cray: /opt/cray/pe/craype/2.7.35/bin/CC | /opt/cray/pals/1.7/bin/mpirun mpirun version 1.7.1 revision 05e846ad0488 built Jun 25 2025
+  built
+--- cray_pals: /opt/cray/pals/1.7/bin/mpiexec -n 8 --ppn 4 --cpu-bind depth -d 1 15:54:36
+  rc=0 FOM                  =  21664.356 (z/s)
+--- site_mpirun_default: mpirun -n 8 --map-by ppr:4:node --bind-to core --oversubscribe -x LD_LIBRARY_PATH -x OMPI_MCA_pml_base_verbose -x OMPI_MCA_mtl_base_verbose 15:55:36
+/opt/pbs/bin/pbsdsh: tm_init failed, rc = no matching job found (17006) (17006)
+  rc=134 no FOM
+      8 Signal: Aborted (6)
+      1 signal 6 (Aborted).
+      1 Open MPI failed an OFI Libfabric library call (fi_domain).  This is highly
+      1   Error: Function not implemented (38)
+--- site_mpirun_tcp: mpirun -n 8 --map-by ppr:4:node --bind-to core --oversubscribe -x LD_LIBRARY_PATH -x OMPI_MCA_pml_base_verbose -x OMPI_MCA_mtl_base_verbose --mca pml ob1 --mca btl self,sm,tcp --mca mtl ^ofi 15:56:09
+/opt/pbs/bin/pbsdsh: tm_init failed, rc = no matching job found (17006) (17006)
+  rc=14 no FOM
+      8 select: component ob1 selected
+--- site_pals: /opt/cray/pals/1.7/bin/mpiexec --pmi pmix --no-transfer -n 8 --ppn 4 --cpu-bind depth -d 1 15:56:57
+  rc=0 FOM                  =  26967.684 (z/s)
+      8 select: component ofi selected
+      8 select: component ob1 not selected / finalized
+      8 select: component cm selected
+--- own5_mpirun_default: mpirun -n 8 --map-by ppr:4:node --bind-to core --oversubscribe -x LD_LIBRARY_PATH -x OMPI_MCA_pml_base_verbose -x OMPI_MCA_mtl_base_verbose 15:57:29
+/opt/pbs/bin/pbsdsh: tm_init failed, rc = no matching job found (17006) (17006)
+  rc=134 no FOM
+      8 Signal: Aborted (6)
+      1 signal 6 (Aborted).
+      1 Open MPI failed an OFI Libfabric library call (fi_domain).  This is highly
+      1   Error: Function not implemented (38)
+--- own5_mpirun_tcp: mpirun -n 8 --map-by ppr:4:node --bind-to core --oversubscribe -x LD_LIBRARY_PATH -x OMPI_MCA_pml_base_verbose -x OMPI_MCA_mtl_base_verbose --mca pml ob1 --mca btl self,sm,tcp --mca mtl ^ofi 15:58:04
+/opt/pbs/bin/pbsdsh: tm_init failed, rc = no matching job found (17006) (17006)
+  rc=14 no FOM
+      8 select: component ob1 selected
+--- own5_pals: /opt/cray/pals/1.7/bin/mpiexec --pmi pmix --no-transfer -n 8 --ppn 4 --cpu-bind depth -d 1 15:58:40
+  rc=0 FOM                  =  22732.349 (z/s)
+      8 select: component ofi selected
+      8 select: component ob1 not selected / finalized
+      8 select: component cm selected
+--- own4_mpirun: mpirun --prefix /scratch/users/ntu/gubo0002/sc26/hpl_hplmxp/deps/openmpi-4.1.6-cuda13.0 -n 8 --map-by ppr:4:node --bind-to core --oversubscribe -x LD_LIBRARY_PATH --mca btl self,vader,tcp 15:59:19
+/opt/pbs/bin/pbsdsh: tm_init failed, rc = no matching job found (17006) (17006)
+  rc=124 no FOM
+      8 select: component ob1 selected
+--- cray_pals_r2: /opt/cray/pals/1.7/bin/mpiexec -n 8 --ppn 4 --cpu-bind depth -d 1 16:04:46
+  rc=0 FOM                  =  21913.412 (z/s)
+=== L03 DONE Tue Oct  6 04:05:16 PM +08 2026 ===

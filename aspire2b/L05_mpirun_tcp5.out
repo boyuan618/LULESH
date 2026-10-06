@@ -1,0 +1,41 @@
+=== asp2b-gpu004 Tue Oct  6 04:01:49 PM +08 2026 job 128538.pbs201 ===
+    queue = gdev
+    exec_host = asp2b-gpu004/0*24+asp2b-gpu026/0*24
+    Resource_List.select = 2:ncpus=24:ngpus=1:mem=276g
+
+Lmod is automatically replacing "gcc-native/14" with "gcc/15.3.0-znver5".
+
+
+Lmod is automatically replacing "gcc-native/14" with "gcc/15.3.0-znver5".
+
+site: /data/apps/openmpi/5.0.10-gcc15.3-cuda13.0/bin/mpicxx | /data/apps/openmpi/5.0.10-gcc15.3-cuda13.0/bin/mpirun mpirun (Open MPI) 5.0.10
+  built
+
+Lmod is automatically replacing "gcc-native/14" with "gcc/15.3.0-znver5".
+
+
+Lmod is automatically replacing "gcc-native/14" with "gcc/15.3.0-znver5".
+
+
+Note: the module "gcc-native" cannot be unloaded because it was not loaded.
+
+own5: /scratch/users/ntu/gubo0002/sc26/hpl_hplmxp/deps/openmpi-5.0.10-cuda13.0-ofi/bin/mpicxx | /scratch/users/ntu/gubo0002/sc26/hpl_hplmxp/deps/openmpi-5.0.10-cuda13.0-ofi/bin/mpirun mpirun (Open MPI) 5.0.10
+  built
+
+Lmod is automatically replacing "gcc-native/14" with "gcc/15.3.0-znver5".
+
+
+Lmod is automatically replacing "gcc-native/14" with "gcc/15.3.0-znver5".
+
+cpu: /data/apps/openmpi/5.0.10-gcc15.3-cpu/bin/mpicxx | /data/apps/openmpi/5.0.10-gcc15.3-cpu/bin/mpirun mpirun (Open MPI) 5.0.10
+  built
+hsn: hsn0,hsn1,hsn2,hsn3
+--- cpu_mpirun_tcp: mpirun -n 8 --map-by ppr:4:node --bind-to core --oversubscribe -x LD_LIBRARY_PATH --mca pml ob1 --mca btl self,sm,tcp --mca mtl ^ofi --mca btl_tcp_if_include hsn0,hsn1,hsn2,hsn3 16:03:42
+  rc=0 FOM                  =  16363.976 (z/s)
+--- site_mpirun_tcp: mpirun -n 8 --map-by ppr:4:node --bind-to core --oversubscribe -x LD_LIBRARY_PATH --mca pml ob1 --mca btl self,sm,tcp --mca mtl ^ofi --mca btl_tcp_if_include hsn0,hsn1,hsn2,hsn3 16:04:05
+/opt/pbs/bin/pbsdsh: tm_init failed, rc = no matching job found (17006) (17006)
+  rc=0 FOM                  =  19242.507 (z/s)
+--- own5_mpirun_tcp: mpirun -n 8 --map-by ppr:4:node --bind-to core --oversubscribe -x LD_LIBRARY_PATH --mca pml ob1 --mca btl self,sm,tcp --mca mtl ^ofi --mca btl_tcp_if_include hsn0,hsn1,hsn2,hsn3 16:04:22
+/opt/pbs/bin/pbsdsh: tm_init failed, rc = no matching job found (17006) (17006)
+  rc=0 FOM                  =  19441.117 (z/s)
+=== L05 DONE Tue Oct  6 04:04:53 PM +08 2026 ===
