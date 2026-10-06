@@ -1,0 +1,179 @@
+
+Lmod is automatically replacing "gcc-native/14" with "gcc/15.3.0-znver5".
+
+
+Lmod is automatically replacing "gcc-native/14" with "gcc/15.3.0-znver5".
+
+--------------------------------------------------------------------------
+PRTE has detected that the head of the session directory tree (where
+scratch files and shared memory backing storage will be placed)
+resides on a shared file system:
+
+   Directory: /raid/pbs.128533.pbs201
+   File system type: lustre
+
+For performance reasons, it is strongly recommended that the session
+directory be located on a local file system. This can be controlled by
+setting the system temporary directory to be used by PRTE using either
+the TMPDIR envar or the "prte_tmpdir_base" MCA param.
+
+If you need the temporary directory to be different on remote nodes
+from the local one where prterun is running (e.g., when a login node is
+being employed), then you can set the local temporary directory using
+the "prte_local_tmpdir_base" MCA param and the one to be used on all
+other nodes using the "prte_remote_tmpdir_base" param.
+
+This is only a warning advisory and your job will continue. You can
+disable this warning in the future by setting the
+"prte_silence_shared_fs" MCA param to "1".
+--------------------------------------------------------------------------
+[x8000c0s0b0n0:1984160] pmix_mca_base_component_repository_open: unable to open /data/apps/openmpi/5.0.10-gcc15.3-cpu/lib/prte/prte_mca_plm_tm: 
+    dlopen error: libpbs.so.0: cannot open shared object file: No such file or directory
+    Perhaps a missing symbol, or compiled for a different version of prte? (ignored)
+--------------------------------------------------------------------------
+PRTE has detected that the head of the session directory tree (where
+scratch files and shared memory backing storage will be placed)
+resides on a shared file system:
+
+   Directory: /raid/pbs.128533.pbs201
+   File system type: lustre
+
+For performance reasons, it is strongly recommended that the session
+directory be located on a local file system. This can be controlled by
+setting the system temporary directory to be used by PRTE using either
+the TMPDIR envar or the "prte_tmpdir_base" MCA param.
+
+If you need the temporary directory to be different on remote nodes
+from the local one where prted is running (e.g., when a login node is
+being employed), then you can set the local temporary directory using
+the "prte_local_tmpdir_base" MCA param and the one to be used on all
+other nodes using the "prte_remote_tmpdir_base" param.
+
+This is only a warning advisory and your job will continue. You can
+disable this warning in the future by setting the
+"prte_silence_shared_fs" MCA param to "1".
+--------------------------------------------------------------------------
+[x8006c2s7b0n0:4092045] mca: base: components_register: registering framework pml components
+[x8006c2s7b0n0:4092045] mca: base: components_register: found loaded component ob1
+[x8006c2s7b0n0:4092045] mca: base: components_register: component ob1 register function successful
+[x8006c2s7b0n0:4092045] mca: base: components_open: opening pml components
+[x8006c2s7b0n0:4092045] mca: base: components_open: found loaded component ob1
+[x8006c2s7b0n0:4092045] mca: base: components_open: component ob1 open function successful
+[x8006c2s7b0n0:4092045] select: initializing pml component ob1
+[x8006c2s7b0n0:4092045] select: init returned priority 20
+[x8006c2s7b0n0:4092045] selected ob1 best priority 20
+[x8006c2s7b0n0:4092045] select: component ob1 selected
+[x8000c0s0b0n0:1984173] mca: base: components_register: registering framework pml components
+[x8000c0s0b0n0:1984173] mca: base: components_register: found loaded component ob1
+[x8000c0s0b0n0:1984171] mca: base: components_register: registering framework pml components
+[x8000c0s0b0n0:1984171] mca: base: components_register: found loaded component ob1
+[x8000c0s0b0n0:1984170] mca: base: components_register: registering framework pml components
+[x8000c0s0b0n0:1984170] mca: base: components_register: found loaded component ob1
+[x8000c0s0b0n0:1984172] mca: base: components_register: registering framework pml components
+[x8000c0s0b0n0:1984172] mca: base: components_register: found loaded component ob1
+[x8000c0s0b0n0:1984173] mca: base: components_register: component ob1 register function successful
+[x8000c0s0b0n0:1984171] mca: base: components_register: component ob1 register function successful
+[x8000c0s0b0n0:1984171] mca: base: components_open: opening pml components
+[x8000c0s0b0n0:1984171] mca: base: components_open: found loaded component ob1
+[x8000c0s0b0n0:1984173] mca: base: components_open: opening pml components
+[x8000c0s0b0n0:1984173] mca: base: components_open: found loaded component ob1
+[x8000c0s0b0n0:1984173] mca: base: components_open: component ob1 open function successful
+[x8000c0s0b0n0:1984170] mca: base: components_register: component ob1 register function successful
+[x8000c0s0b0n0:1984171] mca: base: components_open: component ob1 open function successful
+[x8000c0s0b0n0:1984172] mca: base: components_register: component ob1 register function successful
+[x8000c0s0b0n0:1984172] mca: base: components_open: opening pml components
+[x8000c0s0b0n0:1984172] mca: base: components_open: found loaded component ob1
+[x8000c0s0b0n0:1984172] mca: base: components_open: component ob1 open function successful
+[x8000c0s0b0n0:1984170] mca: base: components_open: opening pml components
+[x8000c0s0b0n0:1984170] mca: base: components_open: found loaded component ob1
+[x8000c0s0b0n0:1984170] mca: base: components_open: component ob1 open function successful
+[x8000c0s0b0n0:1984171] select: initializing pml component ob1
+[x8000c0s0b0n0:1984170] select: initializing pml component ob1
+[x8000c0s0b0n0:1984172] select: initializing pml component ob1
+[x8000c0s0b0n0:1984173] select: initializing pml component ob1
+[x8000c0s0b0n0:1984173] select: init returned priority 20
+[x8000c0s0b0n0:1984173] selected ob1 best priority 20
+[x8000c0s0b0n0:1984173] select: component ob1 selected
+[x8000c0s0b0n0:1984170] select: init returned priority 20
+[x8000c0s0b0n0:1984170] selected ob1 best priority 20
+[x8000c0s0b0n0:1984170] select: component ob1 selected
+[x8000c0s0b0n0:1984172] select: init returned priority 20
+[x8000c0s0b0n0:1984172] selected ob1 best priority 20
+[x8000c0s0b0n0:1984172] select: component ob1 selected
+[x8000c0s0b0n0:1984171] select: init returned priority 20
+[x8000c0s0b0n0:1984171] selected ob1 best priority 20
+[x8000c0s0b0n0:1984171] select: component ob1 selected
+[x8006c2s7b0n0:4092048] mca: base: components_register: registering framework pml components
+[x8006c2s7b0n0:4092048] mca: base: components_register: found loaded component ob1
+[x8006c2s7b0n0:4092046] mca: base: components_register: registering framework pml components
+[x8006c2s7b0n0:4092046] mca: base: components_register: found loaded component ob1
+[x8006c2s7b0n0:4092047] mca: base: components_register: registering framework pml components
+[x8006c2s7b0n0:4092047] mca: base: components_register: found loaded component ob1
+[x8006c2s7b0n0:4092048] mca: base: components_register: component ob1 register function successful
+[x8006c2s7b0n0:4092048] mca: base: components_open: opening pml components
+[x8006c2s7b0n0:4092048] mca: base: components_open: found loaded component ob1
+[x8006c2s7b0n0:4092048] mca: base: components_open: component ob1 open function successful
+[x8006c2s7b0n0:4092046] mca: base: components_register: component ob1 register function successful
+[x8006c2s7b0n0:4092046] mca: base: components_open: opening pml components
+[x8006c2s7b0n0:4092046] mca: base: components_open: found loaded component ob1
+[x8006c2s7b0n0:4092046] mca: base: components_open: component ob1 open function successful
+[x8006c2s7b0n0:4092047] mca: base: components_register: component ob1 register function successful
+[x8006c2s7b0n0:4092047] mca: base: components_open: opening pml components
+[x8006c2s7b0n0:4092047] mca: base: components_open: found loaded component ob1
+[x8006c2s7b0n0:4092047] mca: base: components_open: component ob1 open function successful
+[x8006c2s7b0n0:4092046] select: initializing pml component ob1
+[x8006c2s7b0n0:4092048] select: initializing pml component ob1
+[x8006c2s7b0n0:4092047] select: initializing pml component ob1
+[x8006c2s7b0n0:4092046] select: init returned priority 20
+[x8006c2s7b0n0:4092046] selected ob1 best priority 20
+[x8006c2s7b0n0:4092046] select: component ob1 selected
+[x8006c2s7b0n0:4092048] select: init returned priority 20
+[x8006c2s7b0n0:4092048] selected ob1 best priority 20
+[x8006c2s7b0n0:4092048] select: component ob1 selected
+[x8006c2s7b0n0:4092047] select: init returned priority 20
+[x8006c2s7b0n0:4092047] selected ob1 best priority 20
+[x8006c2s7b0n0:4092047] select: component ob1 selected
+[x8000c0s0b0n0:1984170] check:select: PML check not necessary on self
+[x8000c0s0b0n0:1984173] check:select: checking my pml ob1 against process [[32471,1],0] pml ob1
+[x8000c0s0b0n0:1984171] check:select: checking my pml ob1 against process [[32471,1],0] pml ob1
+[x8000c0s0b0n0:1984172] check:select: checking my pml ob1 against process [[32471,1],0] pml ob1
+[x8006c2s7b0n0:4092048] check:select: checking my pml ob1 against process [[32471,1],0] pml ob1
+[x8006c2s7b0n0:4092047] check:select: checking my pml ob1 against process [[32471,1],0] pml ob1
+[x8006c2s7b0n0:4092046] check:select: checking my pml ob1 against process [[32471,1],0] pml ob1
+[x8006c2s7b0n0:4092045] check:select: checking my pml ob1 against process [[32471,1],0] pml ob1
+Running problem size 30^3 per domain until completion
+Num processors: 8
+Num threads: 1
+Total number of elements: 216000 
+
+To run other sizes, use -s <integer>.
+To run a fixed number of iterations, use -i <integer>.
+To run a more or less balanced region set, use -b <integer>.
+To change the relative costs of regions, use -c <integer>.
+To print out progress, use -p
+To write an output file for VisIt, use -v
+See help (-h) for more options
+
+--------------------------------------------------------------------------
+WARNING: Open MPI failed to TCP connect to a peer MPI process.  This
+should not happen.
+
+Your Open MPI job may now hang or fail.
+
+  Local host: x8006c2s7b0n0
+  PID:        4092048
+  Message:    connect() to 172.17.0.1:1030 failed
+  Error:      Connection refused (111)
+--------------------------------------------------------------------------
+ [x8006c2s7b0n0:00000] *** An error occurred in Socket closed
+[x8006c2s7b0n0:00000] *** reported by process [2128019457,7]
+[x8006c2s7b0n0:00000] *** on a NULL communicator
+[x8006c2s7b0n0:00000] *** Unknown error
+[x8006c2s7b0n0:00000] *** MPI_ERRORS_ARE_FATAL (processes in this communicator will now abort,
+[x8006c2s7b0n0:00000] ***    and MPI will try to terminate your MPI job as well)
+--------------------------------------------------------------------------
+prterun has exited due to process rank 5 with PID 4092047 on node x8006c2s7b0n0 calling
+"abort". This may have caused other processes in the application to be
+terminated by signals sent by prterun (as reported here).
+--------------------------------------------------------------------------
+ 

@@ -1,0 +1,465 @@
+
+Lmod is automatically replacing "gcc-native/14" with "gcc/15.3.0-znver5".
+
+
+Lmod is automatically replacing "gcc-native/14" with "gcc/15.3.0-znver5".
+
+[x8006c2s7b0n0:4093232] mca: base: components_register: registering framework pml components
+[x8006c2s7b0n0:4093232] mca: base: components_register: found loaded component cm
+[x8006c2s7b0n0:4093232] mca: base: components_register: component cm register function successful
+[x8006c2s7b0n0:4093232] mca: base: components_register: found loaded component monitoring
+[x8006c2s7b0n0:4093232] mca: base: components_register: component monitoring register function successful
+[x8006c2s7b0n0:4093232] mca: base: components_register: found loaded component ob1
+[x8006c2s7b0n0:4093232] mca: base: components_register: component ob1 register function successful
+[x8006c2s7b0n0:4093232] mca: base: components_register: found loaded component v
+[x8006c2s7b0n0:4093232] mca: base: components_register: component v register function successful
+[x8006c2s7b0n0:4093232] mca: base: components_open: opening pml components
+[x8006c2s7b0n0:4093232] mca: base: components_open: found loaded component cm
+[x8006c2s7b0n0:4093232] mca: base: components_register: registering framework mtl components
+[x8006c2s7b0n0:4093232] mca: base: components_register: found loaded component ofi
+[x8006c2s7b0n0:4093232] mca: base: components_register: component ofi register function successful
+[x8006c2s7b0n0:4093232] mca: base: components_open: opening mtl components
+[x8006c2s7b0n0:4093232] mca: base: components_open: found loaded component ofi
+[x8006c2s7b0n0:4093232] mca: base: components_open: component ofi open function successful
+[x8006c2s7b0n0:4093232] mca: base: components_open: component cm open function successful
+[x8006c2s7b0n0:4093232] mca: base: components_open: found loaded component monitoring
+[x8006c2s7b0n0:4093232] mca: base: components_open: component monitoring open function successful
+[x8006c2s7b0n0:4093232] mca: base: components_open: found loaded component ob1
+[x8006c2s7b0n0:4093234] mca: base: components_register: registering framework pml components
+[x8006c2s7b0n0:4093234] mca: base: components_register: found loaded component cm
+[x8006c2s7b0n0:4093234] mca: base: components_register: component cm register function successful
+[x8006c2s7b0n0:4093234] mca: base: components_register: found loaded component monitoring
+[x8006c2s7b0n0:4093234] mca: base: components_register: component monitoring register function successful
+[x8006c2s7b0n0:4093234] mca: base: components_register: found loaded component ob1
+[x8006c2s7b0n0:4093234] mca: base: components_register: component ob1 register function successful
+[x8006c2s7b0n0:4093234] mca: base: components_register: found loaded component v
+[x8006c2s7b0n0:4093234] mca: base: components_register: component v register function successful
+[x8006c2s7b0n0:4093234] mca: base: components_open: opening pml components
+[x8006c2s7b0n0:4093234] mca: base: components_open: found loaded component cm
+[x8006c2s7b0n0:4093234] mca: base: components_register: registering framework mtl components
+[x8006c2s7b0n0:4093234] mca: base: components_register: found loaded component ofi
+[x8006c2s7b0n0:4093234] mca: base: components_register: component ofi register function successful
+[x8006c2s7b0n0:4093234] mca: base: components_open: opening mtl components
+[x8006c2s7b0n0:4093234] mca: base: components_open: found loaded component ofi
+[x8006c2s7b0n0:4093234] mca: base: components_open: component ofi open function successful
+[x8006c2s7b0n0:4093234] mca: base: components_open: component cm open function successful
+[x8006c2s7b0n0:4093234] mca: base: components_open: found loaded component monitoring
+[x8006c2s7b0n0:4093234] mca: base: components_open: component monitoring open function successful
+[x8006c2s7b0n0:4093234] mca: base: components_open: found loaded component ob1
+[x8006c2s7b0n0:4093234] mca: base: components_open: component ob1 open function successful
+[x8006c2s7b0n0:4093234] mca: base: components_open: found loaded component v
+[x8006c2s7b0n0:4093234] mca: base: components_open: component v open function successful
+[x8006c2s7b0n0:4093232] mca: base: components_open: component ob1 open function successful
+[x8006c2s7b0n0:4093232] mca: base: components_open: found loaded component v
+[x8006c2s7b0n0:4093232] mca: base: components_open: component v open function successful
+[x8006c2s7b0n0:4093234] select: initializing pml component cm
+[x8006c2s7b0n0:4093234] mca:base:select: Auto-selecting mtl components
+[x8006c2s7b0n0:4093234] mca:base:select:(  mtl) Querying component [ofi]
+[x8006c2s7b0n0:4093234] mca:base:select:(  mtl) Query of component [ofi] set priority to 25
+[x8006c2s7b0n0:4093232] select: initializing pml component cm
+[x8006c2s7b0n0:4093232] mca:base:select: Auto-selecting mtl components
+[x8006c2s7b0n0:4093232] mca:base:select:(  mtl) Querying component [ofi]
+[x8006c2s7b0n0:4093232] mca:base:select:(  mtl) Query of component [ofi] set priority to 25
+[x8006c2s7b0n0:4093232] mca:base:select:(  mtl) Selected component [ofi]
+[x8006c2s7b0n0:4093232] select: initializing mtl component ofi
+[x8006c2s7b0n0:4093234] mca:base:select:(  mtl) Selected component [ofi]
+[x8006c2s7b0n0:4093234] select: initializing mtl component ofi
+[x8006c2s7b0n0:4093231] mca: base: components_register: registering framework pml components
+[x8006c2s7b0n0:4093231] mca: base: components_register: found loaded component cm
+[x8006c2s7b0n0:4093231] mca: base: components_register: component cm register function successful
+[x8006c2s7b0n0:4093231] mca: base: components_register: found loaded component monitoring
+[x8006c2s7b0n0:4093231] mca: base: components_register: component monitoring register function successful
+[x8006c2s7b0n0:4093231] mca: base: components_register: found loaded component ob1
+[x8006c2s7b0n0:4093231] mca: base: components_register: component ob1 register function successful
+[x8006c2s7b0n0:4093231] mca: base: components_register: found loaded component v
+[x8006c2s7b0n0:4093231] mca: base: components_register: component v register function successful
+[x8006c2s7b0n0:4093231] mca: base: components_open: opening pml components
+[x8006c2s7b0n0:4093231] mca: base: components_open: found loaded component cm
+[x8006c2s7b0n0:4093231] mca: base: components_register: registering framework mtl components
+[x8006c2s7b0n0:4093231] mca: base: components_register: found loaded component ofi
+[x8006c2s7b0n0:4093231] mca: base: components_register: component ofi register function successful
+[x8006c2s7b0n0:4093231] mca: base: components_open: opening mtl components
+[x8006c2s7b0n0:4093231] mca: base: components_open: found loaded component ofi
+[x8006c2s7b0n0:4093231] mca: base: components_open: component ofi open function successful
+[x8006c2s7b0n0:4093231] mca: base: components_open: component cm open function successful
+[x8006c2s7b0n0:4093231] mca: base: components_open: found loaded component monitoring
+[x8006c2s7b0n0:4093231] mca: base: components_open: component monitoring open function successful
+[x8006c2s7b0n0:4093231] mca: base: components_open: found loaded component ob1
+[x8006c2s7b0n0:4093231] mca: base: components_open: component ob1 open function successful
+[x8006c2s7b0n0:4093231] mca: base: components_open: found loaded component v
+[x8006c2s7b0n0:4093232] select: init returned success
+[x8006c2s7b0n0:4093232] select: component ofi selected
+[x8006c2s7b0n0:4093232] select: init returned priority 25
+[x8006c2s7b0n0:4093232] select: component monitoring not in the include list
+[x8006c2s7b0n0:4093232] select: initializing pml component ob1
+[x8006c2s7b0n0:4093234] select: init returned success
+[x8006c2s7b0n0:4093234] select: component ofi selected
+[x8006c2s7b0n0:4093234] select: init returned priority 25
+[x8006c2s7b0n0:4093234] select: component monitoring not in the include list
+[x8006c2s7b0n0:4093234] select: initializing pml component ob1
+[x8006c2s7b0n0:4093231] mca: base: components_open: component v open function successful
+[x8006c2s7b0n0:4093232] select: init returned priority 20
+[x8006c2s7b0n0:4093232] select: component v not in the include list
+[x8006c2s7b0n0:4093232] selected cm best priority 25
+[x8006c2s7b0n0:4093232] select: component cm selected
+[x8006c2s7b0n0:4093234] select: init returned priority 20
+[x8006c2s7b0n0:4093234] select: component v not in the include list
+[x8006c2s7b0n0:4093234] selected cm best priority 25
+[x8006c2s7b0n0:4093234] select: component cm selected
+[x8006c2s7b0n0:4093234] select: component ob1 not selected / finalized
+[x8006c2s7b0n0:4093234] mca: base: close: unloading component monitoring
+[x8006c2s7b0n0:4093234] mca: base: close: component ob1 closed
+[x8006c2s7b0n0:4093234] mca: base: close: unloading component ob1
+[x8006c2s7b0n0:4093234] mca: base: close: component v closed
+[x8006c2s7b0n0:4093234] mca: base: close: unloading component v
+[x8006c2s7b0n0:4093232] select: component ob1 not selected / finalized
+[x8006c2s7b0n0:4093232] mca: base: close: unloading component monitoring
+[x8006c2s7b0n0:4093232] mca: base: close: component ob1 closed
+[x8006c2s7b0n0:4093232] mca: base: close: unloading component ob1
+[x8006c2s7b0n0:4093232] mca: base: close: component v closed
+[x8006c2s7b0n0:4093232] mca: base: close: unloading component v
+[x8006c2s7b0n0:4093231] select: initializing pml component cm
+[x8006c2s7b0n0:4093231] mca:base:select: Auto-selecting mtl components
+[x8006c2s7b0n0:4093231] mca:base:select:(  mtl) Querying component [ofi]
+[x8006c2s7b0n0:4093231] mca:base:select:(  mtl) Query of component [ofi] set priority to 25
+[x8006c2s7b0n0:4093231] mca:base:select:(  mtl) Selected component [ofi]
+[x8006c2s7b0n0:4093231] select: initializing mtl component ofi
+[x8006c2s7b0n0:4093231] select: init returned success
+[x8006c2s7b0n0:4093231] select: component ofi selected
+[x8006c2s7b0n0:4093231] select: init returned priority 25
+[x8006c2s7b0n0:4093231] select: component monitoring not in the include list
+[x8006c2s7b0n0:4093231] select: initializing pml component ob1
+[x8006c2s7b0n0:4093231] select: init returned priority 20
+[x8006c2s7b0n0:4093231] select: component v not in the include list
+[x8006c2s7b0n0:4093231] selected cm best priority 25
+[x8006c2s7b0n0:4093231] select: component cm selected
+[x8006c2s7b0n0:4093231] select: component ob1 not selected / finalized
+[x8006c2s7b0n0:4093231] mca: base: close: unloading component monitoring
+[x8006c2s7b0n0:4093231] mca: base: close: component ob1 closed
+[x8006c2s7b0n0:4093231] mca: base: close: unloading component ob1
+[x8006c2s7b0n0:4093231] mca: base: close: component v closed
+[x8006c2s7b0n0:4093231] mca: base: close: unloading component v
+[x8000c0s0b0n0:1985642] mca: base: components_register: registering framework pml components
+[x8000c0s0b0n0:1985642] mca: base: components_register: found loaded component cm
+[x8000c0s0b0n0:1985642] mca: base: components_register: component cm register function successful
+[x8000c0s0b0n0:1985642] mca: base: components_register: found loaded component monitoring
+[x8000c0s0b0n0:1985642] mca: base: components_register: component monitoring register function successful
+[x8000c0s0b0n0:1985642] mca: base: components_register: found loaded component ob1
+[x8000c0s0b0n0:1985642] mca: base: components_register: component ob1 register function successful
+[x8000c0s0b0n0:1985642] mca: base: components_register: found loaded component v
+[x8000c0s0b0n0:1985642] mca: base: components_register: component v register function successful
+[x8000c0s0b0n0:1985642] mca: base: components_open: opening pml components
+[x8000c0s0b0n0:1985642] mca: base: components_open: found loaded component cm
+[x8000c0s0b0n0:1985642] mca: base: components_register: registering framework mtl components
+[x8000c0s0b0n0:1985642] mca: base: components_register: found loaded component ofi
+[x8000c0s0b0n0:1985642] mca: base: components_register: component ofi register function successful
+[x8000c0s0b0n0:1985642] mca: base: components_open: opening mtl components
+[x8000c0s0b0n0:1985642] mca: base: components_open: found loaded component ofi
+[x8000c0s0b0n0:1985642] mca: base: components_open: component ofi open function successful
+[x8000c0s0b0n0:1985642] mca: base: components_open: component cm open function successful
+[x8000c0s0b0n0:1985642] mca: base: components_open: found loaded component monitoring
+[x8000c0s0b0n0:1985642] mca: base: components_open: component monitoring open function successful
+[x8000c0s0b0n0:1985642] mca: base: components_open: found loaded component ob1
+[x8000c0s0b0n0:1985642] mca: base: components_open: component ob1 open function successful
+[x8000c0s0b0n0:1985642] mca: base: components_open: found loaded component v
+[x8000c0s0b0n0:1985642] mca: base: components_open: component v open function successful
+[x8000c0s0b0n0:1985642] select: initializing pml component cm
+[x8000c0s0b0n0:1985642] mca:base:select: Auto-selecting mtl components
+[x8000c0s0b0n0:1985642] mca:base:select:(  mtl) Querying component [ofi]
+[x8000c0s0b0n0:1985642] mca:base:select:(  mtl) Query of component [ofi] set priority to 25
+[x8000c0s0b0n0:1985642] mca:base:select:(  mtl) Selected component [ofi]
+[x8000c0s0b0n0:1985642] select: initializing mtl component ofi
+[x8000c0s0b0n0:1985643] mca: base: components_register: registering framework pml components
+[x8000c0s0b0n0:1985643] mca: base: components_register: found loaded component cm
+[x8000c0s0b0n0:1985643] mca: base: components_register: component cm register function successful
+[x8000c0s0b0n0:1985643] mca: base: components_register: found loaded component monitoring
+[x8000c0s0b0n0:1985643] mca: base: components_register: component monitoring register function successful
+[x8000c0s0b0n0:1985643] mca: base: components_register: found loaded component ob1
+[x8000c0s0b0n0:1985643] mca: base: components_register: component ob1 register function successful
+[x8000c0s0b0n0:1985643] mca: base: components_register: found loaded component v
+[x8000c0s0b0n0:1985643] mca: base: components_register: component v register function successful
+[x8000c0s0b0n0:1985643] mca: base: components_open: opening pml components
+[x8000c0s0b0n0:1985643] mca: base: components_open: found loaded component cm
+[x8000c0s0b0n0:1985643] mca: base: components_register: registering framework mtl components
+[x8000c0s0b0n0:1985643] mca: base: components_register: found loaded component ofi
+[x8000c0s0b0n0:1985643] mca: base: components_register: component ofi register function successful
+[x8000c0s0b0n0:1985643] mca: base: components_open: opening mtl components
+[x8000c0s0b0n0:1985643] mca: base: components_open: found loaded component ofi
+[x8000c0s0b0n0:1985643] mca: base: components_open: component ofi open function successful
+[x8000c0s0b0n0:1985643] mca: base: components_open: component cm open function successful
+[x8000c0s0b0n0:1985643] mca: base: components_open: found loaded component monitoring
+[x8000c0s0b0n0:1985643] mca: base: components_open: component monitoring open function successful
+[x8000c0s0b0n0:1985643] mca: base: components_open: found loaded component ob1
+[x8000c0s0b0n0:1985643] mca: base: components_open: component ob1 open function successful
+[x8000c0s0b0n0:1985643] mca: base: components_open: found loaded component v
+[x8000c0s0b0n0:1985643] mca: base: components_open: component v open function successful
+[x8000c0s0b0n0:1985640] mca: base: components_register: registering framework pml components
+[x8000c0s0b0n0:1985640] mca: base: components_register: found loaded component cm
+[x8000c0s0b0n0:1985640] mca: base: components_register: component cm register function successful
+[x8000c0s0b0n0:1985640] mca: base: components_register: found loaded component monitoring
+[x8000c0s0b0n0:1985640] mca: base: components_register: component monitoring register function successful
+[x8000c0s0b0n0:1985640] mca: base: components_register: found loaded component ob1
+[x8000c0s0b0n0:1985640] mca: base: components_register: component ob1 register function successful
+[x8000c0s0b0n0:1985640] mca: base: components_register: found loaded component v
+[x8000c0s0b0n0:1985640] mca: base: components_register: component v register function successful
+[x8000c0s0b0n0:1985640] mca: base: components_open: opening pml components
+[x8000c0s0b0n0:1985640] mca: base: components_open: found loaded component cm
+[x8000c0s0b0n0:1985640] mca: base: components_register: registering framework mtl components
+[x8000c0s0b0n0:1985640] mca: base: components_register: found loaded component ofi
+[x8000c0s0b0n0:1985640] mca: base: components_register: component ofi register function successful
+[x8000c0s0b0n0:1985640] mca: base: components_open: opening mtl components
+[x8000c0s0b0n0:1985640] mca: base: components_open: found loaded component ofi
+[x8000c0s0b0n0:1985640] mca: base: components_open: component ofi open function successful
+[x8000c0s0b0n0:1985640] mca: base: components_open: component cm open function successful
+[x8000c0s0b0n0:1985640] mca: base: components_open: found loaded component monitoring
+[x8000c0s0b0n0:1985640] mca: base: components_open: component monitoring open function successful
+[x8000c0s0b0n0:1985640] mca: base: components_open: found loaded component ob1
+[x8000c0s0b0n0:1985640] mca: base: components_open: component ob1 open function successful
+[x8000c0s0b0n0:1985640] mca: base: components_open: found loaded component v
+[x8000c0s0b0n0:1985640] mca: base: components_open: component v open function successful
+[x8000c0s0b0n0:1985641] mca: base: components_register: registering framework pml components
+[x8000c0s0b0n0:1985641] mca: base: components_register: found loaded component cm
+[x8000c0s0b0n0:1985641] mca: base: components_register: component cm register function successful
+[x8000c0s0b0n0:1985641] mca: base: components_register: found loaded component monitoring
+[x8000c0s0b0n0:1985641] mca: base: components_register: component monitoring register function successful
+[x8000c0s0b0n0:1985641] mca: base: components_register: found loaded component ob1
+[x8000c0s0b0n0:1985641] mca: base: components_register: component ob1 register function successful
+[x8000c0s0b0n0:1985641] mca: base: components_register: found loaded component v
+[x8000c0s0b0n0:1985641] mca: base: components_register: component v register function successful
+[x8000c0s0b0n0:1985641] mca: base: components_open: opening pml components
+[x8000c0s0b0n0:1985641] mca: base: components_open: found loaded component cm
+[x8000c0s0b0n0:1985641] mca: base: components_register: registering framework mtl components
+[x8000c0s0b0n0:1985641] mca: base: components_register: found loaded component ofi
+[x8000c0s0b0n0:1985641] mca: base: components_register: component ofi register function successful
+[x8000c0s0b0n0:1985641] mca: base: components_open: opening mtl components
+[x8000c0s0b0n0:1985641] mca: base: components_open: found loaded component ofi
+[x8000c0s0b0n0:1985641] mca: base: components_open: component ofi open function successful
+[x8000c0s0b0n0:1985641] mca: base: components_open: component cm open function successful
+[x8000c0s0b0n0:1985641] mca: base: components_open: found loaded component monitoring
+[x8000c0s0b0n0:1985641] mca: base: components_open: component monitoring open function successful
+[x8000c0s0b0n0:1985641] mca: base: components_open: found loaded component ob1
+[x8000c0s0b0n0:1985641] mca: base: components_open: component ob1 open function successful
+[x8000c0s0b0n0:1985641] mca: base: components_open: found loaded component v
+[x8000c0s0b0n0:1985641] mca: base: components_open: component v open function successful
+[x8000c0s0b0n0:1985643] select: initializing pml component cm
+[x8000c0s0b0n0:1985643] mca:base:select: Auto-selecting mtl components
+[x8000c0s0b0n0:1985643] mca:base:select:(  mtl) Querying component [ofi]
+[x8000c0s0b0n0:1985643] mca:base:select:(  mtl) Query of component [ofi] set priority to 25
+[x8000c0s0b0n0:1985643] mca:base:select:(  mtl) Selected component [ofi]
+[x8000c0s0b0n0:1985643] select: initializing mtl component ofi
+[x8000c0s0b0n0:1985640] select: initializing pml component cm
+[x8000c0s0b0n0:1985640] mca:base:select: Auto-selecting mtl components
+[x8000c0s0b0n0:1985640] mca:base:select:(  mtl) Querying component [ofi]
+[x8000c0s0b0n0:1985640] mca:base:select:(  mtl) Query of component [ofi] set priority to 25
+[x8000c0s0b0n0:1985640] mca:base:select:(  mtl) Selected component [ofi]
+[x8000c0s0b0n0:1985640] select: initializing mtl component ofi
+[x8000c0s0b0n0:1985641] select: initializing pml component cm
+[x8000c0s0b0n0:1985641] mca:base:select: Auto-selecting mtl components
+[x8000c0s0b0n0:1985641] mca:base:select:(  mtl) Querying component [ofi]
+[x8000c0s0b0n0:1985641] mca:base:select:(  mtl) Query of component [ofi] set priority to 25
+[x8000c0s0b0n0:1985641] mca:base:select:(  mtl) Selected component [ofi]
+[x8000c0s0b0n0:1985641] select: initializing mtl component ofi
+[x8000c0s0b0n0:1985642] select: init returned success
+[x8000c0s0b0n0:1985642] select: component ofi selected
+[x8000c0s0b0n0:1985642] select: init returned priority 25
+[x8000c0s0b0n0:1985642] select: component monitoring not in the include list
+[x8000c0s0b0n0:1985642] select: initializing pml component ob1
+[x8006c2s7b0n0:4093233] mca: base: components_register: registering framework pml components
+[x8006c2s7b0n0:4093233] mca: base: components_register: found loaded component cm
+[x8006c2s7b0n0:4093233] mca: base: components_register: component cm register function successful
+[x8006c2s7b0n0:4093233] mca: base: components_register: found loaded component monitoring
+[x8006c2s7b0n0:4093233] mca: base: components_register: component monitoring register function successful
+[x8006c2s7b0n0:4093233] mca: base: components_register: found loaded component ob1
+[x8006c2s7b0n0:4093233] mca: base: components_register: component ob1 register function successful
+[x8006c2s7b0n0:4093233] mca: base: components_register: found loaded component v
+[x8006c2s7b0n0:4093233] mca: base: components_register: component v register function successful
+[x8006c2s7b0n0:4093233] mca: base: components_open: opening pml components
+[x8006c2s7b0n0:4093233] mca: base: components_open: found loaded component cm
+[x8006c2s7b0n0:4093233] mca: base: components_register: registering framework mtl components
+[x8006c2s7b0n0:4093233] mca: base: components_register: found loaded component ofi
+[x8006c2s7b0n0:4093233] mca: base: components_register: component ofi register function successful
+[x8006c2s7b0n0:4093233] mca: base: components_open: opening mtl components
+[x8006c2s7b0n0:4093233] mca: base: components_open: found loaded component ofi
+[x8006c2s7b0n0:4093233] mca: base: components_open: component ofi open function successful
+[x8006c2s7b0n0:4093233] mca: base: components_open: component cm open function successful
+[x8006c2s7b0n0:4093233] mca: base: components_open: found loaded component monitoring
+[x8006c2s7b0n0:4093233] mca: base: components_open: component monitoring open function successful
+[x8006c2s7b0n0:4093233] mca: base: components_open: found loaded component ob1
+[x8006c2s7b0n0:4093233] mca: base: components_open: component ob1 open function successful
+[x8006c2s7b0n0:4093233] mca: base: components_open: found loaded component v
+[x8006c2s7b0n0:4093233] mca: base: components_open: component v open function successful
+[x8006c2s7b0n0:4093233] select: initializing pml component cm
+[x8006c2s7b0n0:4093233] mca:base:select: Auto-selecting mtl components
+[x8006c2s7b0n0:4093233] mca:base:select:(  mtl) Querying component [ofi]
+[x8006c2s7b0n0:4093233] mca:base:select:(  mtl) Query of component [ofi] set priority to 25
+[x8006c2s7b0n0:4093233] mca:base:select:(  mtl) Selected component [ofi]
+[x8006c2s7b0n0:4093233] select: initializing mtl component ofi
+[x8000c0s0b0n0:1985642] select: init returned priority 20
+[x8000c0s0b0n0:1985642] select: component v not in the include list
+[x8000c0s0b0n0:1985642] selected cm best priority 25
+[x8000c0s0b0n0:1985642] select: component cm selected
+[x8000c0s0b0n0:1985642] select: component ob1 not selected / finalized
+[x8000c0s0b0n0:1985642] mca: base: close: unloading component monitoring
+[x8000c0s0b0n0:1985642] mca: base: close: component ob1 closed
+[x8000c0s0b0n0:1985642] mca: base: close: unloading component ob1
+[x8000c0s0b0n0:1985642] mca: base: close: component v closed
+[x8000c0s0b0n0:1985642] mca: base: close: unloading component v
+[x8000c0s0b0n0:1985643] select: init returned success
+[x8000c0s0b0n0:1985643] select: component ofi selected
+[x8000c0s0b0n0:1985643] select: init returned priority 25
+[x8000c0s0b0n0:1985643] select: component monitoring not in the include list
+[x8000c0s0b0n0:1985643] select: initializing pml component ob1
+[x8000c0s0b0n0:1985640] select: init returned success
+[x8000c0s0b0n0:1985640] select: component ofi selected
+[x8000c0s0b0n0:1985640] select: init returned priority 25
+[x8000c0s0b0n0:1985640] select: component monitoring not in the include list
+[x8000c0s0b0n0:1985640] select: initializing pml component ob1
+[x8000c0s0b0n0:1985641] select: init returned success
+[x8000c0s0b0n0:1985641] select: component ofi selected
+[x8000c0s0b0n0:1985641] select: init returned priority 25
+[x8000c0s0b0n0:1985641] select: component monitoring not in the include list
+[x8000c0s0b0n0:1985641] select: initializing pml component ob1
+[x8000c0s0b0n0:1985640] select: init returned priority 20
+[x8000c0s0b0n0:1985640] select: component v not in the include list
+[x8000c0s0b0n0:1985640] selected cm best priority 25
+[x8000c0s0b0n0:1985640] select: component cm selected
+[x8000c0s0b0n0:1985640] select: component ob1 not selected / finalized
+[x8000c0s0b0n0:1985640] mca: base: close: unloading component monitoring
+[x8000c0s0b0n0:1985640] mca: base: close: component ob1 closed
+[x8000c0s0b0n0:1985640] mca: base: close: unloading component ob1
+[x8000c0s0b0n0:1985640] mca: base: close: component v closed
+[x8000c0s0b0n0:1985640] mca: base: close: unloading component v
+[x8000c0s0b0n0:1985643] select: init returned priority 20
+[x8000c0s0b0n0:1985643] select: component v not in the include list
+[x8000c0s0b0n0:1985643] selected cm best priority 25
+[x8000c0s0b0n0:1985643] select: component cm selected
+[x8000c0s0b0n0:1985643] select: component ob1 not selected / finalized
+[x8000c0s0b0n0:1985643] mca: base: close: unloading component monitoring
+[x8000c0s0b0n0:1985643] mca: base: close: component ob1 closed
+[x8000c0s0b0n0:1985643] mca: base: close: unloading component ob1
+[x8000c0s0b0n0:1985643] mca: base: close: component v closed
+[x8000c0s0b0n0:1985643] mca: base: close: unloading component v
+[x8000c0s0b0n0:1985641] select: init returned priority 20
+[x8000c0s0b0n0:1985641] select: component v not in the include list
+[x8000c0s0b0n0:1985641] selected cm best priority 25
+[x8000c0s0b0n0:1985641] select: component cm selected
+[x8000c0s0b0n0:1985641] select: component ob1 not selected / finalized
+[x8000c0s0b0n0:1985641] mca: base: close: unloading component monitoring
+[x8000c0s0b0n0:1985641] mca: base: close: component ob1 closed
+[x8000c0s0b0n0:1985641] mca: base: close: unloading component ob1
+[x8000c0s0b0n0:1985641] mca: base: close: component v closed
+[x8000c0s0b0n0:1985641] mca: base: close: unloading component v
+[x8006c2s7b0n0:4093233] select: init returned success
+[x8006c2s7b0n0:4093233] select: component ofi selected
+[x8006c2s7b0n0:4093233] select: init returned priority 25
+[x8006c2s7b0n0:4093233] select: component monitoring not in the include list
+[x8006c2s7b0n0:4093233] select: initializing pml component ob1
+[x8006c2s7b0n0:4093233] select: init returned priority 20
+[x8006c2s7b0n0:4093233] select: component v not in the include list
+[x8006c2s7b0n0:4093233] selected cm best priority 25
+[x8006c2s7b0n0:4093233] select: component cm selected
+[x8006c2s7b0n0:4093233] select: component ob1 not selected / finalized
+[x8006c2s7b0n0:4093233] mca: base: close: unloading component monitoring
+[x8006c2s7b0n0:4093233] mca: base: close: component ob1 closed
+[x8006c2s7b0n0:4093233] mca: base: close: unloading component ob1
+[x8006c2s7b0n0:4093233] mca: base: close: component v closed
+[x8006c2s7b0n0:4093233] mca: base: close: unloading component v
+[x8000c0s0b0n0:1985640] check:select: PML check not necessary on self
+[x8000c0s0b0n0:1985641] check:select: checking my pml cm against process [[25832,0],0] pml cm
+[x8000c0s0b0n0:1985642] check:select: checking my pml cm against process [[25832,0],0] pml cm
+[x8000c0s0b0n0:1985643] check:select: checking my pml cm against process [[25832,0],0] pml cm
+[x8006c2s7b0n0:4093233] check:select: checking my pml cm against process [[25832,0],0] pml cm
+[x8006c2s7b0n0:4093231] check:select: checking my pml cm against process [[25832,0],0] pml cm
+[x8006c2s7b0n0:4093234] check:select: checking my pml cm against process [[25832,0],0] pml cm
+[x8006c2s7b0n0:4093232] check:select: checking my pml cm against process [[25832,0],0] pml cm
+[x8000c0s0b0n0:1985642] check:select: checking my pml cm against process [[25832,0],0] pml cm
+[x8000c0s0b0n0:1985642] check:select: checking my pml cm against process [[25832,0],0] pml cm
+[x8000c0s0b0n0:1985642] check:select: checking my pml cm against process [[25832,0],0] pml cm
+[x8000c0s0b0n0:1985642] check:select: checking my pml cm against process [[25832,0],0] pml cm
+[x8000c0s0b0n0:1985640] check:select: PML check not necessary on self
+[x8000c0s0b0n0:1985643] check:select: checking my pml cm against process [[25832,0],0] pml cm
+[x8000c0s0b0n0:1985641] check:select: checking my pml cm against process [[25832,0],0] pml cm
+[x8000c0s0b0n0:1985640] check:select: PML check not necessary on self
+[x8000c0s0b0n0:1985643] check:select: checking my pml cm against process [[25832,0],0] pml cm
+[x8000c0s0b0n0:1985643] check:select: checking my pml cm against process [[25832,0],0] pml cm
+[x8006c2s7b0n0:4093233] check:select: checking my pml cm against process [[25832,0],0] pml cm
+[x8000c0s0b0n0:1985640] check:select: PML check not necessary on self
+[x8000c0s0b0n0:1985640] check:select: PML check not necessary on self
+[x8006c2s7b0n0:4093231] check:select: checking my pml cm against process [[25832,0],0] pml cm
+[x8006c2s7b0n0:4093232] check:select: checking my pml cm against process [[25832,0],0] pml cm
+[x8006c2s7b0n0:4093234] check:select: checking my pml cm against process [[25832,0],0] pml cm
+[x8006c2s7b0n0:4093231] check:select: checking my pml cm against process [[25832,0],0] pml cm
+[x8006c2s7b0n0:4093232] check:select: checking my pml cm against process [[25832,0],0] pml cm
+[x8006c2s7b0n0:4093233] check:select: checking my pml cm against process [[25832,0],0] pml cm
+[x8000c0s0b0n0:1985641] check:select: checking my pml cm against process [[25832,0],0] pml cm
+[x8000c0s0b0n0:1985641] check:select: checking my pml cm against process [[25832,0],0] pml cm
+[x8000c0s0b0n0:1985641] check:select: checking my pml cm against process [[25832,0],0] pml cm
+[x8006c2s7b0n0:4093234] check:select: checking my pml cm against process [[25832,0],0] pml cm
+[x8006c2s7b0n0:4093232] check:select: checking my pml cm against process [[25832,0],0] pml cm
+[x8006c2s7b0n0:4093233] check:select: checking my pml cm against process [[25832,0],0] pml cm
+[x8006c2s7b0n0:4093234] check:select: checking my pml cm against process [[25832,0],0] pml cm
+[x8006c2s7b0n0:4093232] check:select: checking my pml cm against process [[25832,0],0] pml cm
+[x8006c2s7b0n0:4093233] check:select: checking my pml cm against process [[25832,0],0] pml cm
+[x8006c2s7b0n0:4093234] check:select: checking my pml cm against process [[25832,0],0] pml cm
+[x8000c0s0b0n0:1985643] check:select: checking my pml cm against process [[25832,0],0] pml cm
+[x8006c2s7b0n0:4093231] check:select: checking my pml cm against process [[25832,0],0] pml cm
+[x8006c2s7b0n0:4093231] check:select: checking my pml cm against process [[25832,0],0] pml cm
+[x8000c0s0b0n0:1985643] mca: base: close: component ofi closed
+[x8000c0s0b0n0:1985643] mca: base: close: unloading component ofi
+[x8000c0s0b0n0:1985643] mca: base: close: component cm closed
+[x8000c0s0b0n0:1985643] mca: base: close: unloading component cm
+[x8000c0s0b0n0:1985640] mca: base: close: component ofi closed
+[x8000c0s0b0n0:1985640] mca: base: close: unloading component ofi
+[x8000c0s0b0n0:1985640] mca: base: close: component cm closed
+[x8000c0s0b0n0:1985640] mca: base: close: unloading component cm
+[x8000c0s0b0n0:1985641] mca: base: close: component ofi closed
+[x8000c0s0b0n0:1985641] mca: base: close: unloading component ofi
+[x8000c0s0b0n0:1985641] mca: base: close: component cm closed
+[x8000c0s0b0n0:1985641] mca: base: close: unloading component cm
+[x8000c0s0b0n0:1985642] mca: base: close: component ofi closed
+[x8000c0s0b0n0:1985642] mca: base: close: unloading component ofi
+[x8000c0s0b0n0:1985642] mca: base: close: component cm closed
+[x8000c0s0b0n0:1985642] mca: base: close: unloading component cm
+[x8006c2s7b0n0:4093232] mca: base: close: component ofi closed
+[x8006c2s7b0n0:4093232] mca: base: close: unloading component ofi
+[x8006c2s7b0n0:4093232] mca: base: close: component cm closed
+[x8006c2s7b0n0:4093232] mca: base: close: unloading component cm
+[x8006c2s7b0n0:4093234] mca: base: close: component ofi closed
+[x8006c2s7b0n0:4093234] mca: base: close: unloading component ofi
+[x8006c2s7b0n0:4093234] mca: base: close: component cm closed
+[x8006c2s7b0n0:4093234] mca: base: close: unloading component cm
+[x8006c2s7b0n0:4093233] mca: base: close: component ofi closed
+[x8006c2s7b0n0:4093233] mca: base: close: unloading component ofi
+[x8006c2s7b0n0:4093233] mca: base: close: component cm closed
+[x8006c2s7b0n0:4093233] mca: base: close: unloading component cm
+[x8006c2s7b0n0:4093231] mca: base: close: component ofi closed
+[x8006c2s7b0n0:4093231] mca: base: close: unloading component ofi
+[x8006c2s7b0n0:4093231] mca: base: close: component cm closed
+[x8006c2s7b0n0:4093231] mca: base: close: unloading component cm
+Running problem size 30^3 per domain until completion
+Num processors: 8
+Num threads: 1
+Total number of elements: 216000 
+
+To run other sizes, use -s <integer>.
+To run a fixed number of iterations, use -i <integer>.
+To run a more or less balanced region set, use -b <integer>.
+To change the relative costs of regions, use -c <integer>.
+To print out progress, use -p
+To write an output file for VisIt, use -v
+See help (-h) for more options
+
+Run completed:
+   Problem size        =  30
+   MPI tasks           =  8
+   Iteration count     =  100
+   Final Origin Energy =  1.058138e+07
+   Testing Plane 0 of Energy Array on rank 0:
+        MaxAbsDiff   = 1.164153e-09
+        TotalAbsDiff = 3.756704e-09
+        MaxRelDiff   = 2.876908e-13
+
+Elapsed time         =          1 (s)
+Grind time (us/z/c)  = 0.37585916 (per dom)  ( 1.0148197 overall)
+FOM                  =  21284.568 (z/s)
+

@@ -1,0 +1,22 @@
+=== x8000c0s0b0n0 Tue Oct  6 03:51:59 PM +08 2026 job 128533.pbs201 ===
+    queue = qdev
+    exec_host = x8000c0s0b0n0/4*8+x8006c2s7b0n0/1*8
+    Resource_List.select = 2:ncpus=8:mpiprocs=4:mem=29g
+nodes: x8000c0s0b0n0 x8006c2s7b0n0
+--- ompi_mpirun_tcp: mpirun -n 8 --map-by ppr:4:node --bind-to core -x LD_LIBRARY_PATH --mca pml ob1 --mca btl self,sm,tcp --mca mtl ^ofi -x OMPI_MCA_pml_base_verbose=10 -x OMPI_MCA_mtl_base_verbose=10 15:51:59
+  rc=14 no FOM | 
+      8 select: component ob1 selected
+      1 *** MPI_ERRORS_ARE_FATAL (processes in this communicator will now abort,
+--- ompi_pals: /opt/cray/pals/1.7/bin/mpiexec --pmi pmix --no-transfer -n 8 --ppn 4 --cpu-bind depth -d 1 15:52:05
+  rc=0 FOM                  =  21284.568 (z/s) | Elapsed time         =          1 (s)
+      8 select: component ofi selected
+      8 select: component ob1 not selected / finalized
+      8 select: component cm selected
+      8 mca:base:select:(  mtl) Selected component [ofi]
+--- cray_pals: /opt/cray/pals/1.7/bin/mpiexec -n 8 --ppn 4 --cpu-bind depth -d 1 15:52:13
+  rc=0 FOM                  =   21963.77 (z/s) | Elapsed time         =       0.98 (s)
+--- ompi_mpirun_tcp_r2: mpirun -n 8 --map-by ppr:4:node --bind-to core -x LD_LIBRARY_PATH --mca pml ob1 --mca btl self,sm,tcp --mca mtl ^ofi 15:52:19
+  rc=14 no FOM | 
+      8 select: component ob1 selected
+      1 *** MPI_ERRORS_ARE_FATAL (processes in this communicator will now abort,
+=== L02 DONE Tue Oct  6 03:52:25 PM +08 2026 ===
